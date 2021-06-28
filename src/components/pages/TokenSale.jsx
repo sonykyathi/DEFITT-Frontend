@@ -1,6 +1,18 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useState } from 'react';
+import axios from 'axios';
+import StripeCheckout from 'react-stripe-checkout';
 
 const TokenSale = () => {
+  const makePayment = (token) => {
+    axios
+      .post(`${process.env.REACT_APP_API}/api/v1/payment`, token)
+      .then((response) => {
+        console.log(response.data);
+      })
+      .catch((err) => {
+        console.log(err.response.data);
+      });
+  };
   return (
     <Fragment>
       <section
@@ -70,12 +82,15 @@ const TokenSale = () => {
                         </div>
                       </div>
                     </div>
-                    <a
-                      href='#'
-                      className='btn btn-lg btn-glow btn-gradient-blue'
+
+                    <StripeCheckout
+                      token={makePayment}
+                      stripeKey={process.env.REACT_APP_STRIPE_PUB_KEY}
                     >
-                      Purchase Token
-                    </a>
+                      <a className='btn btn-lg btn-glow btn-gradient-blue'>
+                        Purchase Token
+                      </a>
+                    </StripeCheckout>
                   </div>
                 </div>
               </div>

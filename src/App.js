@@ -5,10 +5,12 @@ import Navbar from './components/layouts/Navbar';
 import Header from './components/layouts/Header';
 import Footer from './components/layouts/Footer';
 import Main from './components/Main';
+import Login from './components/Login';
+import Register from './components/Register';
 import TemplateInner from './components/TemplateInner';
 import TemplateNotFound from './components/TemplateNotFound';
 import useScript from './hooks/useScript';
-import $ from 'jquery';
+import './App.css';
 function App() {
   console.log(process.env.REACT_APP_URL);
   return (
@@ -25,6 +27,12 @@ function App() {
               </Route>
               <Route exact path='/template-inner'>
                 <TemplateInner />
+              </Route>
+              <Route exact path='/login'>
+                <Login />
+              </Route>
+              <Route exact path='/register'>
+                <Register />
               </Route>
               <Route exact path='*'>
                 <TemplateNotFound />

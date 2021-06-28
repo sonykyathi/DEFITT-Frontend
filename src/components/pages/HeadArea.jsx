@@ -1,7 +1,19 @@
 import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
+import axios from 'axios';
+import StripeCheckout from 'react-stripe-checkout';
 
 const HeadArea = (props) => {
+  const makePayment = (token) => {
+    axios
+      .post(`${process.env.REACT_APP_API}/api/v1/payment`, token)
+      .then((response) => {
+        console.log(response.data);
+      })
+      .catch((err) => {
+        console.log(err.response.data);
+      });
+  };
   return (
     <Fragment>
       <section className='head-area' id='head-area'>
@@ -33,14 +45,18 @@ const HeadArea = (props) => {
                       merchants and affiliates.
                     </h3>
                     <div className='mt-5'>
-                      <a
-                        href='#token-sale-mobile-app'
-                        className='btn btn-lg btn-gradient-purple btn-glow mr-4 mb-2 animated'
-                        data-animation='fadeInUpShorter'
-                        data-animation-delay='1.7s'
+                      <StripeCheckout
+                        token={makePayment}
+                        stripeKey={process.env.REACT_APP_STRIPE_PUB_KEY}
                       >
-                        Purchase Token
-                      </a>
+                        <a
+                          className='btn btn-lg btn-gradient-purple btn-glow mr-4 mb-2 animated'
+                          data-animation='fadeInUpShorter'
+                          data-animation-delay='1.7s'
+                        >
+                          Purchase Token
+                        </a>
+                      </StripeCheckout>
                       <a
                         href='#whitepaper'
                         className='btn btn-lg btn-gradient-purple btn-glow mb-2 animated'
