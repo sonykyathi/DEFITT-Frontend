@@ -34,7 +34,13 @@ const Register = (props) => {
   };
   const onSubmit = (e) => {
     e.preventDefault();
-    if (password !== confirmPassword) return setPasswordMatch(false);
+    if (password !== confirmPassword) {
+      setPasswordMatch(false);
+      setTimeout(() => {
+        setPasswordMatch(true);
+      }, 3000);
+      return;
+    }
     axios
       .post(`${process.env.REACT_APP_API}/api/v1/auth/register`, formData)
       .then((response) => {
