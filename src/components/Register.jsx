@@ -40,10 +40,16 @@ const Register = (props) => {
       .then((response) => {
         console.log(response.data);
         setIsRegister('passed');
+        setTimeout(() => {
+          setIsRegister('');
+        }, 3000);
       })
       .catch((err) => {
         console.log(err.response.data.error);
         setIsRegister('failed');
+        setTimeout(() => {
+          setIsRegister('');
+        }, 3000);
       });
   };
 
@@ -92,6 +98,9 @@ const Register = (props) => {
                 value={country}
                 className='form-control custom-select browser-default'
               >
+                <option value='' selected disabled hidden>
+                  Select
+                </option>
                 <option value='Afghanistan'>Afghanistan</option>
                 <option value='Åland Islands'>Åland Islands</option>
                 <option value='Albania'>Albania</option>
@@ -443,7 +452,7 @@ const Register = (props) => {
                 className='form-control browser-default custom-select'
               >
                 <option data-countryCode='US' value='' selected disabled hidden>
-                  Select Country
+                  Select
                 </option>
                 <option data-countryCode='US' value='1'>
                   USA (+1)
@@ -1162,14 +1171,14 @@ const Register = (props) => {
             {isRegister == 'passed' && (
               <div>
                 <p style={{ color: 'green', textAlign: 'center' }}>
-                  Login Successfull
+                  Registeration Successfull
                 </p>
               </div>
             )}
             {isRegister == 'failed' && (
               <div>
                 <p style={{ color: 'red', textAlign: 'center' }}>
-                  Invalid Credentials
+                  Registeration Failed
                 </p>
               </div>
             )}

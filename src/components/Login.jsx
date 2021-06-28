@@ -20,10 +20,16 @@ const Login = (props) => {
       .then((response) => {
         console.log(response.data);
         setIsLogged('passed');
+        setTimeout(() => {
+          setIsLogged('');
+        }, 3000);
       })
       .catch((err) => {
         console.log(err.response.data.error);
         setIsLogged('failed');
+        setTimeout(() => {
+          setIsLogged('');
+        }, 3000);
       });
   };
 
