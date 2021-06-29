@@ -34,65 +34,63 @@ const Login = (props) => {
   };
 
   return (
-    <div className='login-form-container'>
-      <div id='' className=''>
-        <form id='login' className='modal-content animate' onSubmit={onSubmit}>
-          <div className='container'>
-            <div className='form-heading'>
-              <h2> Login Form</h2>
-            </div>
-            <label for='email'>
-              <b>Email id</b>
-            </label>
-            <input
-              type='text'
-              placeholder='Enter User email id'
-              name='email'
-              onChange={onChange}
-              value={email}
-              required
-            />
+    <div className='login-form-container container'>
+      <form id='login' className='login-form-content animate' onSubmit={onSubmit}>
+        <div className='form-heading'>
+          <h2> Login Form</h2>
+        </div>
 
-            <label for='password'>
-              <b>Password</b>
-            </label>
-            <input
-              type='password'
-              placeholder='Enter Password'
-              onChange={onChange}
-              value={password}
-              name='password'
-              required
-            />
-
-            <button type='submit'>Login</button>
-            <label>
-              <input type='checkbox' checked='checked' name='remember' />{' '}
-              Remember me
-            </label>
-            {isLogged == 'passed' && (
-              <div>
-                <p style={{ color: 'green', textAlign: 'center' }}>
-                  Login Successfull
-                </p>
-              </div>
-            )}
-            {isLogged == 'failed' && (
-              <div>
-                <p style={{ color: 'red', textAlign: 'center' }}>
-                  Invalid Credentials
-                </p>
-              </div>
-            )}
+        {isLogged == 'passed' && (
+          <div>
+            <p style={{ color: 'green', textAlign: 'center' }}>
+              Login Successfull
+            </p>
           </div>
-
-          <div className='container' style={{ backgroundColor: '#f1f1f1' }}>
-            <span className='psw' style={{ textAlign: 'center' }}>
-              Don't have an account?<Link to='/register'>Register</Link>
-            </span>
+        )}
+        {isLogged == 'failed' && (
+          <div>
+            <p style={{ color: 'red', textAlign: 'center' }}>
+              Invalid Credentials
+            </p>
           </div>
-        </form>
-      </div>
+        )}
+
+        <div className="form-group">
+          <label for='email'>Email id</label>
+          <input type='text'
+          className="form-control"
+            placeholder='Enter User email id'
+            name='email'
+            onChange={onChange}
+            value={email}
+            required
+          />
+        </div>
+        <div className="form-group">
+          <label for='password'>Password</label>
+          <input
+            type='password'
+            className="form-control"
+            placeholder='Enter Password'
+            onChange={onChange}
+            value={password}
+            name='password'
+            required
+          />
+        </div>
+        <div className="form-action">
+          <label>
+            <input type='checkbox' name='remember' />{' '}Remember me
+          </label>
+          <button type='submit' className="btn btn-lg btn-gradient-purple btn-glow animated">Login</button>
+        </div>
+        <div className="login-option text-center">
+          <label>
+            Don't have an account?<Link to='/register'>Register</Link>
+          </label>
+        </div>
+      
+      </form>
     </div>
   );
 };

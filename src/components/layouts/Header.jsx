@@ -178,6 +178,9 @@ const Header = (props) => {
                     data-animation='fadeInDown'
                     data-animation-delay='1.8s'
                     to='/login'
+                    data-toggle="modal"
+                    data-target="#loginForm"
+                    data-backdrop="false"
                   >
                     Sign in
                   </Link>

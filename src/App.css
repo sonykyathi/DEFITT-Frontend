@@ -1,140 +1,58 @@
+.no-position-modal{
+  position: initial;
+  overflow: initial !important;
+}
 .login-form-container {
   width: 600px;
-  /*     height: 500px; */
   margin: 200px auto;
   display: grid;
   justify-items: center;
 }
 .register-form-container {
   width: 900px;
-  /*     height: 500px; */
   margin: 200px auto;
   display: grid;
   justify-items: center;
 }
-.form-heading {
+
+
+/* Login Form Style */
+.login-form-content{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background: #FFF;
+  border-radius: 4px;
+  padding: 20px 30px;
+}
+.login-form-content .form-heading h2{
+  margin-bottom: 20px;
   text-align: center;
 }
-
-input[type='text'],
-input[type='password'] {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
+.login-form-content .form-group{
+  display: block;
+  margin-bottom: 20px;
+}
+.login-form-content .form-group label{
+  display: block;
+  margin-bottom: 0
+}
+.login-form-content .form-group .form-control{
+  margin-bottom: auto;
+}
+.form-action{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.form-action label{
+  margin-bottom: 0;
+}
+.login-option{
+  margin-top: 20px;
+}
+.login-option label{
+  margin: auto;
 }
 
-/* Set a style for all buttons */
-button {
-  background-color: #007bff;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-}
-
-button:hover {
-  opacity: 0.8;
-}
-
-/* Extra styles for the cancel button */
-.cancelbtn {
-  width: auto;
-  padding: 10px 18px;
-  background-color: #888;
-}
-
-/* Center the image and position the close button */
-.imgcontainer {
-  text-align: center;
-  margin: 24px 0 12px 0;
-  position: relative;
-}
-
-img.avatar {
-  width: 40%;
-  border-radius: 50%;
-}
-
-.container {
-  padding: 16px;
-}
-
-span.psw {
-  float: right;
-  padding-top: 16px;
-}
-
-/* The Modal (background) */
-.modal {
-  width: 500px; /* Set this to your convenience */
-  height: 200px; /* Set this to your convenience */
-  position: absolute;
-  top: 30%;
-  left: 45%;
-  margin-top: -100px; /* Half of height */
-  margin-left: -150px;
-}
-
-/* Modal Content/Box */
-.modal-content {
-  background-color: #fefefe;
-  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
-  border: 1px solid #888;
-  width: 80%; /* Could be more or less, depending on screen size */
-}
-
-/* The Close Button (x) */
-.close {
-  position: absolute;
-  right: 25px;
-  top: 0;
-  color: #000;
-  font-size: 35px;
-  font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-  color: red;
-  cursor: pointer;
-}
-
-/* Add Zoom Animation */
-.animate {
-  -webkit-animation: animatezoom 0.6s;
-  animation: animatezoom 0.6s;
-}
-
-@-webkit-keyframes animatezoom {
-  from {
-    -webkit-transform: scale(0);
-  }
-  to {
-    -webkit-transform: scale(1);
-  }
-}
-
-@keyframes animatezoom {
-  from {
-    transform: scale(0);
-  }
-  to {
-    transform: scale(1);
-  }
-}
-
-/* Change styles for span and cancel button on extra small screens */
-@media screen and (max-width: 300px) {
-  span.psw {
-    display: block;
-    float: none;
-  }
-  .cancelbtn {
-    width: 100%;
-  }
-}
