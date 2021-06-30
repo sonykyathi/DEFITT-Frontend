@@ -13,11 +13,12 @@ const WhitePaper = () => {
               data-animation='fadeInUpShorter'
               data-animation-delay='0.4s'
             >
-              Terms of service are rules by which one must agree to abide in
-              order to use a service.
+              Abdul Rehman, [30.06.21 12:34] Cryptocurrencies like Bitcoin and
+              Ethereum have a lot of benefits
               <br className='d-none d-xl-block' />
-              Terms of service can also be merely a disclaimer, especially
-              regarding the use of websites.
+              The most important is that they don’t require trust in an
+              intermediary organisation to send payments, enabling them to be
+              used by anybody around the world
             </p>
           </div>
           <div className='row'>
@@ -46,32 +47,24 @@ const WhitePaper = () => {
                   data-animation='fadeInUpShorter'
                   data-animation-delay='0.6s'
                 >
-                  A white paper is an authoritative report or guide that informs
-                  readers concisely about a complex issue and presents the
-                  issuing body's philosophy on the matter. It is meant to help
-                  readers understand an issue, solve a problem, or make a
-                  decision.
+                  We introduce Financial Tech Token –FTT a cryptographic token,
+                  completely collateralised by the U.S dollars, strictly pegged
+                  on a 1:1 ratio, issued by FIT TECHNOLOGIES UK LIMITED. The FTT
+                  is a stable coin that combines the US dollar's trustworthiness
+                  and price stability with the technological advantages of a
+                  cryptocurrency.
                 </p>
                 <p
                   className='animated'
                   data-animation='fadeInUpShorter'
                   data-animation-delay='0.7s'
                 >
-                  The initial British term concerning a type of
-                  government-issued document has proliferated, taking a somewhat
-                  new meaning in business. In business, a white paper is closer
-                  to a form of marketing presentation, a tool meant to persuade
-                  customers and partners and promote a product or viewpoint,
-                  White papers may be considered grey literature.
-                </p>
-                <p
-                  className='animated'
-                  data-animation='fadeInUpShorter'
-                  data-animation-delay='0.8s'
-                >
-                  Since the early 1990s, the term "white paper", or
-                  "whitepaper", has been applied to documents used as marketing
-                  or sales tools in business.
+                  Deployed on the Binance Smart Chain Network and compliant with
+                  the BEP-20 standard for tokens. As a BEP-20 compliant token,
+                  the FTT can be transferred on the Binance Smart Chain Network.
+                  FTT is created at the time of purchase on the FTT platform and
+                  redeemed or "destroyed" at the time of sale on the FTT
+                  platform.
                 </p>
                 <div className='whitepaper-languages'>
                   <div className='row'>

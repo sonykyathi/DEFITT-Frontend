@@ -87,7 +87,10 @@ const TokenSale = () => {
                       token={makePayment}
                       stripeKey={process.env.REACT_APP_STRIPE_PUB_KEY}
                     >
-                      <a href="#" className='btn btn-lg btn-glow btn-gradient-blue'>
+                      <a
+                        href='#'
+                        className='btn btn-lg btn-glow btn-gradient-blue'
+                      >
                         Purchase Token
                       </a>
                     </StripeCheckout>
@@ -101,11 +104,15 @@ const TokenSale = () => {
               >
                 <div className='row'>
                   <p>
-                    We have successfully reached the soft cap! Join now and get
-                    a higher discount.
+                    Token Sale DEFItt is a decentralised digital currency that
+                    is free of complete censorship and accessible to anyone. It
+                    is built on the BEP-20 token standard, powered by the
+                    Binance Smart Contract Blockchain.
                     <br />
-                    Get your tokens for the best price: We fixed the Ether price
-                    at $800.
+                    DEFItt leverages the properties of the blockchain
+                    technology, decentralised unalterable and indestructible
+                    technology to create a trusty, reduced risk, fraud-free and
+                    transparent platform in a scalable way.
                   </p>
                   <div className='col-md-5'>
                     <ul className='token-sale-info'>

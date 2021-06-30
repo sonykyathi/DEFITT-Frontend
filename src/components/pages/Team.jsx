@@ -209,15 +209,15 @@ const Team = (props) => {
                 <div className='d-flex team-member'>
                   <div className='team-img float-left mr-3'>
                     <img
-                      src='theme-assets/images/team-2.jpg'
+                      src='theme-assets/images/team-5.jpeg'
                       alt='team-profile-1'
                       className='rounded-circle'
                       width='128'
                     />
                   </div>
                   <div className='profile align-self-center'>
-                    <div className='name'>Nicholas M. Sharpe</div>
-                    <div className='role'>UI / UX Designer</div>
+                    <div className='name'>Dalia MukerJee</div>
+                    <div className='role'>CEO</div>
                     <div className='social-profile mt-3'>
                       <a
                         href='#'
@@ -261,8 +261,8 @@ const Team = (props) => {
                     />
                   </div>
                   <div className='profile align-self-center'>
-                    <div className='name'>Cecelia T. Carter</div>
-                    <div className='role'>CTO</div>
+                    <div className='name'>Haravtar Singh Arora</div>
+                    <div className='role'>Global Facilitator</div>
                     <div className='social-profile mt-3'>
                       <a
                         href='#'
@@ -306,8 +306,8 @@ const Team = (props) => {
                     />
                   </div>
                   <div className='profile align-self-center'>
-                    <div className='name'>Terry T. Robinette</div>
-                    <div className='role'>Developer</div>
+                    <div className='name'>Mr.Prahlad Kakar</div>
+                    <div className='role'>Global Marketing Adviser</div>
                     <div className='social-profile mt-3'>
                       <a
                         href='#'
