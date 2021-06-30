@@ -87,7 +87,7 @@ const TokenSale = () => {
                       token={makePayment}
                       stripeKey={process.env.REACT_APP_STRIPE_PUB_KEY}
                     >
-                      <a className='btn btn-lg btn-glow btn-gradient-blue'>
+                      <a href="#" className='btn btn-lg btn-glow btn-gradient-blue'>
                         Purchase Token
                       </a>
                     </StripeCheckout>

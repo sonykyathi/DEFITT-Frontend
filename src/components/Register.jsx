@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 import axios from 'axios';
 import PropTypes from 'prop-types';
@@ -60,13 +61,36 @@ const Register = (props) => {
   };
 
   return (
-    <div className='register-form-container'>
-      <div className='container d-flex align-items-center justify-content-center'>
-        <form onSubmit={onSubmit}>
+    <div className='register-form-container container'>
+
+        <form onSubmit={onSubmit} className='login-form-content animate'>
           <div className='form-heading'>
-            <h2 style={{ color: '#fff' }}> Sign Up Form</h2>
+            <h2>Sign Up Form</h2>
           </div>
-          <div className='row jumbotron d-flex align-items-center justify-content-center'>
+
+          {!passwordMatch && (
+            <div>
+              <p style={{ color: 'red', textAlign: 'center' }}>
+                Password Doesn't match
+              </p>
+            </div>
+          )}
+          {isRegister == 'passed' && (
+            <div>
+              <p style={{ color: 'green', textAlign: 'center' }}>
+                Registeration Successfull
+              </p>
+            </div>
+          )}
+          {isRegister == 'failed' && (
+            <div>
+              <p style={{ color: 'red', textAlign: 'center' }}>
+                Registeration Failed
+              </p>
+            </div>
+          )}
+
+          <div className='row'>
             {/* first name  */}
             <div className='col-sm-6 form-group'>
               <label for='name-f'>First Name</label>
@@ -102,7 +126,7 @@ const Register = (props) => {
                 onChange={onChange}
                 name='country'
                 value={country}
-                className='form-control custom-select browser-default'
+                className='form-control browser-default'
               >
                 <option value='' selected disabled hidden>
                   Select
@@ -435,7 +459,7 @@ const Register = (props) => {
               />
             </div>
             {/* email  */}
-            <div className='col-sm-6 form-group'>
+            <div className='col-sm-5 form-group'>
               <label for='email'> Email </label>
               <input
                 type='email'
@@ -449,13 +473,13 @@ const Register = (props) => {
               />
             </div>
             {/* country code  */}
-            <div className='col-sm-2 form-group'>
+            <div className='col-sm-3 form-group'>
               <label for='cod'>Country code</label>
               <select
                 name='countryCode'
                 onChange={onChange}
                 value={countryCode}
-                className='form-control browser-default custom-select'
+                className='form-control browser-default'
               >
                 <option data-countryCode='US' value='' selected disabled hidden>
                   Select
@@ -1149,48 +1173,35 @@ const Register = (props) => {
                 required
               />
             </div>
+            
             <div className='col-sm-12'>
-              <input
-                type='checkbox'
-                className='form-check d-inline'
-                id='chb'
-                required
-              />
-              <label for='chb' className='form-check-label'>
-                &nbsp;I accept all terms and conditions.
-              </label>
-              <a href='/login' className='float-right'>
-                Already have an account!? - Login here{' '}
-              </a>
+              <div className="form-action">
+                <label for='chb' className='form-check-label'>
+                  <input
+                    type='checkbox'
+                    className='form-check d-inline'
+                    id='chb'
+                    required
+                  />
+                  &nbsp;I accept all terms and conditions.
+                </label>
+                <button type='submit' className="btn btn-lg btn-gradient-purple btn-glow animated">Register</button>
+              </div>
+              <div className="login-option text-center">
+                <label>
+                  Already have an account!? - <Link to='/login'>Login here{' '}</Link>
+                </label>
+              </div>
             </div>
 
-            <div className='col-sm-6 d-flex align-items-center justify-content-center'>
-              <input type='submit' className='button' value='Register' />
-            </div>
-            {!passwordMatch && (
-              <div>
-                <p style={{ color: 'red', textAlign: 'center' }}>
-                  Password Doesn't match
-                </p>
-              </div>
-            )}
-            {isRegister == 'passed' && (
-              <div>
-                <p style={{ color: 'green', textAlign: 'center' }}>
-                  Registeration Successfull
-                </p>
-              </div>
-            )}
-            {isRegister == 'failed' && (
-              <div>
-                <p style={{ color: 'red', textAlign: 'center' }}>
-                  Registeration Failed
-                </p>
-              </div>
-            )}
+            
+
+            {/* <div className='col-sm-6 d-flex align-items-center justify-content-center'>
+              <input type='submit' className='btn btn-lg btn-gradient-purple btn-glow mb-2 animated' value='Register' />
+            </div> */}
+            
           </div>
         </form>
-      </div>
     </div>
   );
 };
