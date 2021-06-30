@@ -50,21 +50,18 @@ const HeadArea = (props) => {
                         stripeKey={process.env.REACT_APP_STRIPE_PUB_KEY}
                       >
                         <a
+                          href="#"
                           className='btn btn-lg btn-gradient-purple btn-glow mr-4 mb-2 animated'
                           data-animation='fadeInUpShorter'
                           data-animation-delay='1.7s'
-                        >
-                          Purchase Token
-                        </a>
+                        >Purchase Token</a>
                       </StripeCheckout>
                       <a
                         href='#whitepaper'
                         className='btn btn-lg btn-gradient-purple btn-glow mb-2 animated'
                         data-animation='fadeInUpShorter'
                         data-animation-delay='1.8s'
-                      >
-                        Whitepaper
-                      </a>
+                      >Whitepaper</a>
                     </div>
                   </div>
                 </div>
