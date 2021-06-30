@@ -13,17 +13,15 @@ const About = (props) => {
               data-animation-delay='0.3s'
             >
               <h6 className='sub-title'>Abou t</h6>
-              <h2 className='title'>What is Crypto ICO</h2>
+              <h2 className='title'>What is DEFItt</h2>
             </div>
             <p
               className='content-desc animated'
               data-animation='fadeInUpShorter'
               data-animation-delay='0.4s'
             >
-              Crypto ICO aims to disrupt the cryptotrading industry by lowering
-              the barrier
+              DEFItt a part of the future of money.
               <br className='d-none d-xl-block' />
-              to creating algorithmic trading models.
             </p>
           </div>
           <div className='content-area'>
@@ -34,36 +32,28 @@ const About = (props) => {
                   data-animation='fadeInUpShorter'
                   data-animation-delay='0.5s'
                 >
-                  We built a platform for <br className='d-none d-xl-block' />{' '}
-                  The crypto trading Industry
+                  DEFItt a part of the future of money.
+                  <br className='d-none d-xl-block' />
                 </h4>
                 <h6
                   className='pt-4 pb-2 animated'
                   data-animation='fadeInUpShorter'
                   data-animation-delay='0.6s'
                 >
-                  Cryptocurrency exchanges or digital currency exchanges (DCE)
-                  are businesses that allow customers to trade cryptocurrencies
-                  or digital currencies for other assets.
+                  DEFItt is a decentralised digital currency that is free of
+                  complete censorship and accessible to anyone. It is built on
+                  the BEP-20 token standard, powered by the Binance Smart
+                  Contract Blockchain.
                 </h6>
                 <p
                   className='animated'
                   data-animation='fadeInUpShorter'
                   data-animation-delay='0.7s'
                 >
-                  Cryptocurrency exchanges or digital currency exchanges (DCE)
-                  are businesses that allow customers to trade cryptocurrencies
-                  or digital currencies for other assets
-                </p>
-                <p
-                  className='animated'
-                  data-animation='fadeInUpShorter'
-                  data-animation-delay='0.8s'
-                >
-                  Creators of digital currencies are often independent of the
-                  DCEs that trade the currency.[6] In one type of system,
-                  digital currency providers (DCP), are businesses that keep and
-                  administer accounts.
+                  DEFItt leverages the properties of the blockchain technology,
+                  decentralised unalterable and indestructible technology to
+                  create a trusty, reduced risk, fraud-free and transparent
+                  platform in a scalable way
                 </p>
               </div>
               <div

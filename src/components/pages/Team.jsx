@@ -70,7 +70,7 @@ const Team = (props) => {
                     data-target='#teamUser9'
                   >
                     <img
-                      src='theme-assets/images/user-9.png'
+                      src='theme-assets/images/team-1.jpg'
                       alt='team-profile-1'
                       className='rounded-circle'
                       width='128'
@@ -117,7 +117,7 @@ const Team = (props) => {
                     data-target='#teamUser6'
                   >
                     <img
-                      src='theme-assets/images/user-6.png'
+                      src='theme-assets/images/team-1.jpg'
                       alt='team-profile-1'
                       className='rounded-circle'
                       width='128'
@@ -164,7 +164,7 @@ const Team = (props) => {
                     data-target='#teamUser2'
                   >
                     <img
-                      src='theme-assets/images/user-2.png'
+                      src='theme-assets/images/team-2.jpg'
                       alt='team-profile-1'
                       className='rounded-circle'
                       width='128'
@@ -209,7 +209,7 @@ const Team = (props) => {
                 <div className='d-flex team-member'>
                   <div className='team-img float-left mr-3'>
                     <img
-                      src='theme-assets/images/user-10.png'
+                      src='theme-assets/images/team-2.jpg'
                       alt='team-profile-1'
                       className='rounded-circle'
                       width='128'
@@ -254,7 +254,7 @@ const Team = (props) => {
                 <div className='d-flex team-member'>
                   <div className='team-img float-left mr-3'>
                     <img
-                      src='theme-assets/images/user-4.png'
+                      src='theme-assets/images/team-3.jpeg'
                       alt='team-profile-1'
                       className='rounded-circle'
                       width='128'
@@ -299,7 +299,7 @@ const Team = (props) => {
                 <div className='d-flex team-member'>
                   <div className='team-img float-left mr-3'>
                     <img
-                      src='theme-assets/images/user-13.png'
+                      src='theme-assets/images/team-4.jpeg'
                       alt='team-profile-1'
                       className='rounded-circle'
                       width='128'

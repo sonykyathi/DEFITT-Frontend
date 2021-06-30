@@ -12,7 +12,6 @@ import TemplateNotFound from './components/TemplateNotFound';
 import useScript from './hooks/useScript';
 import './App.css';
 function App() {
-  console.log(process.env.REACT_APP_URL);
   return (
     <Router>
       <Fragment>
