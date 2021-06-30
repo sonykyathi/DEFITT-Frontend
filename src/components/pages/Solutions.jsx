@@ -100,19 +100,31 @@ const Solutions = () => {
                   data-animation='fadeInUpShorter'
                   data-animation-delay='0.5s'
                 >
-                  Decentralized cryptocurrency is produced by the entire
-                  cryptocurrency system collectively, at a rate which is defined
-                  when the system is created and which is publicly known.
+                  DEFItt is a BEP-20 token built on Binance Smart Chain that
+                  leverages the power of most Binance Smart Chain capabilities,
+                  interoperability, and continual innovation.
                 </p>
                 <p
                   className='animated'
                   data-animation='fadeInUpShorter'
                   data-animation-delay='0.7s'
                 >
-                  In centralized banking and economic systems such as the
-                  Federal Reserve System, corporate boards or governments
-                  control the supply of currency by printing units of fiat money
-                  or demanding additions to digital banking ledgers.
+                  It is stored in a Binance Smart Chain (BSC) address and may be
+                  accessed or stored by anybody who has a BSC address. DEFItt
+                  may be accessed using any BSC wallet framework or wallet
+                  website that supports the BEP-20 coin. DEFItt is automatically
+                  valid for all standard BEP-20 token functions, like transfer
+                  and approval.
+                </p>
+                <p
+                  className='animated'
+                  data-animation='fadeInUpShorter'
+                  data-animation-delay='0.7s'
+                >
+                  There is a one-year staking period during which you cannot
+                  sell or convert to another Token. It is also an investment
+                  instrument that allows investors to benefit. After the staking
+                  time, users can transmit, receive, trade, and sell DEFIt.
                 </p>
               </div>
             </div>

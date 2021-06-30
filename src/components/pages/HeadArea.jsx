@@ -29,20 +29,20 @@ const HeadArea = (props) => {
                       data-animation='fadeInUpShorter'
                       data-animation-delay='1.5s'
                     >
-                      Crypto ICO is modern, clean and{' '}
+                      Buy, sell and spend DEFItt{' '}
                       <br className='d-none d-xl-block' />
-                      gradient ui ico most trending{' '}
+                      decentralised tokens with{' '}
                       <br className='d-none d-xl-block' />
-                      template of 2019
+                      zero fuss.
                     </h1>
                     <h3
                       className='d-block white animated'
                       data-animation='fadeInUpShorter'
                       data-animation-delay='1.6s'
                     >
-                      First decentralized marketing platform that allows{' '}
+                      DEFItt a part of the future of money{' '}
                       <br className='d-none d-xl-block' />
-                      merchants and affiliates.
+                      {/* merchants and affiliates. */}
                     </h3>
                     <div className='mt-5'>
                       <StripeCheckout

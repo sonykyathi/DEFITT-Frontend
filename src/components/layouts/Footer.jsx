@@ -18,8 +18,12 @@ const Footer = (props) => {
                     data-animation='fadeInUpShorter'
                     data-animation-delay='0.2s'
                   >
-                    <img src='theme-assets/images/logo.png' alt='Logo' />
-                    <span className='logo-text'>Crypto ICO</span>
+                    <img
+                      src='theme-assets/images/logo.png'
+                      alt='Logo'
+                      style={{ width: '100px' }}
+                    />
+                    {/* <span className='logo-text'>Crypto ICO</span> */}
                   </div>
                   <div
                     className='about-text animated'

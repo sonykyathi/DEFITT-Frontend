@@ -14,10 +14,14 @@ const Header = (props) => {
               data-animation-delay='1s'
               href={`${process.env.REACT_APP_URL}/#head-area`}
             >
-              <img src='theme-assets/images/logo.png' alt='Crypto Logo' />
-              <span className='brand-text'>
+              <img
+                src='theme-assets/images/logo.png'
+                alt='Crypto Logo'
+                style={{ width: '100px' }}
+              />
+              {/* <span className='brand-text'>
                 <span className='font-weight-bold'>Crypto</span> ICO
-              </span>
+              </span> */}
             </a>
             <button
               className='navbar-toggler'
