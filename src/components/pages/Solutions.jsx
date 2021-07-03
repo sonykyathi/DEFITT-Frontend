@@ -14,9 +14,9 @@ const Solutions = () => {
               data-animation='fadeInUpShorter'
               data-animation-delay='0.3s'
             >
-              <h6 className='sub-title'>Solutions</h6>
+              <h6 className='sub-title'>Vision</h6>
               <h2 className='title'>
-                Problems &amp; <strong>Solutions</strong>
+                Our Projects &amp; <strong>Vision</strong>
               </h2>
             </div>
             <p
@@ -24,10 +24,9 @@ const Solutions = () => {
               data-animation='fadeInUpShorter'
               data-animation-delay='0.4s'
             >
-              More than $40 million in assets were placed under restraint
-              pending forfeiture, and more than 30
-              <br className='d-none d-xl-block' />
-              Liberty Reserve exchanger domain names were seized.
+              DEFItt intends to lead the market for decentralised finance.
+              <br className='d-none d-xl-block' />A decentralised BEP-20 token
+              standard on Binance Smart Chain that gives it access to the world.
             </p>
           </div>
           <div className='problems'>

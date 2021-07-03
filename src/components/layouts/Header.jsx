@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react';
 import { Link } from 'react-router-dom';
+import whitepaper from '../../assets/whitepaper.pdf';
 import PropTypes from 'prop-types';
 
 const Header = (props) => {
@@ -46,7 +47,7 @@ const Header = (props) => {
                       className='nav-link'
                       href={`${process.env.REACT_APP_URL}/#about`}
                     >
-                      What is ICO
+                      Home
                     </a>
                   </li>
                   <li
@@ -56,9 +57,9 @@ const Header = (props) => {
                   >
                     <a
                       className='nav-link'
-                      href={`${process.env.REACT_APP_URL}/#problem-solution`}
+                      href="javascript:void(0);"
                     >
-                      Solutions
+                      Projects
                     </a>
                   </li>
                   <li
@@ -66,10 +67,7 @@ const Header = (props) => {
                     data-animation='fadeInDown'
                     data-animation-delay='1.3s'
                   >
-                    <a
-                      className='nav-link'
-                      href={`${process.env.REACT_APP_URL}/#whitepaper`}
-                    >
+                    <a className='nav-link' href={whitepaper} target='_blank'>
                       Whitepaper
                     </a>
                   </li>
@@ -80,9 +78,9 @@ const Header = (props) => {
                   >
                     <a
                       className='nav-link'
-                      href={`${process.env.REACT_APP_URL}/#token-sale-mobile-app`}
+                      href="javascript:void(0);"
                     >
-                      Token Sale
+                      Investments
                     </a>
                   </li>
                   <li
@@ -111,39 +109,36 @@ const Header = (props) => {
                       aria-haspopup='true'
                       aria-expanded='false'
                     >
-                      More
+                      Our Verticles
                     </a>
                     <div className='dropdown-menu' aria-labelledby='more'>
-                      <a
-                        className='dropdown-item'
-                        href={`${process.env.REACT_APP_URL}/#mobile-app`}
-                      >
-                        App
+                      <a href='javascript:void(0);' className='dropdown-item'>
+                        Defi Play
                       </a>
-                      <a
-                        className='dropdown-item'
-                        href={`${process.env.REACT_APP_URL}/#team`}
-                      >
-                        Team
+                      <a href='javascript:void(0);' className='dropdown-item'>
+                        Defi Startup
                       </a>
-                      <a
-                        className='dropdown-item'
-                        href={`${process.env.REACT_APP_URL}/#faq`}
-                      >
-                        FAQ
+                      <a href='javascript:void(0);' className='dropdown-item'>
+                        Defi TradX
                       </a>
-                      <a
-                        className='dropdown-item'
-                        href={`${process.env.REACT_APP_URL}/#contact`}
-                      >
-                        Contact
+                      <a href='javascript:void(0);' className='dropdown-item'>
+                        Defi Kampus
                       </a>
-                      <Link className='dropdown-item' to='/template-404'>
-                        404
-                      </Link>
-                      <Link className='dropdown-item' to='/template-inner'>
-                        Sample Page
-                      </Link>
+                      <a href='javascript:void(0);' className='dropdown-item'>
+                        Defi Nirvaana
+                      </a>
+                      <a href='javascript:void(0);' className='dropdown-item'>
+                        Defi Landscape
+                      </a>
+                      <a href='javascript:void(0);' className='dropdown-item'>
+                        Defi Buzaar
+                      </a>
+                      <a href='javascript:void(0);' className='dropdown-item'>
+                        Defi SwipeCard
+                      </a>
+                      <a href='javascript:void(0);' className='dropdown-item'>
+                        Crypto Neo Bank
+                      </a>
                     </div>
                   </li>
                   <li
@@ -160,17 +155,14 @@ const Header = (props) => {
                       aria-haspopup='true'
                       aria-expanded='false'
                     >
-                      <span className='flag-icon flag-icon-us'></span> EN
+                      <span></span> Our Coins
                     </a>
                     <div className='dropdown-menu' aria-labelledby='language'>
-                      <a className='dropdown-item' href='#'>
-                        <span className='flag-icon flag-icon-de'></span> GN
+                      <a className='dropdown-item'href="javascript:void(0);">
+                        <span></span> DFT
                       </a>
-                      <a className='dropdown-item' href='#'>
-                        <span className='flag-icon flag-icon-es'></span> SP
-                      </a>
-                      <a className='dropdown-item' href='#'>
-                        <span className='flag-icon flag-icon-mq'></span> FR
+                      <a className='dropdown-item' href="javascript:void(0);">
+                        <span></span> FTT
                       </a>
                     </div>
                   </li>
@@ -182,9 +174,9 @@ const Header = (props) => {
                     data-animation='fadeInDown'
                     data-animation-delay='1.8s'
                     to='/login'
-                    data-toggle="modal"
-                    data-target="#loginForm"
-                    data-backdrop="false"
+                    data-toggle='modal'
+                    data-target='#loginForm'
+                    data-backdrop='false'
                   >
                     Sign in
                   </Link>

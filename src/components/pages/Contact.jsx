@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
 
-const Contacts = (props) => {
+const Contact = (props) => {
   return (
     <Fragment>
       <section id='contact' className='contact section-padding'>
@@ -98,6 +98,6 @@ const Contacts = (props) => {
   );
 };
 
-Contacts.propTypes = {};
+Contact.propTypes = {};
 
-export default Contacts;
+export default Contact;

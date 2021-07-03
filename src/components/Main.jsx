@@ -8,7 +8,7 @@ import RoadMap from './pages/RoadMap';
 import Team from './pages/Team';
 import Advisors from './pages/Advisors';
 import Faq from './pages/Faq';
-import Contacts from './pages/Contacts';
+import Contact from './pages/Contact';
 import ExchangeListArea from './pages/ExchangeListArea';
 import Modals from './pages/Modals';
 import PropTypes from 'prop-types';
@@ -25,8 +25,7 @@ const main = (props) => {
       <Team></Team>
       <Advisors></Advisors>
       <Faq></Faq>
-      <Contacts></Contacts>
-      <ExchangeListArea></ExchangeListArea>
+      <Contact></Contact>
       <Modals></Modals>
     </Fragment>
   );

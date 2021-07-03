@@ -13,7 +13,7 @@ const WhitePaper = () => {
               data-animation='fadeInUpShorter'
               data-animation-delay='0.4s'
             >
-              Abdul Rehman, [30.06.21 12:34] Cryptocurrencies like Bitcoin and
+              Cryptocurrencies like Bitcoin and
               Ethereum have a lot of benefits
               <br className='d-none d-xl-block' />
               The most important is that they don’t require trust in an
@@ -40,7 +40,7 @@ const WhitePaper = () => {
                   data-animation='fadeInUpShorter'
                   data-animation-delay='0.5s'
                 >
-                  Read Whitepaper
+                  Exchanges and Wallets
                 </h4>
                 <p
                   className='animated'

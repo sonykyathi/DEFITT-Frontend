@@ -70,15 +70,15 @@ const Team = (props) => {
                     data-target='#teamUser9'
                   >
                     <img
-                      src='theme-assets/images/team-1.jpg'
+                      src='theme-assets/images/team-2.jpg'
                       alt='team-profile-1'
                       className='rounded-circle'
                       width='128'
                     />
                   </div>
                   <div className='profile align-self-center'>
-                    <div className='name'>Logan S. Perez</div>
-                    <div className='role'>CEO &amp; CFO</div>
+                    <div className='name'>Ajit Singh Chaddha</div>
+                    <div className='role'>Founder  &amp; Co-Chairman</div>
                     <div className='social-profile mt-3'>
                       <a
                         href='#'
@@ -124,8 +124,8 @@ const Team = (props) => {
                     />
                   </div>
                   <div className='profile align-self-center'>
-                    <div className='name'>Susan J. Newsom</div>
-                    <div className='role'>Graphic Designer</div>
+                    <div className='name'>H.E Mohamed Khalid Mohamed Al Ali</div>
+                    <div className='role'>Co-Chairman</div>
                     <div className='social-profile mt-3'>
                       <a
                         href='#'
@@ -164,15 +164,15 @@ const Team = (props) => {
                     data-target='#teamUser2'
                   >
                     <img
-                      src='theme-assets/images/team-2.jpg'
+                      src='theme-assets/images/team-1.jpg'
                       alt='team-profile-1'
                       className='rounded-circle'
                       width='128'
                     />
                   </div>
                   <div className='profile align-self-center'>
-                    <div className='name'>Mary J. Wardle</div>
-                    <div className='role'>CPO</div>
+                    <div className='name'>H.E Mohamed Khalid Mohamed Al Ali</div>
+                    <div className='role'>Co-Chairman</div>
                     <div className='social-profile mt-3'>
                       <a
                         href='#'

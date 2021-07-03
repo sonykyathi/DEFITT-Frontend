@@ -58,13 +58,15 @@ const Modals = (props) => {
                 <div className='col-12 col-md-5'>
                   <img
                     className='img-fluid rounded'
-                    src='theme-assets/images/user-9-lg.jpg'
-                    alt='Logan S. Perez'
+                    src='theme-assets/images/team-2.jpg'
+                    alt='Ajit Singh Chaddha'
                   />
                 </div>
                 <div className='col-12 col-md-7 mt-sm-3'>
-                  <h5 id='teamUser9Title'>Logan S. Perez</h5>
-                  <small className='text-muted mb-0 '>CEO & CFO</small>
+                  <h5 id='teamUser9Title'>Ajit Singh Chaddha</h5>
+                  <small className='text-muted mb-0 '>
+                    Founder & Co-Chairman
+                  </small>
                   <div className='social-profile'>
                     <a
                       href='#'
@@ -90,19 +92,16 @@ const Modals = (props) => {
                   </div>
                   <div className='my-4'>
                     <p>
-                      Experienced algorithmic crypto trader and a machine
-                      learning evangelist.
-                    </p>
-                    <p>
-                      I’m focusing on the logic behind the combination of
-                      analysis tools, neural networks and genetic algorithms for
-                      optimization. Always wanted to have a trading bot with
-                      more features but never had the time to build a solution
-                      beyond basic python technical analysis tracker.
+                      Currently one of the most significant entrepreneurs,
+                      businessmen, social activists and inspirational leaders of
+                      India associated in various prestigious projects and
+                      technologies.
                     </p>
                   </div>
                   <h6 className='mb-0'>
-                    <small className='text-uppercase'>Blockchain</small>{' '}
+                    <small className='text-uppercase'>
+                      Financial Experience
+                    </small>{' '}
                     <small className='float-right'>85%</small>
                   </h6>
                   <div className='progress box-shadow-1 mb-4'>
@@ -116,7 +115,9 @@ const Modals = (props) => {
                     ></div>
                   </div>
                   <h6 className='mb-0'>
-                    <small className='text-uppercase'>Python</small>{' '}
+                    <small className='text-uppercase'>
+                      Marketing Experience
+                    </small>{' '}
                     <small className='float-right'>90%</small>
                   </h6>
                   <div className='progress box-shadow-1 mb-4'>
@@ -125,20 +126,6 @@ const Modals = (props) => {
                       role='progressbar'
                       style={{ width: '90%' }}
                       aria-valuenow='90'
-                      aria-valuemin='0'
-                      aria-valuemax='100'
-                    ></div>
-                  </div>
-                  <h6 className='mb-0'>
-                    <small className='text-uppercase'>C++</small>{' '}
-                    <small className='float-right'>75%</small>
-                  </h6>
-                  <div className='progress box-shadow-1 mb-4'>
-                    <div
-                      className='progress-bar progress-orange'
-                      role='progressbar'
-                      style={{ width: '75%' }}
-                      aria-valuenow='75'
                       aria-valuemin='0'
                       aria-valuemax='100'
                     ></div>
@@ -175,13 +162,13 @@ const Modals = (props) => {
                 <div className='col-12 col-md-5'>
                   <img
                     className='img-fluid rounded'
-                    src='theme-assets/images/user-6-lg.jpg'
-                    alt='Susan J. Newsom'
+                    src='theme-assets/images/team-1.jpg'
+                    alt='H.E Mohamed Khalid Mohamed Al Ali'
                   />
                 </div>
                 <div className='col-12 col-md-7 mt-sm-3'>
-                  <h5 id='teamUser6Title'>Susan J. Newsom</h5>
-                  <small className='text-muted mb-0 '>Graphic Designer</small>
+                  <h5 id='teamUser6Title'>H.E Mohamed Khalid Mohamed Al Ali</h5>
+                  <small className='text-muted mb-0 '>Co-Chairman</small>
                   <div className='social-profile'>
                     <a
                       href='#'
@@ -207,19 +194,17 @@ const Modals = (props) => {
                   </div>
                   <div className='my-4'>
                     <p>
-                      Experienced algorithmic crypto trader and a machine
-                      learning evangelist.
-                    </p>
-                    <p>
-                      I’m focusing on the logic behind the combination of
-                      analysis tools, neural networks and genetic algorithms for
-                      optimization. Always wanted to have a trading bot with
-                      more features but never had the time to build a solution
-                      beyond basic python technical analysis tracker.
+                      Highly respected, innovative, philanthropist and
+                      award-winning businessman. He was awarded several times
+                      the prestigious awards and recognition in his life such as
+                      “Family Office Enlightened Governance Award”.
                     </p>
                   </div>
                   <h6 className='mb-0'>
-                    <small className='text-uppercase'>Blockchain</small>{' '}
+                    <small className='text-uppercase'>
+                      {' '}
+                      Financial Experience
+                    </small>{' '}
                     <small className='float-right'>85%</small>
                   </h6>
                   <div className='progress box-shadow-1 mb-4'>
@@ -233,7 +218,10 @@ const Modals = (props) => {
                     ></div>
                   </div>
                   <h6 className='mb-0'>
-                    <small className='text-uppercase'>Python</small>{' '}
+                    <small className='text-uppercase'>
+                      {' '}
+                      Marketing Experience
+                    </small>{' '}
                     <small className='float-right'>90%</small>
                   </h6>
                   <div className='progress box-shadow-1 mb-4'>
@@ -242,20 +230,6 @@ const Modals = (props) => {
                       role='progressbar'
                       style={{ width: '90%' }}
                       aria-valuenow='90'
-                      aria-valuemin='0'
-                      aria-valuemax='100'
-                    ></div>
-                  </div>
-                  <h6 className='mb-0'>
-                    <small className='text-uppercase'>C++</small>{' '}
-                    <small className='float-right'>75%</small>
-                  </h6>
-                  <div className='progress box-shadow-1 mb-4'>
-                    <div
-                      className='progress-bar progress-orange'
-                      role='progressbar'
-                      style={{ width: '75%' }}
-                      aria-valuenow='75'
                       aria-valuemin='0'
                       aria-valuemax='100'
                     ></div>
