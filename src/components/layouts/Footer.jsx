@@ -31,9 +31,10 @@ const Footer = (props) => {
                     data-animation-delay='0.3s'
                   >
                     <p className='grey-accent2'>
-                      Crypto Ico is a blockchain platform that allows users to
-                      make payments, create and request loans and crowdfund
-                      projects.
+                      DEFItt is a decentralised digital currency that is free of
+                      complete censorship and accessible to anyone. It is built
+                      on the BEP-20 token standard, powered by the Binance Smart
+                      Contract Blockchain.
                     </p>
                   </div>
                   <ul className='social-buttons list-unstyled mb-5'>
@@ -42,7 +43,7 @@ const Footer = (props) => {
                       data-animation='fadeInUpShorter'
                       data-animation-delay='0.4s'
                     >
-                      <a href='#' title='Facebook' className='btn font-medium'>
+                      <a target='_blank' href='https://www.facebook.com/de.fitt.1/' title='Facebook' className='btn font-medium'>
                         <i className='ti-facebook'></i>
                       </a>
                     </li>
@@ -51,7 +52,7 @@ const Footer = (props) => {
                       data-animation='fadeInUpShorter'
                       data-animation-delay='0.5s'
                     >
-                      <a href='#' title='Twitter' className='btn font-medium'>
+                      <a target='_blank' href='https://twitter.com/Defitt_ftt' title='Twitter' className='btn font-medium'>
                         <i className='ti-twitter-alt'></i>
                       </a>
                     </li>
@@ -60,7 +61,7 @@ const Footer = (props) => {
                       data-animation='fadeInUpShorter'
                       data-animation-delay='0.6s'
                     >
-                      <a href='#' title='LinkedIn' className='btn font-medium'>
+                      <a target='_blank' href='https://www.linkedin.com/in/defitt-financial-services/' title='LinkedIn' className='btn font-medium'>
                         <i className='ti-linkedin'></i>
                       </a>
                     </li>
@@ -69,8 +70,8 @@ const Footer = (props) => {
                       data-animation='fadeInUpShorter'
                       data-animation-delay='0.7s'
                     >
-                      <a href='#' title='GitHub' className='btn font-medium'>
-                        <i className='ti-github'></i>
+                      <a target='_blank' href='https://www.instagram.com/defi.tt_/' title='Instagram' className='btn font-medium'>
+                        <i className='ti-instagram'></i>
                       </a>
                     </li>
                     <li
@@ -78,15 +79,26 @@ const Footer = (props) => {
                       data-animation='fadeInUpShorter'
                       data-animation-delay='0.8s'
                     >
-                      <a href='#' title='Pintrest' className='btn font-medium'>
-                        <i className='ti-pinterest'></i>
+                      <a target='_blank' href='https://www.youtube.com/channel/UCyO9CUPft6N_xpnAl4pZONg' title='Youtube' className='btn font-medium'>
+                        <i className='ti-youtube'></i>
+                      </a>
+                    </li>
+                    <li
+                      className='animated'
+                      data-animation='fadeInUpShorter'
+                      data-animation-delay='0.8s'
+                    >
+                      <a target='_blank' href='https://t.me/DefittChat' title='Telegram' className='btn font-medium'>
+                        <i className='ti-telegram'></i>
                       </a>
                     </li>
                   </ul>
                 </div>
               </div>
               <div className='col-md-4'>
-                <div className='links'>
+              </div>
+              <div className='col-md-4'>
+              <div className='links'>
                   <h5
                     className='title animated'
                     data-animation='fadeInUpShorter'
@@ -100,21 +112,21 @@ const Footer = (props) => {
                       data-animation='fadeInUpShorter'
                       data-animation-delay='0.6s'
                     >
-                      <a href='#'>What is ICO</a>
+                      <a href='#'>Home</a>
                     </li>
                     <li
                       className='animated'
                       data-animation='fadeInUpShorter'
                       data-animation-delay='0.7s'
                     >
-                      <a href='#'>Solutions</a>
+                      <a href='#'>WhitePaper</a>
                     </li>
                     <li
                       className='animated'
                       data-animation='fadeInUpShorter'
                       data-animation-delay='0.8s'
                     >
-                      <a href='#'>Whitepaper </a>
+                      <a href='#'>RoadMap </a>
                     </li>
                   </ul>
                   <ul className='useful-links'>
@@ -130,7 +142,7 @@ const Footer = (props) => {
                       data-animation='fadeInUpShorter'
                       data-animation-delay='1.0s'
                     >
-                      <a href='#'>Team</a>
+                      <a href='#'>Franchise</a>
                     </li>
                     <li
                       className='animated'
@@ -141,47 +153,8 @@ const Footer = (props) => {
                     </li>
                   </ul>
                 </div>
-              </div>
-              <div className='col-md-4'>
-                <div className='feed'>
-                  <h5
-                    className='title animated'
-                    data-animation='fadeInUpShorter'
-                    data-animation-delay='0.8s'
-                  >
-                    Twitter Feed
-                  </h5>
-                  <div className='tweets'>
-                    <span
-                      className='animated'
-                      data-animation='fadeInUpShorter'
-                      data-animation-delay='1.0s'
-                    >
-                      More about our most powerful theme Crypto ICO :
-                      https://t.co/JHBAS345
-                    </span>
-                    <span
-                      className='animated'
-                      data-animation='fadeInUpShorter'
-                      data-animation-delay='1.2s'
-                    >
-                      More infotamation about CIC Coin : https://t.co/JHSD34JHB
-                    </span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className='copy-right mx-auto text-center'>
-              <span className='copyright'>
-                Copyright &copy; 2019, Crypto ICO. Template Designed by{' '}
-                <a
-                  href='http://pixinvent.com'
-                  title='pixinvent'
-                  className='white'
-                >
-                  Pixinvent
-                </a>
-              </span>
+            
+             </div>
             </div>
           </div>
         </div>

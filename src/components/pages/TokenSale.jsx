@@ -151,7 +151,7 @@ const TokenSale = () => {
             </div>
           </div>
         </div>
-        <div id='mobile-app' className='mobile-app'>
+        {/* <div id='mobile-app' className='mobile-app'>
           <div className='container'>
             <div className='heading text-center'>
               <h6 className='sub-title'>Crypto ico App</h6>
@@ -248,8 +248,10 @@ const TokenSale = () => {
                 </div>
               </div>
             </div>
+         
           </div>
         </div>
+     */}
       </section>
     </Fragment>
   );

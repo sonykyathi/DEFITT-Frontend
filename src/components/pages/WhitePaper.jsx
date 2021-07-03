@@ -73,14 +73,15 @@ const WhitePaper = () => {
                       data-animation='fadeInUpShorter'
                       data-animation-delay='0.6s'
                     >
-                      <a href='#' title='English'>
+                      <a href='#' title='METAMASK'>
                         <img
+                        width='60px'
                           src='theme-assets/images/flag-1.png'
-                          alt='English'
+                          alt='METAMASK'
                         />
                         <div className='lang-text'>
                           <span className='icon ti-download mr-1'></span>
-                          <span className='language'>English</span>
+                          <span className='language'>METAMASK</span>
                         </div>
                       </a>
                     </div>
@@ -89,14 +90,15 @@ const WhitePaper = () => {
                       data-animation='fadeInUpShorter'
                       data-animation-delay='0.7s'
                     >
-                      <a href='#' title='Japanese'>
+                      <a href='#' title='Trust wallet'>
                         <img
-                          src='theme-assets/images/flag-2.png'
-                          alt='English'
+                        width='60px'
+                          src='theme-assets/images/trust.png'
+                          alt='Trust wallet'
                         />
                         <div className='lang-text'>
                           <span className='icon ti-download mr-1'></span>
-                          <span className='language'>Japanese</span>
+                          <span className='language'>Trust wallet</span>
                         </div>
                       </a>
                     </div>
@@ -105,14 +107,15 @@ const WhitePaper = () => {
                       data-animation='fadeInUpShorter'
                       data-animation-delay='0.8s'
                     >
-                      <a href='#' title='Russian'>
+                      <a href='#' title='Binance Wallet'>
                         <img
-                          src='theme-assets/images/flag-3.png'
-                          alt='English'
+                        width='60px'
+                          src='theme-assets/images/binance-wallet.png'
+                          alt='Binance Wallet'
                         />
                         <div className='lang-text'>
                           <span className='icon ti-download mr-1'></span>
-                          <span className='language'>Russian</span>
+                          <span className='language'>	Binance Wallet</span>
                         </div>
                       </a>
                     </div>
@@ -121,14 +124,15 @@ const WhitePaper = () => {
                       data-animation='fadeInUpShorter'
                       data-animation-delay='0.9s'
                     >
-                      <a href='#' title='Chinese'>
+                      <a href='#' title='PancakeSwap'>
                         <img
+                        width='60px'
                           src='theme-assets/images/flag-4.png'
-                          alt='English'
+                          alt='PancakeSwap'
                         />
                         <div className='lang-text'>
                           <span className='icon ti-download mr-1'></span>
-                          <span className='language'>Chinese</span>
+                          <span className='language'>	PancakeSwap</span>
                         </div>
                       </a>
                     </div>

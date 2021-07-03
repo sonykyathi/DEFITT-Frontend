@@ -12,19 +12,21 @@ const Faq = (props) => {
               data-animation='fadeInUpShorter'
               data-animation-delay='0.3s'
             >
-              <h6 className='sub-title'>question</h6>
-              <h2 className='title'>FAQ</h2>
+              {/* <h6 className='sub-title'>question</h6> 
+              <h2 className='title'>FAQ</h2> */}
             </div>
             <p
               className='content-desc animated'
               data-animation='fadeInUpShorter'
               data-animation-delay='0.4s'
             >
-              Originally the term "FAQ" referred to the Frequently Asked
-              Question itself, and the
+              A cryptocurrency is a digital or virtual currency that is secured
+              by cryptography, which makes it nearly impossible to counterfeit
+              or double-spend.
               <br className='d-none d-xl-block' />
-              compilation of questions and answers was known as a "FAQ list" or
-              some similar expression.
+              Many cryptocurrencies are decentralized networks based on
+              blockchain technology—a distributed ledger enforced by a disparate
+              network of computers.
             </p>
           </div>
           <div className='row'>
@@ -46,7 +48,7 @@ const Faq = (props) => {
                     aria-selected='true'
                     role='tab'
                   >
-                    General
+                    BTC
                   </a>
                   <a
                     href='#ico'
@@ -57,7 +59,7 @@ const Faq = (props) => {
                     aria-selected='false'
                     role='tab'
                   >
-                    Pre-ICO
+                    Ethereum
                   </a>
                   <a
                     href='#token'
@@ -68,7 +70,7 @@ const Faq = (props) => {
                     aria-selected='false'
                     role='tab'
                   >
-                    Tokens
+                    BNB
                   </a>
                   <a
                     href='#client'
@@ -79,7 +81,7 @@ const Faq = (props) => {
                     aria-selected='false'
                     role='tab'
                   >
-                    Client
+                    Cardano
                   </a>
                   <a
                     href='#legal'
@@ -90,7 +92,7 @@ const Faq = (props) => {
                     aria-selected='false'
                     role='tab'
                   >
-                    Legal
+                    Tether
                   </a>
                 </div>
               </nav>

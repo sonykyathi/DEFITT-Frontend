@@ -22,7 +22,7 @@ const main = (props) => {
       <WhitePaper></WhitePaper>
       <TokenSale></TokenSale>
       <RoadMap></RoadMap>
-      <Team></Team>
+      {/* <Team></Team> */}
       <Advisors></Advisors>
       <Faq></Faq>
       <Contact></Contact>

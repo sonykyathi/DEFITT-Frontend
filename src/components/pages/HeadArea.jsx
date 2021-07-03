@@ -1,6 +1,8 @@
 import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
 import axios from 'axios';
+
+import whitepaper from '../../assets/whitepaper.pdf';
 import StripeCheckout from 'react-stripe-checkout';
 
 const HeadArea = (props) => {
@@ -50,24 +52,29 @@ const HeadArea = (props) => {
                         stripeKey={process.env.REACT_APP_STRIPE_PUB_KEY}
                       >
                         <a
-                          href="#"
+                          href='#'
                           className='btn btn-lg btn-gradient-purple btn-glow mr-4 mb-2 animated'
                           data-animation='fadeInUpShorter'
                           data-animation-delay='1.7s'
-                        >Purchase Token</a>
+                        >
+                          Purchase Token
+                        </a>
                       </StripeCheckout>
                       <a
-                        href='#whitepaper'
+                        href={whitepaper}
+                        target='_blank'
                         className='btn btn-lg btn-gradient-purple btn-glow mb-2 animated'
                         data-animation='fadeInUpShorter'
                         data-animation-delay='1.8s'
-                      >Whitepaper</a>
+                      >
+                        Whitepaper
+                      </a>
                     </div>
                   </div>
                 </div>
                 <div className='col-lg-6 col-md-12 move-first'>
                   <div id='svg-animation'>
-                    <svg
+                    {/* <svg
                       xmlns='http://www.w3.org/2000/svg'
                       viewBox='0 0 857 807'
                       width='857'
@@ -574,7 +581,11 @@ const HeadArea = (props) => {
                           <rect width='857' height='807' x='0' y='0'></rect>
                         </clipPath>
                       </defs>
-                    </svg>
+                    </svg> */}
+                    <img
+                      style={{ width: '100%' }}
+                      src='theme-assets/images/defi-coin-logo.png'
+                    ></img>
                   </div>
                 </div>
               </div>

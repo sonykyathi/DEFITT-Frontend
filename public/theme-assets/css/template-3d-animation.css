@@ -4420,6 +4420,7 @@ p {
 }
 
 .heading .sub-title {
+  z-index: -1;
   opacity : 0.05 !important;
 }
 

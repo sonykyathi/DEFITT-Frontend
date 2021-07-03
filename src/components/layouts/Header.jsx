@@ -45,21 +45,9 @@ const Header = (props) => {
                   >
                     <a
                       className='nav-link'
-                      href={`${process.env.REACT_APP_URL}/#about`}
+                      href={`${process.env.REACT_APP_URL}/#head-area`}
                     >
                       Home
-                    </a>
-                  </li>
-                  <li
-                    className='nav-item animated'
-                    data-animation='fadeInDown'
-                    data-animation-delay='1.2s'
-                  >
-                    <a
-                      className='nav-link'
-                      href="javascript:void(0);"
-                    >
-                      Projects
                     </a>
                   </li>
                   <li
@@ -74,18 +62,6 @@ const Header = (props) => {
                   <li
                     className='nav-item animated'
                     data-animation='fadeInDown'
-                    data-animation-delay='1.4s'
-                  >
-                    <a
-                      className='nav-link'
-                      href="javascript:void(0);"
-                    >
-                      Investments
-                    </a>
-                  </li>
-                  <li
-                    className='nav-item animated'
-                    data-animation='fadeInDown'
                     data-animation-delay='1.5s'
                   >
                     <a
@@ -93,6 +69,18 @@ const Header = (props) => {
                       href={`${process.env.REACT_APP_URL}/#roadmap`}
                     >
                       Roadmap
+                    </a>
+                  </li>
+                  <li
+                    className='nav-item animated'
+                    data-animation='fadeInDown'
+                    data-animation-delay='1.4s'
+                  >
+                    <a
+                      className='nav-link'
+                      href={`${process.env.REACT_APP_URL}/#advisor`}
+                    >
+                      Franchise 
                     </a>
                   </li>
                   <li
@@ -135,9 +123,6 @@ const Header = (props) => {
                       </a>
                       <a href='javascript:void(0);' className='dropdown-item'>
                         Defi SwipeCard
-                      </a>
-                      <a href='javascript:void(0);' className='dropdown-item'>
-                        Crypto Neo Bank
                       </a>
                     </div>
                   </li>
