@@ -73,7 +73,7 @@ const WhitePaper = () => {
                       data-animation='fadeInUpShorter'
                       data-animation-delay='0.6s'
                     >
-                      <a href='#' title='METAMASK'>
+                      <a href='javascript:void(0);' title='METAMASK'>
                         <img
                         width='60px'
                           src='theme-assets/images/flag-1.png'
@@ -90,7 +90,7 @@ const WhitePaper = () => {
                       data-animation='fadeInUpShorter'
                       data-animation-delay='0.7s'
                     >
-                      <a href='#' title='Trust wallet'>
+                      <a href='javascript:void(0);' title='Trust wallet'>
                         <img
                         width='60px'
                           src='theme-assets/images/trust.png'
@@ -107,7 +107,7 @@ const WhitePaper = () => {
                       data-animation='fadeInUpShorter'
                       data-animation-delay='0.8s'
                     >
-                      <a href='#' title='Binance Wallet'>
+                      <a href='javascript:void(0);' title='Binance Wallet'>
                         <img
                         width='60px'
                           src='theme-assets/images/binance-wallet.png'
@@ -124,7 +124,7 @@ const WhitePaper = () => {
                       data-animation='fadeInUpShorter'
                       data-animation-delay='0.9s'
                     >
-                      <a href='#' title='PancakeSwap'>
+                      <a href='javascript:void(0);' title='PancakeSwap'>
                         <img
                         width='60px'
                           src='theme-assets/images/flag-4.png'

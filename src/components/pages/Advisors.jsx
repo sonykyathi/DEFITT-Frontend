@@ -26,15 +26,15 @@ const Advisors = (props) => {
             </p>
           </div>
           <div className='team-profile mt-5'>
-            <div className='row mb-5'>
+            <div className='row mb-5 justify-content-center'>
               <div
                 className='col-sm-12 col-md-6 col-lg-4 mb-5 animated'
                 data-animation='jello'
                 data-animation-delay='0.5s'
               >
-                <div className='d-flex'>
+                <div className='d-flex flex-column'>
                   <div
-                    className='team-img float-left mr-3'
+                    className='team-img'
                     // data-toggle='modal'
                     // data-target='#teamUser1'
                   >
@@ -45,10 +45,10 @@ const Advisors = (props) => {
                       width='128'
                     />
                   </div>
-                  <div className='team-icon'>
+                  {/* <div className='team-icon'>
                     <i className='ti-linkedin'></i>
-                  </div>
-                  <div className='profile align-self-center'>
+                  </div> */}
+                  <div className='profile partner-name text-center mt-3'>
                     <div className='name'>Expo Chat </div>
                     {/* <div className='role'>Blockchain Entrepreneur</div> */}
                     {/* <div className='crypto-profile'>
@@ -67,8 +67,8 @@ const Advisors = (props) => {
                 // data-toggle='modal'
                 // data-target='#teamUser3'
               >
-                <div className='d-flex'>
-                  <div className='team-img float-left mr-3'>
+                <div className='d-flex flex-column'>
+                  <div className='team-img'>
                     <img
                       src='theme-assets/images/partner-wefilm.png'
                       alt='team-profile-1'
@@ -76,10 +76,10 @@ const Advisors = (props) => {
                       width='128'
                     />
                   </div>
-                  <div className='team-icon'>
+                  {/* <div className='team-icon'>
                     <i className='ti-linkedin'></i>
-                  </div>
-                  <div className='profile align-self-center'>
+                  </div> */}
+                  <div className='profile partner-name text-center mt-3'>
                     <div className='name'>Weflim</div>
                     {/* <div className='role'>Fin-Tech Entrepreneur</div> */}
                     {/* <div className='crypto-profile'>

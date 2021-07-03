@@ -20,13 +20,9 @@ const Faq = (props) => {
               data-animation='fadeInUpShorter'
               data-animation-delay='0.4s'
             >
-              A cryptocurrency is a digital or virtual currency that is secured
-              by cryptography, which makes it nearly impossible to counterfeit
-              or double-spend.
+              A cryptocurrency is a digital or virtual currency that is secured by cryptography, which makes it nearly impossible to counterfeit or double-spend.
               <br className='d-none d-xl-block' />
-              Many cryptocurrencies are decentralized networks based on
-              blockchain technology—a distributed ledger enforced by a disparate
-              network of computers.
+              Many cryptocurrencies are decentralized networks based on blockchain technology—a distributed ledger enforced by a disparate network of computers.
             </p>
           </div>
           <div className='row'>
@@ -97,16 +93,11 @@ const Faq = (props) => {
                 </div>
               </nav>
               <div className='tab-content' id='myTabContent'>
-                <div
-                  className='tab-pane fade show active'
-                  id='general'
-                  role='tabpanel'
-                  aria-labelledby='general-tab'
-                >
-                  <div
-                    id='general-accordion'
-                    className='collapse-icon accordion-icon-rotate'
-                  >
+                <div className='tab-pane fade show active' id='general' role='tabpanel' aria-labelledby='general-tab'>
+                  <div className="card">
+                    <div className='card-body'>Bitcoin is a decentralized digital currency, without a central bank or single administrator, that can be sent from user to user on the peer-to-peer bitcoin network without the need for intermediaries</div>
+                  </div>
+                  {/* <div id='general-accordion' className='collapse-icon accordion-icon-rotate'>
                     <div
                       className='card animated'
                       data-animation='fadeInUpShorter'
@@ -230,15 +221,13 @@ const Faq = (props) => {
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
-                <div
-                  className='tab-pane fade'
-                  id='ico'
-                  role='tabpanel'
-                  aria-labelledby='ico-tab'
-                >
-                  <div
+                <div className='tab-pane fade' id='ico' role='tabpanel' aria-labelledby='ico-tab'>
+                  <div className="card">
+                    <div className='card-body'>Ethereum is a decentralized, open-source blockchain with smart contract functionality. Ether is the native cryptocurrency of the platform. After Bitcoin, it is the second-largest cryptocurrency by market capitalization. Ethereum is the most actively used blockchain</div>
+                  </div>
+                  {/* <div
                     id='ico-accordion'
                     className='collapse-icon accordion-icon-rotate'
                   >
@@ -354,15 +343,13 @@ const Faq = (props) => {
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
-                <div
-                  className='tab-pane fade'
-                  id='token'
-                  role='tabpanel'
-                  aria-labelledby='token-tab'
-                >
-                  <div
+                <div className='tab-pane fade' id='token' role='tabpanel' aria-labelledby='token-tab'>
+                  <div className="card">
+                    <div className='card-body'>Binance Coin (BNB) is a cryptocurrency that can be used to trade and pay fees on the Binance cryptocurrency exchange. ... Users of Binance Coin receive a discount in transaction fees on the Binance Exchange as an incentive. BNB can also be exchanged or traded for other cryptocurrencies, such as Bitcoin.</div>
+                  </div>
+                  {/* <div
                     id='token-accordion'
                     className='collapse-icon accordion-icon-rotate'
                   >
@@ -477,15 +464,13 @@ const Faq = (props) => {
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
-                <div
-                  className='tab-pane fade'
-                  id='client'
-                  role='tabpanel'
-                  aria-labelledby='client-tab'
-                >
-                  <div
+                <div className='tab-pane fade' id='client' role='tabpanel' aria-labelledby='client-tab'>
+                  <div className="card">
+                    <div className='card-body'>Cardano is a public blockchain platform. It is open-source and decentralized, with consensus achieved using proof of stake. It can facilitate peer-to-peer transactions with its internal cryptocurrency, Ada. Cardano was founded in 2015 by Ethereum co-founder Charles Hoskinson</div>
+                  </div>
+                  {/* <div
                     id='client-accordion'
                     className='collapse-icon accordion-icon-rotate'
                   >
@@ -600,15 +585,13 @@ const Faq = (props) => {
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
-                <div
-                  className='tab-pane fade'
-                  id='legal'
-                  role='tabpanel'
-                  aria-labelledby='legal-tab'
-                >
-                  <div
+                <div className='tab-pane fade' id='legal' role='tabpanel' aria-labelledby='legal-tab'>
+                  <div className="card">
+                    <div className='card-body'>Tether is a controversial cryptocurrency with tokens issued by Tether Limited, which in turn is controlled by the owners of Bitfinex. Tether Limited formerly falsely claimed that each token was backed by one United States dollar, but on 14 March 2019 changed the backing to include loans to affiliate companies.</div>
+                  </div>
+                  {/* <div
                     id='legal-accordion'
                     className='collapse-icon accordion-icon-rotate'
                   >
@@ -723,7 +706,7 @@ const Faq = (props) => {
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
