@@ -2613,10 +2613,14 @@ header .navbar.navbar-shadow {
   line-height : 1.5rem;
 }
 
+.what-is-crypto-img img{
+  max-width: 480px;
+}
+
 .about .content-area .play-video {
   position : absolute;
-  top : 78%;
-  left : 53%;
+  top : 50%;
+  left : 31%;
   -webkit-transform : translate(-70%, -50%);
      -moz-transform : translate(-70%, -50%);
       -ms-transform : translate(-70%, -50%);
