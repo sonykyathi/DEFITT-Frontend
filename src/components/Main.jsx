@@ -2,7 +2,7 @@ import React, { Fragment } from 'react';
 import HeadArea from './pages/HeadArea';
 import About from './pages/About';
 import Solutions from './pages/Solutions';
-import WhitePaper from './pages/WhitePaper';
+import Wallets from './pages/WhitePaper';
 import TokenSale from './pages/TokenSale';
 import RoadMap from './pages/RoadMap';
 import Team from './pages/Team';
@@ -19,7 +19,7 @@ const main = (props) => {
       <HeadArea></HeadArea>
       <About></About>
       <Solutions></Solutions>
-      <WhitePaper></WhitePaper>
+      <Wallets></Wallets>
       <TokenSale></TokenSale>
       <RoadMap></RoadMap>
       {/* <Team></Team> */}

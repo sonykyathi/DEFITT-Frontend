@@ -1,6 +1,8 @@
 import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
 
+import whitepaper from '../../assets/whitepaper.pdf';
+
 const Footer = (props) => {
   return (
     <Fragment>
@@ -17,13 +19,14 @@ const Footer = (props) => {
                     className='title animated'
                     data-animation='fadeInUpShorter'
                     data-animation-delay='0.2s'
-                  >
+                  > <a  href={`${process.env.REACT_APP_URL}/#head-area`}>
+
                     <img
                       src='theme-assets/images/logo.png'
                       alt='Logo'
                       style={{ width: '100px' }}
                     />
-                    {/* <span className='logo-text'>Crypto ICO</span> */}
+                  </a>
                   </div>
                   <div
                     className='about-text animated'
@@ -108,21 +111,23 @@ const Footer = (props) => {
                       data-animation='fadeInUpShorter'
                       data-animation-delay='0.6s'
                     >
-                      <a href='#'>Home</a>
+                      <a  href={`${process.env.REACT_APP_URL}/#head-area`}>Home</a>
                     </li>
                     <li
                       className='animated'
                       data-animation='fadeInUpShorter'
                       data-animation-delay='0.7s'
                     >
-                      <a href='#'>WhitePaper</a>
+                      <a  href={whitepaper} target='_blank'>
+                      Whitepaper
+                    </a>
                     </li>
                     <li
                       className='animated'
                       data-animation='fadeInUpShorter'
                       data-animation-delay='0.8s'
                     >
-                      <a href='#'>RoadMap </a>
+                      <a href={`${process.env.REACT_APP_URL}/#roadmap`}>RoadMap </a>
                     </li>
                   </ul>
                   <ul className='useful-links'>
@@ -131,14 +136,14 @@ const Footer = (props) => {
                       data-animation='fadeInUpShorter'
                       data-animation-delay='0.9s'
                     >
-                      <a href='#'>Roadmap</a>
+                      <a href={`${process.env.REACT_APP_URL}/#roadmap`}>Roadmap</a>
                     </li>
                     <li
                       className='animated'
                       data-animation='fadeInUpShorter'
                       data-animation-delay='1.0s'
                     >
-                      <a href='#'>Franchise</a>
+                      <a  href={`${process.env.REACT_APP_URL}/#advisor`}>Franchise</a>
                     </li>
                     <li
                       className='animated'

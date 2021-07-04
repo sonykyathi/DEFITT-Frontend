@@ -1,13 +1,13 @@
 import React, { Fragment } from 'react';
 
-const WhitePaper = () => {
+const Wallets = () => {
   return (
     <Fragment>
       <section id='whitepaper' className='whitepaper section-padding'>
         <div className='container'>
           <div className='heading text-center'>
-            <h6 className='sub-title'>Documents</h6>
-            <h2 className='title'>Whitepaper</h2>
+            <h6 className='sub-title'>Wallets</h6>
+            <h2 className='title'>Wallets</h2>
             <p
               className='content-desc animated'
               data-animation='fadeInUpShorter'
@@ -76,7 +76,7 @@ const WhitePaper = () => {
                       <a href='javascript:void(0);' title='METAMASK'>
                         <img
                         width='60px'
-                          src='theme-assets/images/flag-1.png'
+                          src='theme-assets/images/metamask.png'
                           alt='METAMASK'
                         />
                         <div className='lang-text'>
@@ -127,7 +127,7 @@ const WhitePaper = () => {
                       <a href='javascript:void(0);' title='PancakeSwap'>
                         <img
                         width='60px'
-                          src='theme-assets/images/flag-4.png'
+                          src='theme-assets/images/pancakeswap.png'
                           alt='PancakeSwap'
                         />
                         <div className='lang-text'>
@@ -147,4 +147,4 @@ const WhitePaper = () => {
   );
 };
 
-export default WhitePaper;
+export default Wallets;

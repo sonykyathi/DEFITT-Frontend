@@ -20,9 +20,6 @@ const Header = (props) => {
                 alt='Crypto Logo'
                 style={{ width: '100px' }}
               />
-              {/* <span className='brand-text'>
-                <span className='font-weight-bold'>Crypto</span> ICO
-              </span> */}
             </a>
             <button
               className='navbar-toggler'
@@ -69,18 +66,6 @@ const Header = (props) => {
                       href={`${process.env.REACT_APP_URL}/#roadmap`}
                     >
                       Roadmap
-                    </a>
-                  </li>
-                  <li
-                    className='nav-item animated'
-                    data-animation='fadeInDown'
-                    data-animation-delay='1.4s'
-                  >
-                    <a
-                      className='nav-link'
-                      href={`${process.env.REACT_APP_URL}/#advisor`}
-                    >
-                      Franchise 
                     </a>
                   </li>
                   <li
@@ -150,6 +135,19 @@ const Header = (props) => {
                         <span></span> FTT
                       </a>
                     </div>
+                  </li>
+                  
+                  <li
+                    className='nav-item animated'
+                    data-animation='fadeInDown'
+                    data-animation-delay='1.4s'
+                  >
+                    <a
+                      className='nav-link'
+                      href={`${process.env.REACT_APP_URL}/#advisor`}
+                    >
+                    Franchise 
+                    </a>
                   </li>
                 </ul>
                 <span id='slide-line'></span>

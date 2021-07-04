@@ -9,7 +9,7 @@ const Contact = (props) => {
         <div className='container'>
           <div className='row'>
             <div className='col-md-6'>
-              <div className='map'>
+              <div className='map' style={{marginTop:'100px'}}>
                 <Map></Map>
               </div>
             </div>
@@ -34,7 +34,7 @@ const Contact = (props) => {
               </div>
               <div className='row'>
                 <div className='col-xl-8 col-md-12 mx-auto'>
-                  <ul className='list-unstyled contact-info pb-5 mb-5'>
+                  <ul className='list-unstyled contact-info '>
                     <li
                       className='animated'
                       data-animation='fadeInUpShorter'
@@ -49,7 +49,7 @@ const Contact = (props) => {
                       data-animation-delay='0.7s'
                     >
                       <i className='ti-comment-alt'></i>
-                      <span className='ml-1'>Join us on Twitter</span>
+                      <span className='ml-1'>Join us</span>
                     </li>
                   </ul>
                   <ul className='list-unstyled contact-info'>

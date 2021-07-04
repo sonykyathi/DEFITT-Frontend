@@ -2599,7 +2599,7 @@ header .navbar.navbar-shadow {
   z-index : 9;
 }
 .hero-coin{
-  filter: drop-shadow( 0px 2px 12px #ececec);
+  filter: drop-shadow( 0px 2px 5px #ececec);
 }
 
 /* 	About section : about content, image and play button css */
@@ -2795,7 +2795,7 @@ header .navbar.navbar-shadow {
 }
 
 .whitepaper .whitepaper-languages img {
-  border : 8px solid white;
+  border : 1px solid white;
   border-radius : 50%;
   -webkit-box-shadow : 0 0 20px 0 rgba(103, 103, 103, 0.5);
           box-shadow : 0 0 20px 0 rgba(103, 103, 103, 0.5);
