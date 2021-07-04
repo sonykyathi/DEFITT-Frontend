@@ -153,7 +153,7 @@ const Footer = (props) => {
              </div>
             </div>
             <div className="copy-right mx-auto text-center">
-              <span className="copyright">Copyright © 2019, Crypto ICO. Template Designed by <a href="http://pixinvent.com" title="pixinvent" className="white">Pixinvent</a></span>
+              <span className="copyright">Copyright © 2021,  <a href="#" title="pixinvent" className="white"> DEFItt.</a></span>
             </div>
           </div>
         </div>
