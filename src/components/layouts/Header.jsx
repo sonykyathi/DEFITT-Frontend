@@ -85,28 +85,28 @@ const Header = (props) => {
                       Our Verticles
                     </a>
                     <div className='dropdown-menu' aria-labelledby='more'>
-                      <a href='javascript:void(0);' className='dropdown-item'>
+                      <a   href={`${process.env.REACT_APP_URL}/#defiplay`} className='dropdown-item'>
                         Defi Play
                       </a>
-                      <a href='javascript:void(0);' className='dropdown-item'>
+                      <a   href={`${process.env.REACT_APP_URL}/#defistartup`} className='dropdown-item'>
                         Defi Startup
                       </a>
-                      <a href='javascript:void(0);' className='dropdown-item'>
+                      <a   href={`${process.env.REACT_APP_URL}/#defitradx`} className='dropdown-item'>
                         Defi TradX
                       </a>
-                      <a href='javascript:void(0);' className='dropdown-item'>
+                      <a   href={`${process.env.REACT_APP_URL}/#defikampus`} className='dropdown-item'>
                         Defi Kampus
                       </a>
-                      <a href='javascript:void(0);' className='dropdown-item'>
+                      <a   href={`${process.env.REACT_APP_URL}/#definirvaana`} className='dropdown-item'>
                         Defi Nirvaana
                       </a>
-                      <a href='javascript:void(0);' className='dropdown-item'>
+                      <a   href={`${process.env.REACT_APP_URL}/#defilandscape`} className='dropdown-item'>
                         Defi Landscape
                       </a>
-                      <a href='javascript:void(0);' className='dropdown-item'>
+                      <a   href={`${process.env.REACT_APP_URL}/#defibuzaar`} className='dropdown-item'>
                         Defi Buzaar
                       </a>
-                      <a href='javascript:void(0);' className='dropdown-item'>
+                      <a   href={`${process.env.REACT_APP_URL}/#defiswipecard`} className='dropdown-item'>
                         Defi SwipeCard
                       </a>
                     </div>
