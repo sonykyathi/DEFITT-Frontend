@@ -41,28 +41,15 @@ const Footer = (props) => {
                     <li
                       className='animated'
                       data-animation='fadeInUpShorter'
-                      data-animation-delay='0.4s'
-                    >
-                      <a target='_blank' href='https://www.facebook.com/de.fitt.1/' title='Facebook' className='btn font-medium'>
-                        <i className='ti-facebook'></i>
-                      </a>
-                    </li>
-                    <li
-                      className='animated'
-                      data-animation='fadeInUpShorter'
                       data-animation-delay='0.5s'
                     >
                       <a target='_blank' href='https://twitter.com/Defitt_ftt' title='Twitter' className='btn font-medium'>
-                        <i className='ti-twitter-alt'></i>
+                        <i className='fa fa-twitter'></i>
                       </a>
                     </li>
-                    <li
-                      className='animated'
-                      data-animation='fadeInUpShorter'
-                      data-animation-delay='0.6s'
-                    >
-                      <a target='_blank' href='https://www.linkedin.com/in/defitt-financial-services/' title='LinkedIn' className='btn font-medium'>
-                        <i className='ti-linkedin'></i>
+                    <li className='animated' data-animation='fadeInUpShorter' data-animation-delay='0.4s'>
+                      <a target='_blank' href='https://www.facebook.com/de.fitt.1/' title='Facebook' className='btn font-medium'>
+                        <i className='ti-facebook'></i>
                       </a>
                     </li>
                     <li
@@ -72,6 +59,15 @@ const Footer = (props) => {
                     >
                       <a target='_blank' href='https://www.instagram.com/defi.tt_/' title='Instagram' className='btn font-medium'>
                         <i className='ti-instagram'></i>
+                      </a>
+                    </li>
+                    <li
+                      className='animated'
+                      data-animation='fadeInUpShorter'
+                      data-animation-delay='0.6s'
+                    >
+                      <a target='_blank' href='https://www.linkedin.com/in/defitt-financial-services/' title='LinkedIn' className='btn font-medium'>
+                        <i className='ti-linkedin'></i>
                       </a>
                     </li>
                     <li
@@ -89,7 +85,7 @@ const Footer = (props) => {
                       data-animation-delay='0.8s'
                     >
                       <a target='_blank' href='https://t.me/DefittChat' title='Telegram' className='btn font-medium'>
-                        <i className='ti-telegram'></i>
+                        <i className='fa fa-telegram'></i>
                       </a>
                     </li>
                   </ul>
@@ -155,6 +151,9 @@ const Footer = (props) => {
                 </div>
             
              </div>
+            </div>
+            <div className="copy-right mx-auto text-center">
+              <span className="copyright">Copyright © 2019, Crypto ICO. Template Designed by <a href="http://pixinvent.com" title="pixinvent" className="white">Pixinvent</a></span>
             </div>
           </div>
         </div>

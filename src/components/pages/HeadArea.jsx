@@ -582,10 +582,7 @@ const HeadArea = (props) => {
                         </clipPath>
                       </defs>
                     </svg> */}
-                    <img
-                      style={{ width: '100%' }}
-                      src='theme-assets/images/defi-coin-logo.png'
-                    ></img>
+                    <img src='theme-assets/images/defi-coin-logo.png' className="img-fluid cic-logo-animation hero-coin" data-animation="fadeInUpShortest" data-animation-delay="2.4s" preserveAspectRatio="xMidYMid slice" alt=""/>
                   </div>
                 </div>
               </div>

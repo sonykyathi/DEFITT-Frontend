@@ -2598,6 +2598,9 @@ header .navbar.navbar-shadow {
 .head-area .head-content .container {
   z-index : 9;
 }
+.hero-coin{
+  filter: drop-shadow( 0px 2px 12px #ececec);
+}
 
 /* 	About section : about content, image and play button css */
 .about .content-area h4 {
@@ -3125,6 +3128,11 @@ header .navbar.navbar-shadow {
           box-shadow : 0 0 12px 0 #29BEFF;
   position : relative;
   z-index : 1;
+
+  width: 142px;
+  height: 142px;
+  margin: auto;
+
 }
 .team .team-img:hover {
   -webkit-box-shadow : 0 0 12px 0 #FF4137;
@@ -3150,6 +3158,11 @@ header .navbar.navbar-shadow {
 }
 .team .team-img img {
   border : 5px solid #FFFFFF;
+  
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+
 }
 .team .team-img:before {
   content : '';
@@ -4380,7 +4393,7 @@ body.inner-page {
 }
 
 header .navbar.navbar-fixed {
-  background : #194089;
+  background : #141746;
 }
 
 header .navbar .dropdown .dropdown-menu .dropdown-item {

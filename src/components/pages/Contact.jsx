@@ -32,7 +32,7 @@ const Contact = (props) => {
                   data-animation-delay='0.5s'
                 >
                   <i className='ti-headphone'></i>
-                  <span className='ml-1'>+44 0123 4567</span>
+                  <span className='ml-1'>+44 0000 0000 00</span>
                 </li>
                 <li
                   className='animated'
@@ -40,7 +40,7 @@ const Contact = (props) => {
                   data-animation-delay='0.6s'
                 >
                   <i className='ti-email'></i>
-                  <span className='ml-1'>info@yourcompany.com</span>
+                  <span className='ml-1'>info@defitt.org</span>
                 </li>
                 <li
                   className='animated'
