@@ -19,14 +19,15 @@ const Footer = (props) => {
                     className='title animated'
                     data-animation='fadeInUpShorter'
                     data-animation-delay='0.2s'
-                  > <a  href={`${process.env.REACT_APP_URL}/#head-area`}>
-
-                    <img
-                      src='theme-assets/images/logo.png'
-                      alt='Logo'
-                      style={{ width: '100px' }}
-                    />
-                  </a>
+                  >
+                    {' '}
+                    <a href={`${process.env.REACT_APP_URL}/#head-area`}>
+                      <img
+                        src='theme-assets/images/logo.png'
+                        alt='Logo'
+                        style={{ width: '100px' }}
+                      />
+                    </a>
                   </div>
                   <div
                     className='about-text animated'
@@ -46,12 +47,26 @@ const Footer = (props) => {
                       data-animation='fadeInUpShorter'
                       data-animation-delay='0.5s'
                     >
-                      <a target='_blank' href='https://twitter.com/Defitt_ftt' title='Twitter' className='btn font-medium'>
+                      <a
+                        target='_blank'
+                        href='https://twitter.com/Defitt_ftt'
+                        title='Twitter'
+                        className='btn font-medium'
+                      >
                         <i className='fa fa-twitter'></i>
                       </a>
                     </li>
-                    <li className='animated' data-animation='fadeInUpShorter' data-animation-delay='0.4s'>
-                      <a target='_blank' href='https://www.facebook.com/de.fitt.1/' title='Facebook' className='btn font-medium'>
+                    <li
+                      className='animated'
+                      data-animation='fadeInUpShorter'
+                      data-animation-delay='0.4s'
+                    >
+                      <a
+                        target='_blank'
+                        href='https://www.facebook.com/de.fitt.1/'
+                        title='Facebook'
+                        className='btn font-medium'
+                      >
                         <i className='ti-facebook'></i>
                       </a>
                     </li>
@@ -60,7 +75,12 @@ const Footer = (props) => {
                       data-animation='fadeInUpShorter'
                       data-animation-delay='0.7s'
                     >
-                      <a target='_blank' href='https://www.instagram.com/defi.tt_/' title='Instagram' className='btn font-medium'>
+                      <a
+                        target='_blank'
+                        href='https://www.instagram.com/defi.tt_/'
+                        title='Instagram'
+                        className='btn font-medium'
+                      >
                         <i className='ti-instagram'></i>
                       </a>
                     </li>
@@ -69,7 +89,12 @@ const Footer = (props) => {
                       data-animation='fadeInUpShorter'
                       data-animation-delay='0.6s'
                     >
-                      <a target='_blank' href='https://www.linkedin.com/in/defitt-financial-services/' title='LinkedIn' className='btn font-medium'>
+                      <a
+                        target='_blank'
+                        href='https://www.linkedin.com/in/defitt-financial-services/'
+                        title='LinkedIn'
+                        className='btn font-medium'
+                      >
                         <i className='ti-linkedin'></i>
                       </a>
                     </li>
@@ -78,7 +103,12 @@ const Footer = (props) => {
                       data-animation='fadeInUpShorter'
                       data-animation-delay='0.8s'
                     >
-                      <a target='_blank' href='https://www.youtube.com/channel/UCyO9CUPft6N_xpnAl4pZONg' title='Youtube' className='btn font-medium'>
+                      <a
+                        target='_blank'
+                        href='https://www.youtube.com/channel/UCyO9CUPft6N_xpnAl4pZONg'
+                        title='Youtube'
+                        className='btn font-medium'
+                      >
                         <i className='ti-youtube'></i>
                       </a>
                     </li>
@@ -87,17 +117,21 @@ const Footer = (props) => {
                       data-animation='fadeInUpShorter'
                       data-animation-delay='0.8s'
                     >
-                      <a target='_blank' href='https://t.me/DefittChat' title='Telegram' className='btn font-medium'>
+                      <a
+                        target='_blank'
+                        href='https://t.me/DefittChat'
+                        title='Telegram'
+                        className='btn font-medium'
+                      >
                         <i className='fa fa-telegram'></i>
                       </a>
                     </li>
                   </ul>
                 </div>
               </div>
+              <div className='col-md-4'></div>
               <div className='col-md-4'>
-              </div>
-              <div className='col-md-4'>
-              <div className='links'>
+                <div className='links'>
                   <h5
                     className='title animated'
                     data-animation='fadeInUpShorter'
@@ -111,23 +145,27 @@ const Footer = (props) => {
                       data-animation='fadeInUpShorter'
                       data-animation-delay='0.6s'
                     >
-                      <a  href={`${process.env.REACT_APP_URL}/#head-area`}>Home</a>
+                      <a href={`${process.env.REACT_APP_URL}/#head-area`}>
+                        Home
+                      </a>
                     </li>
                     <li
                       className='animated'
                       data-animation='fadeInUpShorter'
                       data-animation-delay='0.7s'
                     >
-                      <a  href={whitepaper} target='_blank'>
-                      Whitepaper
-                    </a>
+                      <a href={whitepaper} target='_blank'>
+                        Whitepaper
+                      </a>
                     </li>
                     <li
                       className='animated'
                       data-animation='fadeInUpShorter'
                       data-animation-delay='0.8s'
                     >
-                      <a href={`${process.env.REACT_APP_URL}/#roadmap`}>RoadMap </a>
+                      <a href={`${process.env.REACT_APP_URL}/#roadmap`}>
+                        RoadMap{' '}
+                      </a>
                     </li>
                   </ul>
                   <ul className='useful-links'>
@@ -136,29 +174,40 @@ const Footer = (props) => {
                       data-animation='fadeInUpShorter'
                       data-animation-delay='0.9s'
                     >
-                      <a href={`${process.env.REACT_APP_URL}/#roadmap`}>Roadmap</a>
+                      <a href={`${process.env.REACT_APP_URL}/#roadmap`}>
+                        Roadmap
+                      </a>
                     </li>
                     <li
                       className='animated'
                       data-animation='fadeInUpShorter'
                       data-animation-delay='1.0s'
                     >
-                      <a  href={`${process.env.REACT_APP_URL}/#advisor`}>Franchise</a>
+                      <a href={`${process.env.REACT_APP_URL}/#advisor`}>
+                        Franchise
+                      </a>
                     </li>
                     <li
                       className='animated'
                       data-animation='fadeInUpShorter'
                       data-animation-delay='1.1s'
                     >
-                      <a href='#'>Sign in</a>
+                      <a href={process.env.REACT_APP_ADMIN_URL} target='_blank'>
+                        Sign in
+                      </a>
                     </li>
                   </ul>
                 </div>
-            
-             </div>
+              </div>
             </div>
-            <div className="copy-right mx-auto text-center">
-              <span className="copyright">Copyright © 2021,  <a href="#" title="pixinvent" className="white"> DEFItt.</a></span>
+            <div className='copy-right mx-auto text-center'>
+              <span className='copyright'>
+                Copyright © 2021,{' '}
+                <a href='#' title='pixinvent' className='white'>
+                  {' '}
+                  DEFItt.
+                </a>
+              </span>
             </div>
           </div>
         </div>

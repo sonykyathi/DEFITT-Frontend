@@ -47,19 +47,15 @@ const HeadArea = (props) => {
                       {/* merchants and affiliates. */}
                     </h3>
                     <div className='mt-5'>
-                      <StripeCheckout
-                        token={makePayment}
-                        stripeKey={process.env.REACT_APP_STRIPE_PUB_KEY}
-                      >
                         <a
-                          href='#'
+                          href={process.env.REACT_APP_ADMIN_URL}
+                         target='_blank'
                           className='btn btn-lg btn-gradient-purple btn-glow mr-4 mb-2 animated'
                           data-animation='fadeInUpShorter'
                           data-animation-delay='1.7s'
                         >
                           Purchase Token
                         </a>
-                      </StripeCheckout>
                       <a
                         href={whitepaper}
                         target='_blank'
