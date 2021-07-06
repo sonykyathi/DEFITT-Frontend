@@ -14,14 +14,13 @@ const Footer = (props) => {
               <div className='col-md-4'>
                 <div className='about'>
                   <div
-                    className='title animated'
+                    className='footer-logo title animated'
                     data-animation='fadeInUpShorter'
                     data-animation-delay='0.2s'
                   >
                     <img
                       src='theme-assets/images/logo.png'
                       alt='Logo'
-                      style={{ width: '100px' }}
                     />
                     {/* <span className='logo-text'>Crypto ICO</span> */}
                   </div>
