@@ -26,6 +26,13 @@ const HeadArea = (props) => {
               <div className='row align-items-center'>
                 <div className='col-lg-6 col-md-12'>
                   <div className='banner-content pt-5'>
+                    <div className="banner-logo">
+                      <img
+                        src='theme-assets/images/logo.png'
+                        alt='Crypto Logo'
+                        className="img-fluid"
+                      />
+                    </div>
                     <h1
                       className='best-template animated'
                       data-animation='fadeInUpShorter'

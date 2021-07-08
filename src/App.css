@@ -1,3 +1,17 @@
+
+
+/* Header Logo Style */
+.nav-logo{
+  margin: 14px 0;
+}
+.nav-logo img{
+  max-height: 40px;
+}
+.navbar.navbar-fixed .nav-logo{
+  margin: 6px 0;
+}
+
+
 .no-position-modal{
   position: initial;
   overflow: initial !important;
@@ -56,6 +70,29 @@
   margin: auto;
 }
 
+/* Home page Solutions Style */
+.problem-img-holder{
+  background: linear-gradient(45deg, rgb(41 190 255 / 50%), rgb(28 118 254 / 50%));
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 380px;
+  height: 180px;
+  margin: auto;
+  justify-content: center;
+  align-content: center;
+  display: flex;
+}
+.problem-img-holder img{
+  max-width: 250px;
+  max-height: 100px;
+  margin: auto;
+}
+
+/* Footer Style */
+.footer-logo > a > img{
+    max-width: 140px;
+    filter: drop-shadow(6px 0px 0px rgb(0 0 0 / 30%));
+}
 
 /* Roadmap Style CSS Start */
 

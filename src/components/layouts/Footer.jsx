@@ -16,18 +16,16 @@ const Footer = (props) => {
               <div className='col-md-4'>
                 <div className='about'>
                   <div
-                    className='title animated'
+                    className='footer-logo title animated'
                     data-animation='fadeInUpShorter'
                     data-animation-delay='0.2s'
-                  >
-                    {' '}
-                    <a href={`${process.env.REACT_APP_URL}/#head-area`}>
-                      <img
-                        src='theme-assets/images/logo.png'
-                        alt='Logo'
-                        style={{ width: '100px' }}
-                      />
-                    </a>
+                  > <a  href={`${process.env.REACT_APP_URL}/#head-area`}>
+
+                    <img
+                      src='theme-assets/images/logo.png'
+                      alt='Logo'
+                    />
+                  </a>
                   </div>
                   <div
                     className='about-text animated'
