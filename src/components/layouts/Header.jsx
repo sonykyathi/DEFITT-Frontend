@@ -86,28 +86,52 @@ const Header = (props) => {
                       Our Verticles
                     </a>
                     <div className='dropdown-menu' aria-labelledby='more'>
-                      <a href='javascript:void(0);' className='dropdown-item'>
+                      <a
+                        href={`${process.env.REACT_APP_URL}/#defiplay`}
+                        className='dropdown-item'
+                      >
                         Defi Play
                       </a>
-                      <a href='javascript:void(0);' className='dropdown-item'>
+                      <a
+                        href={`${process.env.REACT_APP_URL}/#defistartup`}
+                        className='dropdown-item'
+                      >
                         Defi Startup
                       </a>
-                      <a href='javascript:void(0);' className='dropdown-item'>
+                      <a
+                        href={`${process.env.REACT_APP_URL}/#defitradx`}
+                        className='dropdown-item'
+                      >
                         Defi TradX
                       </a>
-                      <a href='javascript:void(0);' className='dropdown-item'>
+                      <a
+                        href={`${process.env.REACT_APP_URL}/#defikampus`}
+                        className='dropdown-item'
+                      >
                         Defi Kampus
                       </a>
-                      <a href='javascript:void(0);' className='dropdown-item'>
+                      <a
+                        href={`${process.env.REACT_APP_URL}/#definirvaana`}
+                        className='dropdown-item'
+                      >
                         Defi Nirvaana
                       </a>
-                      <a href='javascript:void(0);' className='dropdown-item'>
+                      <a
+                        href={`${process.env.REACT_APP_URL}/#defilandscape`}
+                        className='dropdown-item'
+                      >
                         Defi Landscape
                       </a>
-                      <a href='javascript:void(0);' className='dropdown-item'>
+                      <a
+                        href={`${process.env.REACT_APP_URL}/#defibuzaar`}
+                        className='dropdown-item'
+                      >
                         Defi Buzaar
                       </a>
-                      <a href='javascript:void(0);' className='dropdown-item'>
+                      <a
+                        href={`${process.env.REACT_APP_URL}/#defiswipecard`}
+                        className='dropdown-item'
+                      >
                         Defi SwipeCard
                       </a>
                     </div>
@@ -129,15 +153,15 @@ const Header = (props) => {
                       <span></span> Our Coins
                     </a>
                     <div className='dropdown-menu' aria-labelledby='language'>
-                      <a className='dropdown-item'href="javascript:void(0);">
+                      <a className='dropdown-item' href='javascript:void(0);'>
                         <span></span> DFT
                       </a>
-                      <a className='dropdown-item' href="javascript:void(0);">
+                      <a className='dropdown-item' href='javascript:void(0);'>
                         <span></span> FTT
                       </a>
                     </div>
                   </li>
-                  
+
                   <li
                     className='nav-item animated'
                     data-animation='fadeInDown'
@@ -147,23 +171,21 @@ const Header = (props) => {
                       className='nav-link'
                       href={`${process.env.REACT_APP_URL}/#advisor`}
                     >
-                    Franchise 
+                      Franchise
                     </a>
                   </li>
                 </ul>
                 <span id='slide-line'></span>
                 <form className='form-inline mt-2 mt-md-0'>
-                  <Link
+                  <a
                     className='btn btn-sm btn-gradient-purple btn-glow my-2 my-sm-0 animated'
                     data-animation='fadeInDown'
                     data-animation-delay='1.8s'
-                    to='/login'
-                    data-toggle='modal'
-                    data-target='#loginForm'
-                    data-backdrop='false'
+                    href={process.env.REACT_APP_ADMIN_URL}
+                    target='_blank'
                   >
                     Sign in
-                  </Link>
+                  </a>
                 </form>
               </div>
             </div>

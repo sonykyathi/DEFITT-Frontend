@@ -4,7 +4,6 @@ const Solutions = () => {
   return (
     <Fragment>
       <section
-        id='problem-solution'
         className='problem-solution section-pro section-padding '
       >
         <div className='container'>
@@ -29,7 +28,7 @@ const Solutions = () => {
               standard on Binance Smart Chain that gives it access to the world.
             </p>
           </div>
-          <div className='problems'>
+          <div   id='defiplay' className='problems'>
             <div className='row'>
               <div className='col-md-12 col-lg-6'>
                 <div className='heading mb-4'>
@@ -75,7 +74,7 @@ const Solutions = () => {
               </div>
             </div>
           </div>
-          <div className='solutions mt-5'>
+          <div id='defistartup' className='solutions mt-5'>
             <div className='row'>
               <div className='col-md-12 col-lg-6 text-center' style={{margin:'auto 0'}}>
                 <div className="problem-img-holder">
@@ -132,7 +131,7 @@ const Solutions = () => {
               </div>
             </div>
           </div>
-          <div className='problems'>
+          <div  id='defitradx' className='problems'>
             <div className='row'>
               <div className='col-md-12 col-lg-6'>
                 <div className='heading mb-4'>
@@ -178,7 +177,7 @@ const Solutions = () => {
               </div>
             </div>
           </div>
-          <div className='solutions mt-5'>
+          <div id='defikampus'  className='solutions mt-5'>
             <div className='row'>
               <div className='col-md-12 col-lg-6 text-center' style={{margin:'auto 0'}}>
                 <div className="problem-img-holder">
@@ -235,7 +234,7 @@ const Solutions = () => {
               </div>
             </div>
           </div>
-          <div className='problems'>
+          <div id='definirvaana' className='problems'>
             <div className='row'>
               <div className='col-md-12 col-lg-6'>
                 <div className='heading mb-4'>
@@ -281,7 +280,7 @@ const Solutions = () => {
               </div>
             </div>
           </div>
-          <div className='solutions mt-5'>
+          <div id='defilandscape' className='solutions mt-5'>
             <div className='row'>
               <div className='col-md-12 col-lg-6 text-center' style={{margin:'auto 0'}}>
                 <div className="problem-img-holder">
@@ -338,7 +337,7 @@ const Solutions = () => {
               </div>
             </div>
           </div>
-          <div className='problems'>
+          <div id='defibuzaar' className='problems'>
             <div className='row'>
               <div className='col-md-12 col-lg-6'>
                 <div className='heading mb-4'>
@@ -384,7 +383,7 @@ const Solutions = () => {
               </div>
             </div>
           </div>
-          <div className='solutions mt-5'>
+          <div id='defiswiprecard' className='solutions mt-5'>
             <div className='row'>
               <div className='col-md-12 col-lg-6 text-center' style={{margin:'auto 0'}}>
                 <div className="problem-img-holder">
