@@ -52,9 +52,9 @@ const TokenSale = () => {
                       <div className='progres-area pb-5'>
                         <ul className='progress-top'>
                           <li></li>
-                          <li className='pre-sale'>Pre-Sale</li>
-                          <li>Soft Cap</li>
-                          <li className='bonus'>Bonus</li>
+                          <li className='pre-sale'>1 Year</li>
+                          <li>2 Years</li>
+                          <li className='bonus'>3 Years</li>
                           <li></li>
                         </ul>
                         <ul className='progress-bars'>
@@ -68,17 +68,15 @@ const TokenSale = () => {
                           <div
                             className='progress-bar progress-bar-custom'
                             role='progressbar'
-                            style={{ width: '65%' }}
+                            style={{ width: '28%' }}
                             aria-valuenow='100'
                             aria-valuemin='0'
                             aria-valuemax='100'
                           ></div>
                         </div>
                         <div className='progress-bottom'>
-                          <div className='progress-info'>65% target raised</div>
-                          <div className='progress-info'>
-                            1 ETH = $1000 = 3177.38 CIC
-                          </div>
+                          {/* <div className='progress-info'>65% target raised</div> */}
+                          <div className='progress-info'>1 DEFITT = $1000 = 3177.38 CIC</div>
                         </div>
                       </div>
                     </div>
@@ -117,32 +115,32 @@ const TokenSale = () => {
                   <div className='col-md-5'>
                     <ul className='token-sale-info'>
                       <li>
-                        Public PRE-ITS starts{' '}
-                        <strong className='white'>13 March</strong>
+                        Dfitt Play{' '}
+                        <strong className='white'>5 June 2021</strong>
                       </li>
                       <li>
-                        Public ITS ends{' '}
-                        <strong className='white'>25 May</strong>
+                        DefiStartup{' '}
+                        <strong className='white'>5 June 2021</strong>
                       </li>
                       <li>
-                        Public ITS starts{' '}
-                        <strong className='white'>25 April</strong>
+                        Defi TradX{' '}
+                        <strong className='white'>19 June 2021</strong>
                       </li>
                     </ul>
                   </div>
                   <div className='col-md-7 pr-0'>
                     <ul className='token-sale-info'>
                       <li>
-                        Acceptable currencies{' '}
-                        <strong className='white'>ETH, BTC, LTC</strong>
+                        Defi Kampus{' '}
+                        <strong className='white'>3 July 2021</strong>
                       </li>
                       <li>
-                        Minimal transaction amount{' '}
-                        <strong className='white'>1 ETH, 1 BTC, 1 LTC</strong>
+                        Defi NIRVAANA{' '}
+                        <strong className='white'>7 July 2021</strong>
                       </li>
                       <li>
-                        Number of tokens for sale{' '}
-                        <strong className='white'>890,000 CIC (8%)</strong>
+                        Defi Landscape{' '}
+                        <strong className='white'>31 July 2021</strong>
                       </li>
                     </ul>
                   </div>

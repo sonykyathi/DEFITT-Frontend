@@ -2582,6 +2582,10 @@ header .navbar.navbar-shadow {
   height : 100vh;
   z-index : 6;
 }
+.banner-logo{
+  max-width: 120px;
+  margin-bottom: 20px;
+}
 .head-area .head-content h1 {
   color : #FFFFFF;
   font-size : 1.9rem;
@@ -2599,7 +2603,7 @@ header .navbar.navbar-shadow {
   z-index : 9;
 }
 .hero-coin{
-  filter: drop-shadow( 0px 2px 12px #ececec);
+  filter: drop-shadow(0px 2px 16px rgb(160 74 206 / 50%));
 }
 
 /* 	About section : about content, image and play button css */

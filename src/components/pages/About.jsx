@@ -12,7 +12,7 @@ const About = (props) => {
               data-animation='fadeInUpShorter'
               data-animation-delay='0.3s'
             >
-              <h6 className='sub-title'>About</h6>
+              <h6 className='sub-title'>Utilization</h6>
               <a target='_blank' href='https://ftttoken.com'>
                 <h2 className='title'>Utilization with DEFItt</h2>
               </a>
@@ -28,7 +28,7 @@ const About = (props) => {
           </div>
           <div className='content-area'>
             <div className='row'>
-              <div className='col-md-12 col-lg-6'>
+              <div className='col-md-12 col-lg-6' style={{margin:'auto 0'}}>
               <p
               className='content-desc animated'
               data-animation='fadeInUpShorter'

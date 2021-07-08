@@ -22,7 +22,7 @@ const WhitePaper = () => {
             </p>
           </div>
           <div className='row'>
-            <div className='col-lg-5 col-md-12'>
+            {/* <div className='col-lg-5 col-md-12'>
               <div className='whitepaper-img'>
                 <img
                   className='img-fluid animated'
@@ -32,9 +32,9 @@ const WhitePaper = () => {
                   alt='whitepaper'
                 />
               </div>
-            </div>
-            <div className='col-lg-7 col-md-12'>
-              <div className='content-area'>
+            </div> */}
+            <div className='col-lg-12 col-md-12'>
+              <div className='content-area text-center'>
                 <h4
                   className='title animated'
                   data-animation='fadeInUpShorter'

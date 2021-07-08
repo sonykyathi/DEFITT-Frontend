@@ -63,28 +63,30 @@ const Solutions = () => {
                 </p>
               </div>
               <div className='col-md-12 col-lg-6 text-center' style={{margin:'auto 0'}}>
-                <img
-                  src='theme-assets/images/defi-play-without-bg.png'
-                  style={{width:'50%'}}
-                  className='problems-img animated'
-                  data-animation='fadeInUpShorter'
-                  data-animation-delay='0.5s'
-                  alt='problems-graphic'
-                />
+                <div className="problem-img-holder">
+                  <img
+                    src='theme-assets/images/timeline/defi-play-without-bg.png'
+                    className='problems-img animated'
+                    data-animation='fadeInUpShorter'
+                    data-animation-delay='0.5s'
+                    alt='problems-graphic'
+                  />
+                </div>
               </div>
             </div>
           </div>
           <div className='solutions mt-5'>
             <div className='row'>
               <div className='col-md-12 col-lg-6 text-center' style={{margin:'auto 0'}}>
-                <img
-                style={{width:'50%'}}
-                  src='theme-assets/images/defi-startup.png'
-                  className='solutions-img animated'
-                  data-animation='fadeInUpShorter'
-                  data-animation-delay='0.5s'
-                  alt='problems-graphic'
-                />
+                <div className="problem-img-holder">
+                  <img
+                    src='theme-assets/images/timeline/defi-startup.png'
+                    className='solutions-img animated'
+                    data-animation='fadeInUpShorter'
+                    data-animation-delay='0.5s'
+                    alt='problems-graphic'
+                  />
+                </div>
               </div>
               <div className='col-md-12 col-lg-6 move-first'>
                 <div className='heading mb-4'>
@@ -164,28 +166,30 @@ const Solutions = () => {
                 </p>
               </div>
               <div className='col-md-12 col-lg-6 text-center' style={{margin:'auto 0'}}>
-                <img
-                  src='theme-assets/images/defi-tradx.png'
-                  style={{width:'50%'}}
-                  className='problems-img animated'
-                  data-animation='fadeInUpShorter'
-                  data-animation-delay='0.5s'
-                  alt='problems-graphic'
-                />
+                <div className="problem-img-holder">
+                  <img
+                    src='theme-assets/images/timeline/defi-tradx.png'
+                    className='problems-img animated'
+                    data-animation='fadeInUpShorter'
+                    data-animation-delay='0.5s'
+                    alt='problems-graphic'
+                  />
+                </div>
               </div>
             </div>
           </div>
           <div className='solutions mt-5'>
             <div className='row'>
               <div className='col-md-12 col-lg-6 text-center' style={{margin:'auto 0'}}>
-                <img
-                style={{width:'50%'}}
-                  src='theme-assets/images/defi-kampus.png'
-                  className='solutions-img animated'
-                  data-animation='fadeInUpShorter'
-                  data-animation-delay='0.5s'
-                  alt='problems-graphic'
-                />
+                <div className="problem-img-holder">
+                  <img
+                      src='theme-assets/images/timeline/defi-kampus.png'
+                      className='solutions-img animated'
+                      data-animation='fadeInUpShorter'
+                      data-animation-delay='0.5s'
+                      alt='problems-graphic'
+                    />
+                </div>
               </div>
               <div className='col-md-12 col-lg-6 move-first'>
                 <div className='heading mb-4'>
@@ -265,28 +269,30 @@ const Solutions = () => {
                 </p>
               </div>
               <div className='col-md-12 col-lg-6 text-center' style={{margin:'auto 0'}}>
-                <img
-                  src='theme-assets/images/defi-nirvaana.png'
-                  style={{width:'50%'}}
-                  className='problems-img animated'
-                  data-animation='fadeInUpShorter'
-                  data-animation-delay='0.5s'
-                  alt='problems-graphic'
-                />
+                <div className="problem-img-holder">
+                  <img
+                    src='theme-assets/images/timeline/defi-nirvaana.png'
+                    className='problems-img animated'
+                    data-animation='fadeInUpShorter'
+                    data-animation-delay='0.5s'
+                    alt='problems-graphic'
+                  />
+                </div>
               </div>
             </div>
           </div>
           <div className='solutions mt-5'>
             <div className='row'>
               <div className='col-md-12 col-lg-6 text-center' style={{margin:'auto 0'}}>
-                <img
-                style={{width:'50%'}}
-                  src='theme-assets/images/defi-landscape.png'
-                  className='solutions-img animated'
-                  data-animation='fadeInUpShorter'
-                  data-animation-delay='0.5s'
-                  alt='problems-graphic'
-                />
+                <div className="problem-img-holder">
+                  <img
+                    src='theme-assets/images/timeline/defi-landscape.png'
+                    className='solutions-img animated'
+                    data-animation='fadeInUpShorter'
+                    data-animation-delay='0.5s'
+                    alt='problems-graphic'
+                  />
+                </div>
               </div>
               <div className='col-md-12 col-lg-6 move-first'>
                 <div className='heading mb-4'>
@@ -366,28 +372,30 @@ const Solutions = () => {
                 </p>
               </div>
               <div className='col-md-12 col-lg-6 text-center' style={{margin:'auto 0'}}>
-                <img
-                  src='theme-assets/images/defi-buzaar.png'
-                  style={{width:'50%'}}
-                  className='problems-img animated'
-                  data-animation='fadeInUpShorter'
-                  data-animation-delay='0.5s'
-                  alt='problems-graphic'
-                />
+                <div className="problem-img-holder">
+                  <img
+                    src='theme-assets/images/timeline/defi-buzaar.png'
+                    className='problems-img animated'
+                    data-animation='fadeInUpShorter'
+                    data-animation-delay='0.5s'
+                    alt='problems-graphic'
+                  />
+                </div>
               </div>
             </div>
           </div>
           <div className='solutions mt-5'>
             <div className='row'>
               <div className='col-md-12 col-lg-6 text-center' style={{margin:'auto 0'}}>
-                <img
-                style={{width:'50%'}}
-                  src='theme-assets/images/defi-swipecard.png'
-                  className='solutions-img animated'
-                  data-animation='fadeInUpShorter'
-                  data-animation-delay='0.5s'
-                  alt='problems-graphic'
-                />
+                <div className="problem-img-holder">
+                  <img
+                    src='theme-assets/images/timeline/defi-swipecard.png'
+                    className='solutions-img animated'
+                    data-animation='fadeInUpShorter'
+                    data-animation-delay='0.5s'
+                    alt='problems-graphic'
+                  />
+                </div>
               </div>
               <div className='col-md-12 col-lg-6 move-first'>
                 <div className='heading mb-4'>

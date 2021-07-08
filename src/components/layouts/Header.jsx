@@ -10,15 +10,16 @@ const Header = (props) => {
         <nav className='main-menu static-top navbar-dark navbar navbar-expand-lg fixed-top mb-1'>
           <div className='container'>
             <a
-              className='navbar-brand animated'
+              className='navbar-brand nav-logo animated'
               data-animation='fadeInDown'
               data-animation-delay='1s'
               href={`${process.env.REACT_APP_URL}/#head-area`}
             >
               <img
-                src='theme-assets/images/logo.png'
+                src='theme-assets/images/d-logo.png'
                 alt='Crypto Logo'
-                style={{ width: '100px' }}
+                className="img-fluid"
+                // style={{ width: '100px' }}
               />
               {/* <span className='brand-text'>
                 <span className='font-weight-bold'>Crypto</span> ICO
