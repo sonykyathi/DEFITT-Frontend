@@ -26,11 +26,11 @@ const HeadArea = (props) => {
               <div className='row align-items-center'>
                 <div className='col-lg-6 col-md-12'>
                   <div className='banner-content pt-5'>
-                    <div className="banner-logo">
+                    <div className='banner-logo'>
                       <img
                         src='theme-assets/images/logo.png'
                         alt='Crypto Logo'
-                        className="img-fluid"
+                        className='img-fluid'
                       />
                     </div>
                     <h1
@@ -38,11 +38,13 @@ const HeadArea = (props) => {
                       data-animation='fadeInUpShorter'
                       data-animation-delay='1.5s'
                     >
+                      The best decentralised crypto with utility.
+                      <br />
                       Buy, sell and spend DEFItt{' '}
                       <br className='d-none d-xl-block' />
                       decentralised tokens with{' '}
                       <br className='d-none d-xl-block' />
-                      zero fuss.
+                      zero fuzz.
                     </h1>
                     <h3
                       className='d-block white animated'
@@ -54,15 +56,15 @@ const HeadArea = (props) => {
                       {/* merchants and affiliates. */}
                     </h3>
                     <div className='mt-5'>
-                        <a
-                          href={process.env.REACT_APP_ADMIN_URL}
-                         target='_blank'
-                          className='btn btn-lg btn-gradient-purple btn-glow mr-4 mb-2 animated'
-                          data-animation='fadeInUpShorter'
-                          data-animation-delay='1.7s'
-                        >
-                          Purchase Token
-                        </a>
+                      <a
+                        href={process.env.REACT_APP_ADMIN_URL}
+                        target='_blank'
+                        className='btn btn-lg btn-gradient-purple btn-glow mr-4 mb-2 animated'
+                        data-animation='fadeInUpShorter'
+                        data-animation-delay='1.7s'
+                      >
+                        Purchase Token
+                      </a>
                       <a
                         href={whitepaper}
                         target='_blank'
@@ -76,9 +78,18 @@ const HeadArea = (props) => {
                   </div>
                 </div>
                 <div className='col-lg-6 col-md-12 move-first'>
-                  <div id='svg-animation' style={{width:'400px'}}>
-                    
-                    <img src='theme-assets/images/defi-coin-logo.png' className="img-fluid cic-logo-animation hero-coin" data-animation="fadeInUpShortest" data-animation-delay="2.4s" preserveAspectRatio="xMidYMid slice" alt=""/>
+                  <div
+                    id='svg-animation'
+                    style={{ width: '300px', margin: '0 auto' }}
+                  >
+                    <img
+                      src='theme-assets/images/defi-coin-logo.png'
+                      className='img-fluid cic-logo-animation hero-coin'
+                      data-animation='fadeInUpShortest'
+                      data-animation-delay='2.4s'
+                      preserveAspectRatio='xMidYMid slice'
+                      alt=''
+                    />
                   </div>
                 </div>
               </div>

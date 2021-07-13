@@ -101,7 +101,7 @@ const About = (props) => {
                     src='theme-assets/images/what-is-crypto.png'
                     alt='What is Crypto?'
                   />
-                  <div className='play-video text-center'>
+                  {/* <div className='play-video text-center'>
                     <a
                       href='#'
                       className='play rounded-circle btn-gradient-purple btn-glow video-btn'
@@ -112,7 +112,7 @@ const About = (props) => {
                       <i className='ti-control-play'></i>
                     </a>
                     <span className='mt-2 d-none d-md-block'>How it works</span>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

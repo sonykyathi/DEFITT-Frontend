@@ -33,31 +33,37 @@ const Advisors = (props) => {
                 data-animation-delay='0.5s'
               >
                 <div className='d-flex flex-column'>
-                  <div
-                    className='team-img'
-                    // data-toggle='modal'
-                    // data-target='#teamUser1'
+                  <a
+                    href='https://www.expochat.online/'
+                    target='_blank'
+                    className='text-white'
                   >
-                    <img
-                      src='theme-assets/images/partner-expochat.png'
-                      alt='team-profile-1'
-                      className='rounded-circle'
-                      width='128'
-                    />
-                  </div>
-                  {/* <div className='team-icon'>
+                    <div
+                      className='team-img'
+                      // data-toggle='modal'
+                      // data-target='#teamUser1'
+                    >
+                      <img
+                        src='theme-assets/images/partner-expochat.png'
+                        alt='team-profile-1'
+                        className='rounded-circle'
+                        width='128'
+                      />
+                    </div>
+                    {/* <div className='team-icon'>
                     <i className='ti-linkedin'></i>
                   </div> */}
-                  <div className='profile partner-name text-center mt-3'>
-                    <div className='name'>Expo Chat </div>
-                    {/* <div className='role'>Blockchain Entrepreneur</div> */}
-                    {/* <div className='crypto-profile'>
+                    <div className='profile partner-name text-center mt-3'>
+                      <div className='name'>Expo Chat </div>
+                      {/* <div className='role'>Blockchain Entrepreneur</div> */}
+                      {/* <div className='crypto-profile'>
                       <img
                         src='theme-assets/images/company-logo-1.png'
                         alt='Team User'
                       />
                     </div> */}
-                  </div>
+                    </div>
+                  </a>
                 </div>
               </div>
               <div
@@ -68,27 +74,33 @@ const Advisors = (props) => {
                 // data-target='#teamUser3'
               >
                 <div className='d-flex flex-column'>
-                  <div className='team-img'>
-                    <img
-                      src='theme-assets/images/partner-wefilm.png'
-                      alt='team-profile-1'
-                      className='rounded-circle'
-                      width='128'
-                    />
-                  </div>
-                  {/* <div className='team-icon'>
+                  <a
+                    href='https://wefilm.com/'
+                    target='_blank'
+                    className='text-white'
+                  >
+                    <div className='team-img'>
+                      <img
+                        src='theme-assets/images/partner-wefilm.png'
+                        alt='team-profile-1'
+                        className='rounded-circle'
+                        width='128'
+                      />
+                    </div>
+                    {/* <div className='team-icon'>
                     <i className='ti-linkedin'></i>
                   </div> */}
-                  <div className='profile partner-name text-center mt-3'>
-                    <div className='name'>Weflim</div>
-                    {/* <div className='role'>Fin-Tech Entrepreneur</div> */}
-                    {/* <div className='crypto-profile'>
+                    <div className='profile partner-name text-center mt-3'>
+                      <div className='name'>Weflim</div>
+                      {/* <div className='role'>Fin-Tech Entrepreneur</div> */}
+                      {/* <div className='crypto-profile'>
                       <img
                         src='theme-assets/images/company-logo-3.png'
                         alt='Team User'
                       />
                     </div> */}
-                  </div>
+                    </div>
+                  </a>
                 </div>
               </div>
             </div>

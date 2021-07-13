@@ -24,16 +24,6 @@ const TokenSale = () => {
             <div className='heading text-center'>
               <h6 className='sub-title'>Pre-Sale &amp; Values</h6>
               <h2 className='title'>Tokens Sale</h2>
-              <p
-                className='content-desc animated'
-                data-animation='fadeInUpShorter'
-                data-animation-delay='0.4s'
-              >
-                The first token sale (also known as an ICO) was held by
-                Mastercoin in
-                <br className='d-none d-xl-block' />
-                July 2013. Ethereum raised money with a token sale in 2014.
-              </p>
             </div>
             <div className='row align-items-center'>
               <div
@@ -42,7 +32,7 @@ const TokenSale = () => {
                 data-animation-delay='0.6s'
               >
                 <div className='token-sale-counter'>
-                  <h5>ICO will start in</h5>
+                  <h5>Locking Profit</h5>
                   <div className='token-details text-center'>
                     <div className='clock-counter mb-4'>
                       <div className='clock ml-0 mt-5 d-flex justify-content-center'></div>
@@ -76,7 +66,7 @@ const TokenSale = () => {
                         </div>
                         <div className='progress-bottom'>
                           {/* <div className='progress-info'>65% target raised</div> */}
-                          <div className='progress-info'>1 DEFITT = $1000 = 3177.38 CIC</div>
+                          <div className='progress-info'>1 DEFITT = $10</div>
                         </div>
                       </div>
                     </div>

@@ -75,7 +75,7 @@ const Footer = (props) => {
                     >
                       <a
                         target='_blank'
-                        href='https://www.instagram.com/defi.tt_/'
+                        href='https://www.instagram.com/defi.tt/'
                         title='Instagram'
                         className='btn font-medium'
                       >

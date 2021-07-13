@@ -383,7 +383,7 @@ const Solutions = () => {
               </div>
             </div>
           </div>
-          <div id='defiswiprecard' className='solutions mt-5'>
+          <div id='defiswipecard' className='solutions mt-5'>
             <div className='row'>
               <div className='col-md-12 col-lg-6 text-center' style={{margin:'auto 0'}}>
                 <div className="problem-img-holder">
