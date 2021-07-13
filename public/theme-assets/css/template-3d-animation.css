@@ -4590,14 +4590,17 @@ p {
   .about .content-area .what-is-crypto-img {
     text-align : center;
   }
+  .what-is-crypto-img img {
+    max-width: 380px;
+  }
   .about .content-area .play-video {
-    top : 75%;
-    left : 53%;
+    top: 49%;
+    left: 33%;
   }
   .about .content-area .play-video .play {
-    padding : 0.75rem !important;
-    height : 50px;
-    width : 50px;
+    padding: 1.15rem !important;
+    height: 60px;
+    width: 60px;
   }
   .about .content-area .play-video .play i {
     font-size : 1.5rem;
@@ -4756,7 +4759,8 @@ p {
     text-align : center;
   }
   .about .content-area .play-video {
-    left : 52%;
+    left: 31.6%;
+    top: 49.5%;
   }
   .move-first {
     -webkit-box-ordinal-group : 0;
@@ -4827,7 +4831,8 @@ p {
     text-align : center;
   }
   .about .content-area .play-video {
-    left : 52%;
+    left: 37%;
+    top: 49%;
   }
   .move-first {
     -webkit-box-ordinal-group : 0;
@@ -4895,7 +4900,8 @@ p {
     width : 450px;
   }
   .about .content-area .play-video {
-    left : 54%;
+    left: 32%;
+    top: 49%;
   }
   .token-img img {
     width : 450px;
@@ -4929,5 +4935,15 @@ p {
 @media (min-width: 1200px) and (max-width: 1499.98px) {
   .svg-img {
     width : 570px;
+  }
+}
+@media (max-width: 425px){
+  .what-is-crypto-img img {
+    max-width: 300px;
+    margin: auto;
+  }
+  .about .content-area .play-video {
+    top: 49%;
+    left: 34%;
   }
 }
