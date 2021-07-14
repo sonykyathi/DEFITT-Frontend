@@ -28,31 +28,42 @@ const About = (props) => {
           </div>
           <div className='content-area'>
             <div className='row'>
-              <div className='col-md-12 col-lg-6' style={{margin:'auto 0'}}>
-              <p
-              className='content-desc animated'
-              data-animation='fadeInUpShorter'
-              data-animation-delay='0.4s'
-            >
-              Using FTT, exchanges can improve the below processes,<br/> associated
-              with the legacy financial system. Issues such as:
-              <br className='d-none d-xl-block' />
-            </p>
-              <ul className='app-features'>
+              <div className='col-md-12 col-lg-6' style={{ margin: 'auto 0' }}>
+                <p
+                  className='content-desc animated'
+                  data-animation='fadeInUpShorter'
+                  data-animation-delay='0.4s'
+                >
+                  Using FTT, exchanges can improve the below processes,
+                  <br /> associated with the legacy financial system. Issues
+                  such as:
+                  <br className='d-none d-xl-block' />
+                </p>
+                <ul className='app-features'>
                   <li className='dark-bg-text-color'>
-                    <span className=' white mr-3'>Transaction fees are poor and undesirable</span>
+                    <span className=' white mr-3'>
+                      Transaction fees are poor and undesirable
+                    </span>
                   </li>
                   <li className='dark-bg-text-color'>
-                    <span className=' white mr-3'>	Identifying the right payment providers for an exchange</span>
+                    <span className=' white mr-3'>
+                      {' '}
+                      Identifying the right payment providers for an exchange
+                    </span>
                   </li>
                   <li className='dark-bg-text-color'>
-                    <span className=' white mr-3'>Low the costs for minor value transfers are prohibitively expensive</span>
+                    <span className=' white mr-3'>
+                      Low the costs for minor value transfers are prohibitively
+                      expensive
+                    </span>
                   </li>
                   <li className='dark-bg-text-color'>
-                    <span className=' white mr-3'>Extremely low and unfavourable currency conversion costs</span>
+                    <span className=' white mr-3'>
+                      Extremely low and unfavourable currency conversion costs
+                    </span>
                   </li>
                 </ul>
-             
+
                 <p
                   className='content-desc animated'
                   data-animation='fadeInUpShorter'
@@ -101,7 +112,7 @@ const About = (props) => {
                     src='theme-assets/images/what-is-crypto.png'
                     alt='What is Crypto?'
                   />
-                  {/* <div className='play-video text-center'>
+                  <div className='play-video text-center'>
                     <a
                       href='#'
                       className='play rounded-circle btn-gradient-purple btn-glow video-btn'
@@ -112,7 +123,7 @@ const About = (props) => {
                       <i className='ti-control-play'></i>
                     </a>
                     <span className='mt-2 d-none d-md-block'>How it works</span>
-                  </div> */}
+                  </div>
                 </div>
               </div>
             </div>

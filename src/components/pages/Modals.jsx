@@ -26,7 +26,18 @@ const Modals = (props) => {
             </button>
             <div className='modal-body p-0'>
               <div className='embed-responsive embed-responsive-16by9'>
-                <iframe className='embed-responsive-item' id='video'></iframe>
+                <iframe
+                  autoplay
+                  id='video'
+                  className='embed-responsive-item'
+                  width='784'
+                  height='441'
+                  src='https://www.youtube.com/embed/_kJn-V80dvM'
+                  title='Defitt Teaser'
+                  frameborder='0'
+                  allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+                  allowfullscreen
+                ></iframe>
               </div>
             </div>
           </div>
