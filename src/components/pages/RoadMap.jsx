@@ -122,93 +122,184 @@ const RoadMap = () => {
         </div>
  */}
 
-
-
-        <div className="container">
-            <div className="row">
-                <div className="col-md-12">
-                    <div className="main-timeline">
-                        <div className="timeline">
-                            <div className="timeline-icon"><span className="year">5 June<br/>2021</span></div>
-                            <div className="timeline-content">
-                                {/* <h3 className="title">Web Desginer</h3> */}
-                                <div className="timeline-logo">
-                                  <img src="theme-assets/images/timeline/defi-play-without-bg.png" className="img-fluid" alt=""/>
-                                </div>
-                                <p className="description">Lets make some noise together.</p>
-                            </div>
-                        </div>
-                        <div className="timeline">
-                            <div className="timeline-icon"><span className="year">5 June<br/>2021</span></div>
-                            <div className="timeline-content">
-                                {/* <h3 className="title">Web Developer</h3> */}
-                                <div className="timeline-logo">
-                                  <img src="theme-assets/images/timeline/defi-startup.png" className="img-fluid" alt=""/>
-                                </div>
-                                <p className="description">Lets Bridge the gap.</p>
-                            </div>
-                        </div>
-
-                        <div className="timeline">
-                            <div className="timeline-icon"><span className="year">19 June<br/>2021</span></div>
-                            <div className="timeline-content">
-                                <div className="timeline-logo">
-                                  <img src="theme-assets/images/timeline/defi-tradx.png" className="img-fluid" alt=""/>
-                                </div>
-                                <p className="description">Lets trade with the wise asset - FIT.</p>
-                            </div>
-                        </div>
-                        <div className="timeline">
-                            <div className="timeline-icon"><span className="year">3 July<br/>2021</span></div>
-                            <div className="timeline-content">
-                                <div className="timeline-logo">
-                                  <img src="theme-assets/images/timeline/defi-kampus.png" className="img-fluid" alt=""/>
-                                </div>
-                                <p className="description">Let the future educate you with the technology.</p>
-                            </div>
-                        </div>
-                        <div className="timeline">
-                            <div className="timeline-icon"><span className="year">7 July<br/>2021</span></div>
-                            <div className="timeline-content">
-                                <div className="timeline-logo">
-                                  <img src="theme-assets/images/timeline/defi-nirvaana.png" className="img-fluid" alt=""/>
-                                </div>
-                                <p className="description">Your health is your wealth, use it wise with FTT.</p>
-                            </div>
-                        </div>
-                        <div className="timeline">
-                            <div className="timeline-icon"><span className="year">31 July<br/>2021</span></div>
-                            <div className="timeline-content">
-                                <div className="timeline-logo">
-                                  <img src="theme-assets/images/timeline/defi-landscape.png" className="img-fluid" alt=""/>
-                                </div>
-                                <p className="description">build your roof strong with base as FTT.</p>
-                            </div>
-                        </div>
-                        <div className="timeline">
-                            <div className="timeline-icon"><span className="year">14 Aug<br/>2021</span></div>
-                            <div className="timeline-content">
-                                <div className="timeline-logo">
-                                  <img src="theme-assets/images/timeline/defi-buzaar.png" className="img-fluid" alt=""/>
-                                </div>
-                                <p className="description">Shopping is now in your pocket</p>
-                            </div>
-                        </div>
-                        <div className="timeline">
-                            <div className="timeline-icon"><span className="year">28 Aug<br/>2021</span></div>
-                            <div className="timeline-content">
-                                <div className="timeline-logo">
-                                  <img src="theme-assets/images/timeline/defi-swipecard.png" className="img-fluid" alt=""/>
-                                </div>
-                                <p className="description">Its your one go need for cash anywhere on the planet earth.</p>
-                            </div>
-                        </div>
-
+        <div className='container'>
+          <div className='row'>
+            <div className='col-md-12'>
+              <div className='main-timeline'>
+                <div className='timeline'>
+                  <div className='timeline-icon'>
+                    <span className='year'>
+                      5 June
+                      <br />
+                      2021
+                    </span>
+                  </div>
+                  <div className='timeline-content'>
+                    {/* <h3 className="title">Web Desginer</h3> */}
+                    <div className='timeline-logo'>
+                      <img
+                        src='theme-assets/images/timeline/defi-play-without-bg.png'
+                        className='img-fluid'
+                        alt=''
+                      />
                     </div>
+                    <p className='description'>
+                      Lets make some noise together.
+                    </p>
+                  </div>
                 </div>
-            </div>
-        </div>
+                <div className='timeline'>
+                  <div className='timeline-icon'>
+                    <span className='year'>
+                      5th Aug
+                      <br />
+                      2021
+                    </span>
+                  </div>
+                  <div className='timeline-content'>
+                    {/* <h3 className="title">Web Developer</h3> */}
+                    <div className='timeline-logo'>
+                      <img
+                        src='theme-assets/images/timeline/defi-startup.png'
+                        className='img-fluid'
+                        alt=''
+                      />
+                    </div>
+                    <p className='description'>Lets Bridge the gap.</p>
+                  </div>
+                </div>
 
+                <div className='timeline'>
+                  <div className='timeline-icon'>
+                    <span className='year'>
+                      5th Sep
+                      <br />
+                      2021
+                    </span>
+                  </div>
+                  <div className='timeline-content'>
+                    <div className='timeline-logo'>
+                      <img
+                        src='theme-assets/images/timeline/defi-tradx.png'
+                        className='img-fluid'
+                        alt=''
+                      />
+                    </div>
+                    <p className='description'>
+                      Lets trade with the wise asset - FIT.
+                    </p>
+                  </div>
+                </div>
+                <div className='timeline'>
+                  <div className='timeline-icon'>
+                    <span className='year'>
+                      20th Sep
+                      <br />
+                      2021
+                    </span>
+                  </div>
+                  <div className='timeline-content'>
+                    <div className='timeline-logo'>
+                      <img
+                        src='theme-assets/images/timeline/defi-kampus.png'
+                        className='img-fluid'
+                        alt=''
+                      />
+                    </div>
+                    <p className='description'>
+                      Let the future educate you with the technology.
+                    </p>
+                  </div>
+                </div>
+                <div className='timeline'>
+                  <div className='timeline-icon'>
+                    <span className='year'>
+                      13th Oct
+                      <br />
+                      2021
+                    </span>
+                  </div>
+                  <div className='timeline-content'>
+                    <div className='timeline-logo'>
+                      <img
+                        src='theme-assets/images/timeline/defi-nirvaana.png'
+                        className='img-fluid'
+                        alt=''
+                      />
+                    </div>
+                    <p className='description'>
+                      Your health is your wealth, use it wise with FTT.
+                    </p>
+                  </div>
+                </div>
+                <div className='timeline'>
+                  <div className='timeline-icon'>
+                    <span className='year'>
+                      28th Oct
+                      <br />
+                      2021
+                    </span>
+                  </div>
+                  <div className='timeline-content'>
+                    <div className='timeline-logo'>
+                      <img
+                        src='theme-assets/images/timeline/defi-landscape.png'
+                        className='img-fluid'
+                        alt=''
+                      />
+                    </div>
+                    <p className='description'>
+                      build your roof strong with base as FTT.
+                    </p>
+                  </div>
+                </div>
+                <div className='timeline'>
+                  <div className='timeline-icon'>
+                    <span className='year'>
+                      13th Nov
+                      <br />
+                      2021
+                    </span>
+                  </div>
+                  <div className='timeline-content'>
+                    <div className='timeline-logo'>
+                      <img
+                        src='theme-assets/images/timeline/defi-buzaar.png'
+                        className='img-fluid'
+                        alt=''
+                      />
+                    </div>
+                    <p className='description'>
+                      Shopping is now in your pocket
+                    </p>
+                  </div>
+                </div>
+                <div className='timeline'>
+                  <div className='timeline-icon'>
+                    <span className='year'>
+                      13th Dec
+                      <br />
+                      2021
+                    </span>
+                  </div>
+                  <div className='timeline-content'>
+                    <div className='timeline-logo'>
+                      <img
+                        src='theme-assets/images/timeline/defi-swipecard.png'
+                        className='img-fluid'
+                        alt=''
+                      />
+                    </div>
+                    <p className='description'>
+                      Its your one go need for cash anywhere on the planet
+                      earth.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     </Fragment>
   );

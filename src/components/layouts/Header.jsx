@@ -18,7 +18,7 @@ const Header = (props) => {
               <img
                 src='theme-assets/images/d-logo.png'
                 alt='Crypto Logo'
-                className="img-fluid"
+                className='img-fluid'
                 // style={{ width: '100px' }}
               />
             </a>
@@ -90,7 +90,7 @@ const Header = (props) => {
                         href={`${process.env.REACT_APP_URL}/#defiplay`}
                         className='dropdown-item'
                       >
-                        Defi Play
+                        Dfitt Play
                       </a>
                       <a
                         href={`${process.env.REACT_APP_URL}/#defistartup`}
