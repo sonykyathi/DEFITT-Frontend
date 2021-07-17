@@ -1,6 +1,5 @@
 import React, { Fragment } from 'react';
 import { Link } from 'react-router-dom';
-import whitepaper from '../../assets/whitepaper.pdf';
 import PropTypes from 'prop-types';
 
 const Header = (props) => {
@@ -53,7 +52,7 @@ const Header = (props) => {
                     data-animation='fadeInDown'
                     data-animation-delay='1.3s'
                   >
-                    <a className='nav-link' href={whitepaper} target='_blank'>
+                    <a className='nav-link' href="assets/whitepaper.pdf" target='_blank'>
                       Whitepaper
                     </a>
                   </li>

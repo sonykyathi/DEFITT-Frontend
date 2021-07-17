@@ -2,7 +2,6 @@ import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
 import axios from 'axios';
 
-import whitepaper from '../../assets/whitepaper.pdf';
 import StripeCheckout from 'react-stripe-checkout';
 
 const HeadArea = (props) => {
@@ -66,7 +65,7 @@ const HeadArea = (props) => {
                         Purchase Token
                       </a>
                       <a
-                        href={whitepaper}
+                        href="assets/whitepaper.pdf"
                         target='_blank'
                         className='btn btn-lg btn-gradient-purple btn-glow mb-2 animated'
                         data-animation='fadeInUpShorter'
