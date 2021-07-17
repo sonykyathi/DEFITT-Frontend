@@ -31,7 +31,8 @@ const Header = (props) => {
               aria-expanded='false'
               aria-label='Toggle navigation'
             >
-              <span className='navbar-toggler-icon'></span>
+              {/* <span className='navbar-toggler-icon'></span> */}
+             <i className="fa fa-bars" aria-hidden="true"></i>
             </button>
             <div className='collapse navbar-collapse' id='navbarCollapse'>
               <div id='navigation' className='navbar-nav ml-auto'>

@@ -76,8 +76,7 @@ const HeadArea = (props) => {
                   </div>
                 </div>
                 <div className='col-lg-6 col-md-12 move-first'>
-                  <div id='svg-animation' style={{width:'400px'}}>
-                    
+                  <div id='svg-animation' className="text-center">
                     <img src='theme-assets/images/defi-coin-logo.png' className="img-fluid cic-logo-animation hero-coin" data-animation="fadeInUpShortest" data-animation-delay="2.4s" preserveAspectRatio="xMidYMid slice" alt=""/>
                   </div>
                 </div>
