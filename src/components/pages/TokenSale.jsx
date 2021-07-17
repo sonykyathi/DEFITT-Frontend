@@ -24,16 +24,6 @@ const TokenSale = () => {
             <div className='heading text-center'>
               <h6 className='sub-title'>Pre-Sale &amp; Values</h6>
               <h2 className='title'>Tokens Sale</h2>
-              <p
-                className='content-desc animated'
-                data-animation='fadeInUpShorter'
-                data-animation-delay='0.4s'
-              >
-                The first token sale (also known as an ICO) was held by
-                Mastercoin in
-                <br className='d-none d-xl-block' />
-                July 2013. Ethereum raised money with a token sale in 2014.
-              </p>
             </div>
             <div className='row align-items-center'>
               <div
@@ -42,7 +32,7 @@ const TokenSale = () => {
                 data-animation-delay='0.6s'
               >
                 <div className='token-sale-counter'>
-                  <h5>ICO will start in</h5>
+                  <h5>Locking Profit</h5>
                   <div className='token-details text-center'>
                     <div className='clock-counter mb-4'>
                       <div className='clock ml-0 mt-5 d-flex justify-content-center'></div>
@@ -76,17 +66,17 @@ const TokenSale = () => {
                         </div>
                         <div className='progress-bottom'>
                           {/* <div className='progress-info'>65% target raised</div> */}
-                          <div className='progress-info'>1 DEFITT = $1000 = 3177.38 CIC</div>
+                          <div className='progress-info'>1 DEFITT = $10</div>
                         </div>
                       </div>
                     </div>
-                      <a
-                        href={process.env.REACT_APP_ADMIN_URL}
-                         target='_blank'
-                        className='btn btn-lg btn-glow btn-gradient-blue'
-                      >
-                        Purchase Token
-                      </a>
+                    <a
+                      href={process.env.REACT_APP_ADMIN_URL}
+                      target='_blank'
+                      className='btn btn-lg btn-glow btn-gradient-blue'
+                    >
+                      Purchase Token
+                    </a>
                   </div>
                 </div>
               </div>
@@ -114,12 +104,12 @@ const TokenSale = () => {
                         <strong className='white'>5 June 2021</strong>
                       </li>
                       <li>
-                        DefiStartup{' '}
-                        <strong className='white'>5 June 2021</strong>
+                        Defi Startup{' '}
+                        <strong className='white'>5th Aug 2021</strong>
                       </li>
                       <li>
                         Defi TradX{' '}
-                        <strong className='white'>19 June 2021</strong>
+                        <strong className='white'>5th Sep 2021</strong>
                       </li>
                     </ul>
                   </div>
@@ -127,15 +117,15 @@ const TokenSale = () => {
                     <ul className='token-sale-info'>
                       <li>
                         Defi Kampus{' '}
-                        <strong className='white'>3 July 2021</strong>
+                        <strong className='white'>20th Sep 2021</strong>
                       </li>
                       <li>
                         Defi NIRVAANA{' '}
-                        <strong className='white'>7 July 2021</strong>
+                        <strong className='white'>13th Oct 2021</strong>
                       </li>
                       <li>
                         Defi Landscape{' '}
-                        <strong className='white'>31 July 2021</strong>
+                        <strong className='white'>28th Oct 2021</strong>
                       </li>
                     </ul>
                   </div>
@@ -144,7 +134,6 @@ const TokenSale = () => {
             </div>
           </div>
         </div>
-     
       </section>
     </Fragment>
   );

@@ -3,9 +3,7 @@ import React, { Fragment } from 'react';
 const Solutions = () => {
   return (
     <Fragment>
-      <section
-        className='problem-solution section-pro section-padding '
-      >
+      <section className='problem-solution section-pro section-padding '>
         <div className='container'>
           <div className='heading text-center'>
             <div
@@ -28,7 +26,7 @@ const Solutions = () => {
               standard on Binance Smart Chain that gives it access to the world.
             </p>
           </div>
-          <div   id='defiplay' className='problems'>
+          <div id='defiplay' className='problems'>
             <div className='row'>
               <div className='col-md-12 col-lg-6'>
                 <div className='heading mb-4'>
@@ -37,7 +35,7 @@ const Solutions = () => {
                     data-animation='fadeInUpShorter'
                     data-animation-delay='0.2s'
                   >
-                    Defi Play
+                    Dfitt Play
                   </h4>
                 </div>
                 <p
@@ -61,8 +59,11 @@ const Solutions = () => {
                   cohesive framework.
                 </p>
               </div>
-              <div className='col-md-12 col-lg-6 text-center' style={{margin:'auto 0'}}>
-                <div className="problem-img-holder">
+              <div
+                className='col-md-12 col-lg-6 text-center'
+                style={{ margin: 'auto 0' }}
+              >
+                <div className='problem-img-holder'>
                   <img
                     src='theme-assets/images/timeline/defi-play-without-bg.png'
                     className='problems-img animated'
@@ -76,8 +77,11 @@ const Solutions = () => {
           </div>
           <div id='defistartup' className='solutions mt-5'>
             <div className='row'>
-              <div className='col-md-12 col-lg-6 text-center' style={{margin:'auto 0'}}>
-                <div className="problem-img-holder">
+              <div
+                className='col-md-12 col-lg-6 text-center'
+                style={{ margin: 'auto 0' }}
+              >
+                <div className='problem-img-holder'>
                   <img
                     src='theme-assets/images/timeline/defi-startup.png'
                     className='solutions-img animated'
@@ -131,7 +135,7 @@ const Solutions = () => {
               </div>
             </div>
           </div>
-          <div  id='defitradx' className='problems'>
+          <div id='defitradx' className='problems'>
             <div className='row'>
               <div className='col-md-12 col-lg-6'>
                 <div className='heading mb-4'>
@@ -164,8 +168,11 @@ const Solutions = () => {
                   cohesive framework.
                 </p>
               </div>
-              <div className='col-md-12 col-lg-6 text-center' style={{margin:'auto 0'}}>
-                <div className="problem-img-holder">
+              <div
+                className='col-md-12 col-lg-6 text-center'
+                style={{ margin: 'auto 0' }}
+              >
+                <div className='problem-img-holder'>
                   <img
                     src='theme-assets/images/timeline/defi-tradx.png'
                     className='problems-img animated'
@@ -177,17 +184,20 @@ const Solutions = () => {
               </div>
             </div>
           </div>
-          <div id='defikampus'  className='solutions mt-5'>
+          <div id='defikampus' className='solutions mt-5'>
             <div className='row'>
-              <div className='col-md-12 col-lg-6 text-center' style={{margin:'auto 0'}}>
-                <div className="problem-img-holder">
+              <div
+                className='col-md-12 col-lg-6 text-center'
+                style={{ margin: 'auto 0' }}
+              >
+                <div className='problem-img-holder'>
                   <img
-                      src='theme-assets/images/timeline/defi-kampus.png'
-                      className='solutions-img animated'
-                      data-animation='fadeInUpShorter'
-                      data-animation-delay='0.5s'
-                      alt='problems-graphic'
-                    />
+                    src='theme-assets/images/timeline/defi-kampus.png'
+                    className='solutions-img animated'
+                    data-animation='fadeInUpShorter'
+                    data-animation-delay='0.5s'
+                    alt='problems-graphic'
+                  />
                 </div>
               </div>
               <div className='col-md-12 col-lg-6 move-first'>
@@ -267,8 +277,11 @@ const Solutions = () => {
                   cohesive framework.
                 </p>
               </div>
-              <div className='col-md-12 col-lg-6 text-center' style={{margin:'auto 0'}}>
-                <div className="problem-img-holder">
+              <div
+                className='col-md-12 col-lg-6 text-center'
+                style={{ margin: 'auto 0' }}
+              >
+                <div className='problem-img-holder'>
                   <img
                     src='theme-assets/images/timeline/defi-nirvaana.png'
                     className='problems-img animated'
@@ -282,8 +295,11 @@ const Solutions = () => {
           </div>
           <div id='defilandscape' className='solutions mt-5'>
             <div className='row'>
-              <div className='col-md-12 col-lg-6 text-center' style={{margin:'auto 0'}}>
-                <div className="problem-img-holder">
+              <div
+                className='col-md-12 col-lg-6 text-center'
+                style={{ margin: 'auto 0' }}
+              >
+                <div className='problem-img-holder'>
                   <img
                     src='theme-assets/images/timeline/defi-landscape.png'
                     className='solutions-img animated'
@@ -370,8 +386,11 @@ const Solutions = () => {
                   cohesive framework.
                 </p>
               </div>
-              <div className='col-md-12 col-lg-6 text-center' style={{margin:'auto 0'}}>
-                <div className="problem-img-holder">
+              <div
+                className='col-md-12 col-lg-6 text-center'
+                style={{ margin: 'auto 0' }}
+              >
+                <div className='problem-img-holder'>
                   <img
                     src='theme-assets/images/timeline/defi-buzaar.png'
                     className='problems-img animated'
@@ -383,10 +402,13 @@ const Solutions = () => {
               </div>
             </div>
           </div>
-          <div id='defiswiprecard' className='solutions mt-5'>
+          <div id='defiswipecard' className='solutions mt-5'>
             <div className='row'>
-              <div className='col-md-12 col-lg-6 text-center' style={{margin:'auto 0'}}>
-                <div className="problem-img-holder">
+              <div
+                className='col-md-12 col-lg-6 text-center'
+                style={{ margin: 'auto 0' }}
+              >
+                <div className='problem-img-holder'>
                   <img
                     src='theme-assets/images/timeline/defi-swipecard.png'
                     className='solutions-img animated'
@@ -440,7 +462,6 @@ const Solutions = () => {
               </div>
             </div>
           </div>
-       
         </div>
       </section>
     </Fragment>

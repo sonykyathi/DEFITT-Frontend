@@ -1,6 +1,5 @@
 import React, { Fragment } from 'react';
 import { Link } from 'react-router-dom';
-import whitepaper from '../../assets/whitepaper.pdf';
 import PropTypes from 'prop-types';
 
 const Header = (props) => {
@@ -18,7 +17,7 @@ const Header = (props) => {
               <img
                 src='theme-assets/images/d-logo.png'
                 alt='Crypto Logo'
-                className="img-fluid"
+                className='img-fluid'
                 // style={{ width: '100px' }}
               />
             </a>
@@ -54,7 +53,7 @@ const Header = (props) => {
                     data-animation='fadeInDown'
                     data-animation-delay='1.3s'
                   >
-                    <a className='nav-link' href={whitepaper} target='_blank'>
+                    <a className='nav-link' href="assets/whitepaper.pdf" target='_blank'>
                       Whitepaper
                     </a>
                   </li>
@@ -91,7 +90,7 @@ const Header = (props) => {
                         href={`${process.env.REACT_APP_URL}/#defiplay`}
                         className='dropdown-item'
                       >
-                        Defi Play
+                        Dfitt Play
                       </a>
                       <a
                         href={`${process.env.REACT_APP_URL}/#defistartup`}
