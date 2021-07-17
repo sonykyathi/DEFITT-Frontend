@@ -2415,6 +2415,9 @@ svg#loader g:last-child circle {
   font-weight : 300;
   text-transform : uppercase;
 }
+.page-header{
+  min-height: 75px;
+}
 .navbar.navbar-dark {
   min-height : 65px;
 }
@@ -2425,7 +2428,8 @@ svg#loader g:last-child circle {
   width : 100%;
   z-index : 999;
   background : transparent;
-  padding : 1.2rem 0;
+  padding : 0 0;
+  margin: 0;
   -webkit-transition : all 0.5s ease;
        -o-transition : all 0.5s ease;
      -moz-transition : all 0.5s ease;
@@ -2557,17 +2561,38 @@ header .navbar.navbar-shadow {
     padding : 0.21rem 1rem;
   }
   .main-menu.navbar .navbar-toggler {
-    margin-right : 1rem;
-    border-color : rgba(255, 255, 255, 0.7);
+    margin: 0;
+    margin-right: 15px;
+    background: linear-gradient(32deg, #FF4137, #FDC800);
+    border: none;
+    padding: 10px 14px;
+    border-radius: 8px;
+  }
+  .main-menu.navbar .navbar-toggler i{
+    font-size: 24px;
+    line-height: 20px;
+    color: #ffffff;
   }
   .main-menu.navbar div.navbar-nav {
-    padding : 1rem 1.5rem;
+    padding: 1rem 1.5rem;
+    background: linear-gradient(45deg, rgb(41 190 255 / 100%), rgb(28 118 254 / 100%));
+    border-radius: 8px;
+    max-width: calc(100% - 20px);
+    margin: auto;
   }
   .main-menu.navbar div.navbar-nav .dropdown {
     padding : 0 !important;
   }
   .main-menu.navbar div.navbar-nav .nav-link {
-    padding : 0.40rem 0.65rem;
+    padding : 0.6rem 0.65rem;
+  }
+  .navbar .dropdown a {
+    padding: 0.6rem 0.65rem;
+    display: block;
+  }
+  .navbar .dropdown .dropdown-menu {
+    margin: 0;
+    margin-bottom: 12px;
   }
 }
 
@@ -2604,6 +2629,8 @@ header .navbar.navbar-shadow {
 }
 .hero-coin{
   filter: drop-shadow(0px 2px 16px rgb(160 74 206 / 50%));
+  max-width: 400px;
+  width: 100%;
 }
 
 /* 	About section : about content, image and play button css */
@@ -4405,7 +4432,7 @@ header .navbar.navbar-fixed {
 }
 
 header .navbar .dropdown .dropdown-menu .dropdown-item {
-  color : #7D7D7D;
+  color : #7d7d7d;
 }
 
 #navigation #slide-line {
