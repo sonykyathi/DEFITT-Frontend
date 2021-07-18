@@ -11,10 +11,8 @@ const Solutions = () => {
               data-animation='fadeInUpShorter'
               data-animation-delay='0.3s'
             >
-              <h6 className='sub-title'>Vision</h6>
-              <h2 className='title'>
-                Our Projects &amp; <strong>Vision</strong>
-              </h2>
+              <h6 className='sub-title'>Our Projects</h6>
+              <h2 className='title'>Our Projects</h2>
             </div>
             <p
               className='content-desc animated'
@@ -24,6 +22,28 @@ const Solutions = () => {
               DEFItt intends to lead the market for decentralised finance.
               <br className='d-none d-xl-block' />A decentralised BEP-20 token
               standard on Binance Smart Chain that gives it access to the world.
+            </p>
+          </div>
+          <div className='heading text-center'>
+            <div
+              className='animated'
+              data-animation='fadeInUpShorter'
+              data-animation-delay='0.3s'
+            >
+              <h6 className='sub-title'>VISION</h6>
+              <h2 className='title'>VISION</h2>
+            </div>
+            <p
+              className='content-desc animated'
+              data-animation='fadeInUpShorter'
+              data-animation-delay='0.4s'
+            >
+              DEFItt intends to lead the market for decentralised finance. A
+              decentralised BEP-20 token standard on Binance Smart Chain.
+              <br className='d-none d-xl-block' />
+              This gives it access to the world to be the next alternative to
+              paper money. Defitt intends to have a greater inclusion by
+              educating people on the values of digital currency.
             </p>
           </div>
           <div id='defiplay' className='problems'>
@@ -43,20 +63,9 @@ const Solutions = () => {
                   data-animation='fadeInUpShorter'
                   data-animation-delay='0.4s'
                 >
-                  Different pieces of the new Internet are born as building
-                  blocks, but there’s no way for them to work together.
-                </p>
-                <p
-                  className='animated'
-                  data-animation='fadeInUpShorter'
-                  data-animation-delay='0.6s'
-                >
-                  Even interoperating new technologies with old centralised
-                  resources can prove useful in making the paradigm shift from
-                  Web 2 to Web 3 happen. Now we own our data, we can prove that
-                  we own what we have and have created it on different
-                  platforms, but how do we put it together into a whole new
-                  cohesive framework.
+                  A GAMING EXPERIENCE THAT WILL BLOW THE MINDS OF THE GAMING
+                  FANS. AN EASY INTERFACE WITH 500 PLUS WIDE RANGE OF GAMES TO
+                  CHOOSE FROM, INCLUDING CASINO, BETTING AND LIVE GAMES{' '}
                 </p>
               </div>
               <div
@@ -106,31 +115,12 @@ const Solutions = () => {
                   data-animation='fadeInUpShorter'
                   data-animation-delay='0.5s'
                 >
-                  DEFItt is a BEP-20 token built on Binance Smart Chain that
-                  leverages the power of most Binance Smart Chain capabilities,
-                  interoperability, and continual innovation.
-                </p>
-                <p
-                  className='animated'
-                  data-animation='fadeInUpShorter'
-                  data-animation-delay='0.7s'
-                >
-                  It is stored in a Binance Smart Chain (BSC) address and may be
-                  accessed or stored by anybody who has a BSC address. DEFItt
-                  may be accessed using any BSC wallet framework or wallet
-                  website that supports the BEP-20 coin. DEFItt is automatically
-                  valid for all standard BEP-20 token functions, like transfer
-                  and approval.
-                </p>
-                <p
-                  className='animated'
-                  data-animation='fadeInUpShorter'
-                  data-animation-delay='0.7s'
-                >
-                  There is a one-year staking period during which you cannot
-                  sell or convert to another Token. It is also an investment
-                  instrument that allows investors to benefit. After the staking
-                  time, users can transmit, receive, trade, and sell DEFIt.
+                  If you have dreamt of being an entrepreneur and have it what
+                  it takes to be successful then we are there for you. Your
+                  project can yield you the results that you have been looking
+                  for. Submit your project with us and we shall connect you to
+                  the right investors who would help you financially and
+                  strategically.
                 </p>
               </div>
             </div>
@@ -152,20 +142,17 @@ const Solutions = () => {
                   data-animation='fadeInUpShorter'
                   data-animation-delay='0.4s'
                 >
-                  Different pieces of the new Internet are born as building
-                  blocks, but there’s no way for them to work together.
+                  A one of a kind exchange where you can interchange crypto with
+                  other trading materials Buy sell on our exchange, the market
+                  will determine the worth of it.
                 </p>
                 <p
                   className='animated'
                   data-animation='fadeInUpShorter'
-                  data-animation-delay='0.6s'
+                  data-animation-delay='0.4s'
                 >
-                  Even interoperating new technologies with old centralised
-                  resources can prove useful in making the paradigm shift from
-                  Web 2 to Web 3 happen. Now we own our data, we can prove that
-                  we own what we have and have created it on different
-                  platforms, but how do we put it together into a whole new
-                  cohesive framework.
+                  You can convert to any other other crypto currency you want to
+                  - BTC / ETH / BNB and so on Easy interface for user experience
                 </p>
               </div>
               <div
@@ -215,31 +202,18 @@ const Solutions = () => {
                   data-animation='fadeInUpShorter'
                   data-animation-delay='0.5s'
                 >
-                  DEFItt is a BEP-20 token built on Binance Smart Chain that
-                  leverages the power of most Binance Smart Chain capabilities,
-                  interoperability, and continual innovation.
+                  Learn, Vocational Courses, Earn a Diploma and Degree with Defi
+                  Kampus. Get access to our online classes world wide. Learn
+                  whenever and whatever you always wanted to learn in your life.
                 </p>
                 <p
                   className='animated'
                   data-animation='fadeInUpShorter'
                   data-animation-delay='0.7s'
                 >
-                  It is stored in a Binance Smart Chain (BSC) address and may be
-                  accessed or stored by anybody who has a BSC address. DEFItt
-                  may be accessed using any BSC wallet framework or wallet
-                  website that supports the BEP-20 coin. DEFItt is automatically
-                  valid for all standard BEP-20 token functions, like transfer
-                  and approval.
-                </p>
-                <p
-                  className='animated'
-                  data-animation='fadeInUpShorter'
-                  data-animation-delay='0.7s'
-                >
-                  There is a one-year staking period during which you cannot
-                  sell or convert to another Token. It is also an investment
-                  instrument that allows investors to benefit. After the staking
-                  time, users can transmit, receive, trade, and sell DEFIt.
+                  Our Kampus provides access to Universities and Colleges around
+                  the world. Get your Diploma/Degree and show the world that it
+                  is easy to achieve.
                 </p>
               </div>
             </div>
@@ -261,20 +235,40 @@ const Solutions = () => {
                   data-animation='fadeInUpShorter'
                   data-animation-delay='0.4s'
                 >
-                  Different pieces of the new Internet are born as building
-                  blocks, but there’s no way for them to work together.
+                  Healthcare at one go.
                 </p>
                 <p
                   className='animated'
                   data-animation='fadeInUpShorter'
                   data-animation-delay='0.6s'
                 >
-                  Even interoperating new technologies with old centralised
-                  resources can prove useful in making the paradigm shift from
-                  Web 2 to Web 3 happen. Now we own our data, we can prove that
-                  we own what we have and have created it on different
-                  platforms, but how do we put it together into a whole new
-                  cohesive framework.
+                  Worldwide access to the best Doctors, Hospitals and
+                  nutritional's. Cause health is all about eating good food and
+                  being active.
+                </p>
+                <p
+                  className='animated'
+                  data-animation='fadeInUpShorter'
+                  data-animation-delay='0.6s'
+                >
+                  Choose your own doctor or hospital and get everything done
+                  what needs to be done. We are taking care of the bills
+                </p>
+                <p
+                  className='animated'
+                  data-animation='fadeInUpShorter'
+                  data-animation-delay='0.6s'
+                >
+                  Search for the right treatment and get it done. With our
+                  community world wide we can provide the right place to be.
+                </p>
+                <p
+                  className='animated'
+                  data-animation='fadeInUpShorter'
+                  data-animation-delay='0.6s'
+                >
+                  You don’t have a daily or monthly limit on how much you will
+                  spend on healthcare. Unlimited access and no more
                 </p>
               </div>
               <div
@@ -324,31 +318,26 @@ const Solutions = () => {
                   data-animation='fadeInUpShorter'
                   data-animation-delay='0.5s'
                 >
-                  DEFItt is a BEP-20 token built on Binance Smart Chain that
-                  leverages the power of most Binance Smart Chain capabilities,
-                  interoperability, and continual innovation.
+                  You want to buy or sell a property in a foreign country? No
+                  problem with us! With FTT you are able to buy or sell any
+                  house or apartment all over the world with just one click.
                 </p>
                 <p
                   className='animated'
                   data-animation='fadeInUpShorter'
                   data-animation-delay='0.7s'
                 >
-                  It is stored in a Binance Smart Chain (BSC) address and may be
-                  accessed or stored by anybody who has a BSC address. DEFItt
-                  may be accessed using any BSC wallet framework or wallet
-                  website that supports the BEP-20 coin. DEFItt is automatically
-                  valid for all standard BEP-20 token functions, like transfer
-                  and approval.
+                  As from now on with FTT you are free in the decision where to
+                  buy your new home or vacation bungalow.
                 </p>
                 <p
                   className='animated'
                   data-animation='fadeInUpShorter'
                   data-animation-delay='0.7s'
                 >
-                  There is a one-year staking period during which you cannot
-                  sell or convert to another Token. It is also an investment
-                  instrument that allows investors to benefit. After the staking
-                  time, users can transmit, receive, trade, and sell DEFIt.
+                  Some financial institute don’t allow to transfer money abroad.
+                  There are restrictions on it. With FTT you have no boarders to
+                  overcome or explanations to anyone.
                 </p>
               </div>
             </div>
@@ -370,20 +359,11 @@ const Solutions = () => {
                   data-animation='fadeInUpShorter'
                   data-animation-delay='0.4s'
                 >
-                  Different pieces of the new Internet are born as building
-                  blocks, but there’s no way for them to work together.
-                </p>
-                <p
-                  className='animated'
-                  data-animation='fadeInUpShorter'
-                  data-animation-delay='0.6s'
-                >
-                  Even interoperating new technologies with old centralised
-                  resources can prove useful in making the paradigm shift from
-                  Web 2 to Web 3 happen. Now we own our data, we can prove that
-                  we own what we have and have created it on different
-                  platforms, but how do we put it together into a whole new
-                  cohesive framework.
+                  One stop e- Commerce solution for all your needs Get high
+                  quality products from the world to your door steps Get
+                  products and services ranging from flight bookings to grocery
+                  shopping We promote small and medium business into the world
+                  market
                 </p>
               </div>
               <div
@@ -433,31 +413,19 @@ const Solutions = () => {
                   data-animation='fadeInUpShorter'
                   data-animation-delay='0.5s'
                 >
-                  DEFItt is a BEP-20 token built on Binance Smart Chain that
-                  leverages the power of most Binance Smart Chain capabilities,
-                  interoperability, and continual innovation.
+                  Wherever Visa is accepted you are just one swipe away from
+                  your purchase The Visa Debit Card will offer you all
+                  possibilities to pay on daily basis! Unlimited all over the
+                  world.
                 </p>
                 <p
                   className='animated'
                   data-animation='fadeInUpShorter'
                   data-animation-delay='0.7s'
                 >
-                  It is stored in a Binance Smart Chain (BSC) address and may be
-                  accessed or stored by anybody who has a BSC address. DEFItt
-                  may be accessed using any BSC wallet framework or wallet
-                  website that supports the BEP-20 coin. DEFItt is automatically
-                  valid for all standard BEP-20 token functions, like transfer
-                  and approval.
-                </p>
-                <p
-                  className='animated'
-                  data-animation='fadeInUpShorter'
-                  data-animation-delay='0.7s'
-                >
-                  There is a one-year staking period during which you cannot
-                  sell or convert to another Token. It is also an investment
-                  instrument that allows investors to benefit. After the staking
-                  time, users can transmit, receive, trade, and sell DEFIt.
+                  Take the chance and go for a shopping with your loved once and
+                  bring a smile in the face just by having your swipe card on
+                  our side.
                 </p>
               </div>
             </div>
