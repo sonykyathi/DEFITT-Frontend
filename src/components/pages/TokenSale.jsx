@@ -22,8 +22,8 @@ const TokenSale = () => {
         <div className='token-sale'>
           <div className='container'>
             <div className='heading text-center'>
-              <h6 className='sub-title'>Pre-Sale &amp; Values</h6>
-              <h2 className='title'>Tokens Sale</h2>
+              <h6 className='sub-title'>INVESTMENT</h6>
+              <h2 className='title'>INVESTMENT PROFITABILITY</h2>
             </div>
             <div className='row align-items-center'>
               <div

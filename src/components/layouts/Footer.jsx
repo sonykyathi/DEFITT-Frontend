@@ -17,13 +17,11 @@ const Footer = (props) => {
                     className='footer-logo title animated'
                     data-animation='fadeInUpShorter'
                     data-animation-delay='0.2s'
-                  > <a  href={`${process.env.REACT_APP_URL}/#head-area`}>
-
-                    <img
-                      src='theme-assets/images/logo.png'
-                      alt='Logo'
-                    />
-                  </a>
+                  >
+                    {' '}
+                    <a href={`${process.env.REACT_APP_URL}/#head-area`}>
+                      <img src='theme-assets/images/logo.png' alt='Logo' />
+                    </a>
                   </div>
                   <div
                     className='about-text animated'
@@ -165,15 +163,6 @@ const Footer = (props) => {
                     </li>
                   </ul>
                   <ul className='useful-links'>
-                    <li
-                      className='animated'
-                      data-animation='fadeInUpShorter'
-                      data-animation-delay='0.9s'
-                    >
-                      <a href={`${process.env.REACT_APP_URL}/#roadmap`}>
-                        Roadmap
-                      </a>
-                    </li>
                     <li
                       className='animated'
                       data-animation='fadeInUpShorter'

@@ -19,7 +19,9 @@ export class DefittMap extends Component {
     );
   }
 }
-
+// apiKey: 'AIzaSyAFqYcOAXvHbAkqX_bsSSqBTgWJeR1auYU',  {Abdul's testing Key.!}
 export default GoogleApiWrapper({
-  apiKey: 'AIzaSyAFqYcOAXvHbAkqX_bsSSqBTgWJeR1auYU',
+  apiKey: 'AIzaSyBx3z5m5IkSTc648y-DMXqkHrJdNpzPqtQ',
 })(DefittMap);
+
+// AIzaSyBx3z5m5IkSTc648y-DMXqkHrJdNpzPqtQ

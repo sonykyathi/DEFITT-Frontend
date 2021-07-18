@@ -50,7 +50,7 @@ const HeadArea = (props) => {
                       data-animation='fadeInUpShorter'
                       data-animation-delay='1.6s'
                     >
-                      DEFItt a part of the future of money{' '}
+                      The future of decentralization{' '}
                       <br className='d-none d-xl-block' />
                       {/* merchants and affiliates. */}
                     </h3>
@@ -77,9 +77,21 @@ const HeadArea = (props) => {
                   </div>
                 </div>
                 <div className='col-lg-6 col-md-12 move-first'>
-                  <div id='svg-animation' className="text-center">
-                    <img src='theme-assets/images/defi-coin-logo.png' className="img-fluid cic-logo-animation hero-coin" data-animation="fadeInUpShortest" data-animation-delay="2.4s" preserveAspectRatio="xMidYMid slice" alt=""/>
 
+                  <div
+                    id='svg-animation'
+                    style={{ width: '300px', margin: '0 auto' }}
+                  >
+                    <a href='theme-assets/images/logo-200.jpg' target='_blank'>
+                      <img
+                        src='theme-assets/images/defi-coin-logo.png'
+                        className='img-fluid cic-logo-animation hero-coin'
+                        data-animation='fadeInUpShortest'
+                        data-animation-delay='2.4s'
+                        preserveAspectRatio='xMidYMid slice'
+                        alt=''
+                      />
+                    </a>
                   </div>
                 </div>
               </div>

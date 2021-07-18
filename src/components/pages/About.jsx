@@ -12,92 +12,54 @@ const About = (props) => {
               data-animation='fadeInUpShorter'
               data-animation-delay='0.3s'
             >
-              <h6 className='sub-title'>Utilization</h6>
+              <h6 className='sub-title'>About</h6>
               <a target='_blank' href='https://ftttoken.com'>
-                <h2 className='title'>Utilization with DEFItt</h2>
+                <h2 className='title'>About</h2>
               </a>
             </div>
-            <p
+            {/* <p
               className='content-desc animated'
               data-animation='fadeInUpShorter'
               data-animation-delay='0.4s'
             >
               DEFItt a part of the future of money.
               <br className='d-none d-xl-block' />
-            </p>
+            </p> */}
           </div>
           <div className='content-area'>
             <div className='row'>
               <div className='col-md-12 col-lg-6' style={{ margin: 'auto 0' }}>
-                <p
-                  className='content-desc animated'
-                  data-animation='fadeInUpShorter'
-                  data-animation-delay='0.4s'
-                >
-                  Using FTT, exchanges can improve the below processes,
-                  <br /> associated with the legacy financial system. Issues
-                  such as:
-                  <br className='d-none d-xl-block' />
-                </p>
                 <ul className='app-features'>
                   <li className='dark-bg-text-color'>
                     <span className=' white mr-3'>
-                      Transaction fees are poor and undesirable
+                      DEFItt is a solution that allows you to enjoy success and
+                      inspired experiences while also assisting you in becoming
+                      venture financed with greater benefits and fewer risks.
+                      DEFItt serves as your companion token for gaining access
+                      to the fiat world. For an investor, this is a
+                      once-in-a-lifetime opportunity, the one opportunity, and a
+                      well-planned approach. The result will be a modernised
+                      token that flourishes as a consequence of exposure to a
+                      well-thought-out strategy capable of dealing with
+                      difficulties as well as pressures. After a one-year
+                      stacking period, you will be able to convert into our
+                      Fiat-pegged Financial Tech Token -FTT, where you will be
+                      able to utilize all of our verticals. See www.DEFItt.org
+                      for more details. DEFItt will only sell 100 Million
+                      tokens, increasing its value
                     </span>
-                  </li>
-                  <li className='dark-bg-text-color'>
-                    <span className=' white mr-3'>
-                      {' '}
-                      Identifying the right payment providers for an exchange
-                    </span>
-                  </li>
-                  <li className='dark-bg-text-color'>
-                    <span className=' white mr-3'>
-                      Low the costs for minor value transfers are prohibitively
-                      expensive
-                    </span>
-                  </li>
-                  <li className='dark-bg-text-color'>
-                    <span className=' white mr-3'>
-                      Extremely low and unfavourable currency conversion costs
-                    </span>
-                  </li>
-                </ul>
-
-                <p
-                  className='content-desc animated'
-                  data-animation='fadeInUpShorter'
-                  data-animation-delay='0.4s'
-                >
-                  Financial Tech Token-FTT has additional benefits; these are:
-                  <br className='d-none d-xl-block' />
-                </p>
-                <ul className='app-features'>
-                  <li className='dark-bg-text-color'>
-                    <span className=' white mr-3'>
-                      FTT tokens can be used in place of traditional currency
-                      deposit and withdrawal options
-                    </span>
-                  </li>
-                  <li className='dark-bg-text-color'>
-                    <span className=' white mr-3'>
-                      Instead of employing a traditional bank or payment
-                      provider, exchanges can accept crypto-¬fiats as a deposit,
-                      withdrawal, or storage option
-                    </span>
-                  </li>
-                  <li className='dark-bg-text-color'>
-                    <span className=' white mr-3'>
-                      Able to make customer assets save by using approved
-                      crypto¬-processes including multi signature security, cold
-                      and hot wallets, and more
-                    </span>
-                  </li>
-                  <li className='dark-bg-text-color'>
-                    <span className=' white mr-3'>
-                      Able to Conduct audits in a sole cryptosystem is simpler
-                      and more secure
-                    </span>
+                    <div className='row'>
+                      <div className='col-lg-12 col-md-6 text-center'>
+                        <a
+                          className='mt-2 btn btn-lg btn-gradient-purple btn-glow mb-2 animated'
+                          data-animation='fadeInUpShorter'
+                          href=''
+                          target='_blank'
+                        >
+                          explore defitt
+                        </a>
+                      </div>
+                    </div>
                   </li>
                 </ul>
               </div>
@@ -122,7 +84,7 @@ const About = (props) => {
                     >
                       <i className='ti-control-play'></i>
                     </a>
-                    <span className='mt-2 d-none d-md-block'>How it works</span>
+                    <span className='mt-2 d-none d-md-block'>FTT Coin</span>
                   </div>
                 </div>
               </div>

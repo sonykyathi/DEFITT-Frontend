@@ -123,6 +123,10 @@ const RoadMap = () => {
  */}
 
         <div className='container'>
+          <div className='heading text-center'>
+            <h6 className='sub-title'>Road Map</h6>
+            <h2 className='title'>Road Map</h2>
+          </div>
           <div className='row'>
             <div className='col-md-12'>
               <div className='main-timeline'>
@@ -168,7 +172,6 @@ const RoadMap = () => {
                     <p className='description'>Lets Bridge the gap.</p>
                   </div>
                 </div>
-
                 <div className='timeline'>
                   <div className='timeline-icon'>
                     <span className='year'>
