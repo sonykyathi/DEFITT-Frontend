@@ -1,8 +1,6 @@
 import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
 
-import whitepaper from '../../assets/whitepaper.pdf';
-
 const Footer = (props) => {
   return (
     <Fragment>
@@ -150,7 +148,7 @@ const Footer = (props) => {
                       data-animation='fadeInUpShorter'
                       data-animation-delay='0.7s'
                     >
-                      <a href={whitepaper} target='_blank'>
+                      <a href="assets/whitepaper.pdf" target='_blank'>
                         Whitepaper
                       </a>
                     </li>

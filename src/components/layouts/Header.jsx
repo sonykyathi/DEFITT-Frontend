@@ -1,6 +1,5 @@
 import React, { Fragment } from 'react';
 import { Link } from 'react-router-dom';
-import whitepaper from '../../assets/whitepaper.pdf';
 import PropTypes from 'prop-types';
 
 const Header = (props) => {
@@ -31,7 +30,8 @@ const Header = (props) => {
               aria-expanded='false'
               aria-label='Toggle navigation'
             >
-              <span className='navbar-toggler-icon'></span>
+              {/* <span className='navbar-toggler-icon'></span> */}
+             <i className="fa fa-bars" aria-hidden="true"></i>
             </button>
             <div className='collapse navbar-collapse' id='navbarCollapse'>
               <div id='navigation' className='navbar-nav ml-auto'>
@@ -53,7 +53,7 @@ const Header = (props) => {
                     data-animation='fadeInDown'
                     data-animation-delay='1.3s'
                   >
-                    <a className='nav-link' href={whitepaper} target='_blank'>
+                    <a className='nav-link' href="assets/whitepaper.pdf" target='_blank'>
                       Whitepaper
                     </a>
                   </li>
