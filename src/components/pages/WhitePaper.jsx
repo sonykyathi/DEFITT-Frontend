@@ -5,34 +5,7 @@ const Wallets = () => {
     <Fragment>
       <section id='whitepaper' className='whitepaper section-padding'>
         <div className='container'>
-          <div className='heading text-center'>
-            <h6 className='sub-title'>Wallets</h6>
-            <h2 className='title'>Wallets</h2>
-            <p
-              className='content-desc animated'
-              data-animation='fadeInUpShorter'
-              data-animation-delay='0.4s'
-            >
-              Cryptocurrencies like Bitcoin and
-              Ethereum have a lot of benefits
-              <br className='d-none d-xl-block' />
-              The most important is that they don’t require trust in an
-              intermediary organisation to send payments, enabling them to be
-              used by anybody around the world
-            </p>
-          </div>
           <div className='row'>
-            {/* <div className='col-lg-5 col-md-12'>
-              <div className='whitepaper-img'>
-                <img
-                  className='img-fluid animated'
-                  data-animation='fadeInUpShorter'
-                  data-animation-delay='0.6s'
-                  src='theme-assets/images/whitepaper.png'
-                  alt='whitepaper'
-                />
-              </div>
-            </div> */}
             <div className='col-lg-12 col-md-12'>
               <div className='content-area text-center'>
                 <h4
@@ -43,29 +16,44 @@ const Wallets = () => {
                   Exchanges and Wallets
                 </h4>
                 <p
-                  className='animated'
+                  className='animated text-white'
                   data-animation='fadeInUpShorter'
                   data-animation-delay='0.6s'
                 >
-                  We introduce Financial Tech Token –FTT a cryptographic token,
-                  completely collateralised by the U.S dollars, strictly pegged
-                  on a 1:1 ratio, issued by FIT TECHNOLOGIES UK LIMITED. The FTT
-                  is a stable coin that combines the US dollar's trustworthiness
-                  and price stability with the technological advantages of a
-                  cryptocurrency.
+                  Cryptocurrency is gaining popularity throughout the world,
+                  with recent innovation in the United States and elsewhere, and
+                  emerging economies leading the trends. According to studies,
+                  blockchain technology is expected to contribute significantly
+                  to global GDP by 2030.
                 </p>
                 <p
-                  className='animated'
+                  className='animated text-white'
                   data-animation='fadeInUpShorter'
                   data-animation-delay='0.7s'
                 >
-                  Deployed on the Binance Smart Chain Network and compliant with
-                  the BEP-20 standard for tokens. As a BEP-20 compliant token,
-                  the FTT can be transferred on the Binance Smart Chain Network.
-                  FTT is created at the time of purchase on the FTT platform and
-                  redeemed or "destroyed" at the time of sale on the FTT
-                  platform.
+                  A cryptocurrency is a type of digital or virtual currency that
+                  is encrypted to track transactions and prevent counterfeiting.
                 </p>
+                <p
+                  className='animated text-white'
+                  data-animation='fadeInUpShorter'
+                  data-animation-delay='0.7s'
+                >
+                  Transfers are encrypted using either public or private keys
+                  and are directly linked to the user's digital wallet.
+                </p>
+                <p
+                  className='animated text-white'
+                  data-animation='fadeInUpShorter'
+                  data-animation-delay='0.7s'
+                >
+                  Unlike traditional currencies, it is not distributed by a
+                  single company and is not vulnerable to government
+                  intervention or manipulation. It also offers several
+                  advantages, such as increased mobility, transferability,
+                  inflation resilience, and visibility.
+                </p>
+
                 <div className='whitepaper-languages'>
                   <div className='row'>
                     <div
@@ -75,7 +63,7 @@ const Wallets = () => {
                     >
                       <a href='javascript:void(0);' title='METAMASK'>
                         <img
-                        width='60px'
+                          width='60px'
                           src='theme-assets/images/metamask.png'
                           alt='METAMASK'
                         />
@@ -92,7 +80,7 @@ const Wallets = () => {
                     >
                       <a href='javascript:void(0);' title='Trust wallet'>
                         <img
-                        width='60px'
+                          width='60px'
                           src='theme-assets/images/trust.png'
                           alt='Trust wallet'
                         />
@@ -109,13 +97,13 @@ const Wallets = () => {
                     >
                       <a href='javascript:void(0);' title='Binance Wallet'>
                         <img
-                        width='60px'
+                          width='60px'
                           src='theme-assets/images/binance-wallet.png'
                           alt='Binance Wallet'
                         />
                         <div className='lang-text'>
                           <span className='icon ti-download mr-1'></span>
-                          <span className='language'>	Binance Wallet</span>
+                          <span className='language'> Binance Wallet</span>
                         </div>
                       </a>
                     </div>
@@ -126,13 +114,13 @@ const Wallets = () => {
                     >
                       <a href='javascript:void(0);' title='PancakeSwap'>
                         <img
-                        width='60px'
+                          width='60px'
                           src='theme-assets/images/pancakeswap.png'
                           alt='PancakeSwap'
                         />
                         <div className='lang-text'>
                           <span className='icon ti-download mr-1'></span>
-                          <span className='language'>	PancakeSwap</span>
+                          <span className='language'> PancakeSwap</span>
                         </div>
                       </a>
                     </div>

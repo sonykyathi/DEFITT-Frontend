@@ -2623,7 +2623,7 @@ svg#loader g:last-child circle {
   font-weight: 300;
   text-transform: uppercase;
 }
-.page-header{
+.page-header {
   min-height: 75px;
 }
 .navbar.navbar-dark {
@@ -2784,19 +2784,23 @@ header .navbar.navbar-shadow {
   .main-menu.navbar div.navbar-nav {
     margin: 0;
     margin-right: 15px;
-    background: linear-gradient(32deg, #FF4137, #FDC800);
+    background: linear-gradient(32deg, #ff4137, #fdc800);
     border: none;
     padding: 10px 14px;
     border-radius: 8px;
   }
-  .main-menu.navbar .navbar-toggler i{
+  .main-menu.navbar .navbar-toggler i {
     font-size: 24px;
     line-height: 20px;
     color: #ffffff;
   }
   .main-menu.navbar div.navbar-nav {
     padding: 1rem 1.5rem;
-    background: linear-gradient(45deg, rgb(41 190 255 / 100%), rgb(28 118 254 / 100%));
+    background: linear-gradient(
+      45deg,
+      rgb(41 190 255 / 100%),
+      rgb(28 118 254 / 100%)
+    );
     border-radius: 8px;
     max-width: calc(100% - 20px);
     margin: auto;
@@ -2814,7 +2818,6 @@ header .navbar.navbar-shadow {
   .navbar .dropdown .dropdown-menu {
     margin: 0;
     margin-bottom: 12px;
-
   }
 }
 
@@ -2830,7 +2833,7 @@ header .navbar.navbar-shadow {
   z-index: 6;
 }
 .banner-logo {
-  max-width: 120px;
+  max-width: 150px;
   margin-bottom: 20px;
 }
 .head-area .head-content h1 {
@@ -4884,7 +4887,6 @@ header .navbar.navbar-fixed {
 }
 
 header .navbar .dropdown .dropdown-menu .dropdown-item {
-
   color: #7d7d7d;
 }
 

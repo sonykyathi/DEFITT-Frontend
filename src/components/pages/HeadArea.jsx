@@ -23,12 +23,22 @@ const HeadArea = (props) => {
           <div className='container'>
             <div className='banner-wrapper'>
               <div className='row align-items-center'>
+                <div className='col-lg-12 col-md-6' style={{}}>
+                  <marquee className='text-white' scrollamount='8'>
+                    <span style={{ fontSize: 18 }}>
+                      1 Defitt = 10$ AND &nbsp;&nbsp;&nbsp;{' '}
+                    </span>{' '}
+                    <span style={{ fontSize: 18 }}>1 Ftt = 1$</span>
+                  </marquee>
+                </div>
+              </div>
+              <div className='row align-items-center'>
                 <div className='col-lg-6 col-md-12'>
                   <div className='banner-content pt-5'>
                     <div className='banner-logo'>
                       <img
                         src='theme-assets/images/logo.png'
-                        alt='Crypto Logo'
+                        alt='Defitt Logo'
                         className='img-fluid'
                       />
                     </div>
@@ -37,13 +47,23 @@ const HeadArea = (props) => {
                       data-animation='fadeInUpShorter'
                       data-animation-delay='1.5s'
                     >
-                      The best decentralised crypto with utility.
-                      <br />
-                      Buy, sell and spend DEFItt{' '}
+                      DEFItt intends to lead the market for decentralized
+                      finance. <br /> A decentralized BEP-20 token which gives
+                      it access to the world to be the next alternative to paper
+                      money.
+                    </h1>
+                    {/* <h1
+                      className='best-template animated'
+                      data-animation='fadeInUpShorter'
+                      data-animation-delay='1.5s'
+                    >
+                      DEFItt intends to lead the market for decentralized
+                      finance.
+                      <br />A decentralized BEP-20 token which gives it access
+                      to the world <br className='d-none d-xl-block' />
+                      to be the next alternative
                       <br className='d-none d-xl-block' />
-                      decentralised tokens with{' '}
-                      <br className='d-none d-xl-block' />
-                      zero fuzz.
+                      to paper money.
                     </h1>
                     <h3
                       className='d-block white animated'
@@ -52,8 +72,7 @@ const HeadArea = (props) => {
                     >
                       The future of decentralization{' '}
                       <br className='d-none d-xl-block' />
-                      {/* merchants and affiliates. */}
-                    </h3>
+                    </h3> */}
                     <div className='mt-5'>
                       <a
                         href={process.env.REACT_APP_ADMIN_URL}
@@ -65,7 +84,7 @@ const HeadArea = (props) => {
                         Purchase Token
                       </a>
                       <a
-                        href="assets/whitepaper.pdf"
+                        href='assets/whitepaper.pdf'
                         target='_blank'
                         className='btn btn-lg btn-gradient-purple btn-glow mb-2 animated'
                         data-animation='fadeInUpShorter'
@@ -77,7 +96,6 @@ const HeadArea = (props) => {
                   </div>
                 </div>
                 <div className='col-lg-6 col-md-12 move-first'>
-
                   <div
                     id='svg-animation'
                     style={{ width: '300px', margin: '0 auto' }}

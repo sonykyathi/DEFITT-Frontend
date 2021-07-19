@@ -12,9 +12,9 @@ const About = (props) => {
               data-animation='fadeInUpShorter'
               data-animation-delay='0.3s'
             >
-              <h6 className='sub-title'>About</h6>
+              <h6 className='sub-title'>DEFITT Staking</h6>
               <a target='_blank' href='https://ftttoken.com'>
-                <h2 className='title'>About</h2>
+                <h2 className='title'>DEFITT Staking</h2>
               </a>
             </div>
             {/* <p
@@ -32,28 +32,34 @@ const About = (props) => {
                 <ul className='app-features'>
                   <li className='dark-bg-text-color'>
                     <span className=' white mr-3'>
+                      DEFItt makes it possible for holders to stake their DEFItt
+                      and make their assets work for them by generating rewards,
+                      rather than collecting dust in their crypto wallets.
+                      DEFItt offers a no-risk investment, whereby for a one-year
+                      lock period, FIT TECHNOLOGIES LIMITED UK will offer 40%
+                      assured growth and locking for 2 years will yield a 100%
+                      assured return on investment. A 3-year locking period will
+                      yield the holder 200% assured growth.
+                    </span>{' '}
+                    <br />
+                    <span className=' white mr-3'>
                       DEFItt is a solution that allows you to enjoy success and
                       inspired experiences while also assisting you in becoming
                       venture financed with greater benefits and fewer risks.
                       DEFItt serves as your companion token for gaining access
-                      to the fiat world. For an investor, this is a
-                      once-in-a-lifetime opportunity, the one opportunity, and a
-                      well-planned approach. The result will be a modernised
-                      token that flourishes as a consequence of exposure to a
-                      well-thought-out strategy capable of dealing with
-                      difficulties as well as pressures. After a one-year
-                      stacking period, you will be able to convert into our
-                      Fiat-pegged Financial Tech Token -FTT, where you will be
-                      able to utilize all of our verticals. See www.DEFItt.org
-                      for more details. DEFItt will only sell 100 Million
-                      tokens, increasing its value
+                      to the fiat world.
+                    </span>{' '}
+                    <br />
+                    <span className=' white mr-3'>
+                      DEFItt is paired by FTT which can give access to user to
+                      our different verticals.
                     </span>
                     <div className='row'>
                       <div className='col-lg-12 col-md-6 text-center'>
                         <a
                           className='mt-2 btn btn-lg btn-gradient-purple btn-glow mb-2 animated'
                           data-animation='fadeInUpShorter'
-                          href=''
+                          href='assets/about.pdf'
                           target='_blank'
                         >
                           explore defitt

@@ -16,7 +16,7 @@ const Header = (props) => {
             >
               <img
                 src='theme-assets/images/d-logo.png'
-                alt='Crypto Logo'
+                alt='DEFitt Logo'
                 className='img-fluid'
                 // style={{ width: '100px' }}
               />
@@ -31,7 +31,7 @@ const Header = (props) => {
               aria-label='Toggle navigation'
             >
               {/* <span className='navbar-toggler-icon'></span> */}
-             <i className="fa fa-bars" aria-hidden="true"></i>
+              <i className='fa fa-bars' aria-hidden='true'></i>
             </button>
             <div className='collapse navbar-collapse' id='navbarCollapse'>
               <div id='navigation' className='navbar-nav ml-auto'>
@@ -51,9 +51,26 @@ const Header = (props) => {
                   <li
                     className='nav-item animated'
                     data-animation='fadeInDown'
+                    data-animation-delay='1.1s'
+                  >
+                    <a
+                      className='nav-link'
+                      href='assets/about.pdf'
+                      target='_blank'
+                    >
+                      About
+                    </a>
+                  </li>
+                  <li
+                    className='nav-item animated'
+                    data-animation='fadeInDown'
                     data-animation-delay='1.3s'
                   >
-                    <a className='nav-link' href="assets/whitepaper.pdf" target='_blank'>
+                    <a
+                      className='nav-link'
+                      href='assets/whitepaper.pdf'
+                      target='_blank'
+                    >
                       Whitepaper
                     </a>
                   </li>
@@ -137,7 +154,7 @@ const Header = (props) => {
                     </div>
                   </li>
                   <li
-                    className='dropdown show mr-4 animated'
+                    className='dropdown show mr-2 animated'
                     data-animation='fadeInDown'
                     data-animation-delay='1.7s'
                   >
