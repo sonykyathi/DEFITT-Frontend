@@ -51,12 +51,6 @@ const HeadArea = (props) => {
                       and spend DEFItt with zero fuss.
                       <br />
                     </h1>
-                    <h3>
-                      DEFItt intends to lead the market for decentralized
-                      finance. A decentralized BEP-20 token which gives it
-                      access to the world to be the next alternative to paper
-                      money.
-                    </h3>
                     <div className='mt-5'>
                       <a
                         href={process.env.REACT_APP_ADMIN_URL}

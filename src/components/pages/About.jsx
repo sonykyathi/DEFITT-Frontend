@@ -32,22 +32,26 @@ const About = (props) => {
                 <ul className='app-features'>
                   <li className='dark-bg-text-color'>
                     <span className=' white mr-3'>
-                      DEFItt makes it possible for holders to stake their DEFItt
-                      and make their assets work for them by generating rewards,
-                      rather than collecting dust in their crypto wallets.
-                      DEFItt offers a no-risk investment, whereby for a one-year
-                      lock period, FIT TECHNOLOGIES LIMITED UK will offer 40%
-                      assured growth and locking for 2 years will yield a 100%
-                      assured return on investment. A 3-year locking period will
-                      yield the holder 200% assured growth.
-                    </span>{' '}
-                    <br />
-                    <span className=' white mr-3'>
                       DEFItt is a solution that allows you to enjoy success and
                       inspired experiences while also assisting you in becoming
                       venture financed with greater benefits and fewer risks.
                       DEFItt serves as your companion token for gaining access
-                      to the fiat world.
+                      to the fiat world. For an investor, this is a
+                      once-in-a-lifetime opportunity, the one opportunity, and a
+                      well-planned approach. The result will be a modernised
+                      token that flourishes as a consequence of exposure to a
+                      well-thought-out strategy capable of dealing with
+                      difficulties as well as pressures. DEFItt is using the BEP
+                      20 Platform on the Binance Smart Chain which enables the
+                      transactions security, speed and reliability.
+                    </span>{' '}
+                    <br />
+                    <span className=' white mr-3'>
+                      Blockchain is the future and we are all aware of It
+                      however the right usage of blockchain is what makes DEFItt
+                      different from all. An ecosystem that DEFItt has made with
+                      its paired stable token FTT, makes this token touch human
+                      lives.
                     </span>{' '}
                     <br />
                     <span className=' white mr-3'>
@@ -93,7 +97,6 @@ const About = (props) => {
                         width='100'
                       />
                     </a>
-                    <span className='mt-2 d-none d-md-block'>FTT Coin</span>
                   </div>
                 </div>
               </div>

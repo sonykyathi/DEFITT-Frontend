@@ -36,15 +36,6 @@ const Solutions = () => {
               <h6 className='sub-title'>Our Projects</h6>
               <h2 className='title'>Our Projects</h2>
             </div>
-            <p
-              className='content-desc animated'
-              data-animation='fadeInUpShorter'
-              data-animation-delay='0.4s'
-            >
-              DEFItt intends to lead the market for decentralised finance.
-              <br className='d-none d-xl-block' />A decentralised BEP-20 token
-              standard on Binance Smart Chain that gives it access to the world.
-            </p>
           </div>
 
           <div id='defiplay' className='problems'>
