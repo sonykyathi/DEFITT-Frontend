@@ -54,7 +54,7 @@ const Header = (props) => {
                     data-animation-delay='1.1s'
                   >
                     <a className='nav-link' href='/aboutus' target='_blank'>
-                      About
+                      About Us
                     </a>
                   </li>
                   <li
