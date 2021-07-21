@@ -10,6 +10,7 @@ import Register from './components/Register';
 import TemplateInner from './components/TemplateInner';
 import TemplateNotFound from './components/TemplateNotFound';
 import useScript from './hooks/useScript';
+import AboutPage from './components/AboutPage';
 import './App.css';
 function App() {
   return (
@@ -35,6 +36,9 @@ function App() {
               </Route>
               <Route exact path='*'>
                 <TemplateNotFound />
+              </Route>
+              <Route exact path='/aboutus'>
+                <AboutPage />
               </Route>
             </Switch>
           </div>
