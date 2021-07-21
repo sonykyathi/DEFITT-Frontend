@@ -26,7 +26,7 @@ const HeadArea = (props) => {
                 <div className='col-lg-12 col-md-6' style={{}}>
                   <marquee className='text-white' scrollamount='8'>
                     <span style={{ fontSize: 18 }}>
-                      1 Defitt = 10$ AND &nbsp;&nbsp;&nbsp;{' '}
+                      1 Defitt = 10$ &nbsp;&nbsp;&nbsp; AND &nbsp;&nbsp;&nbsp;{' '}
                     </span>{' '}
                     <span style={{ fontSize: 18 }}>1 Ftt = 1$</span>
                   </marquee>
@@ -47,32 +47,16 @@ const HeadArea = (props) => {
                       data-animation='fadeInUpShorter'
                       data-animation-delay='1.5s'
                     >
+                      First of its kind, Investment with Zero Risk. Buy, sell
+                      and spend DEFItt with zero fuss.
+                      <br />
+                    </h1>
+                    <h3>
                       DEFItt intends to lead the market for decentralized
-                      finance. <br /> A decentralized BEP-20 token which gives
-                      it access to the world to be the next alternative to paper
+                      finance. A decentralized BEP-20 token which gives it
+                      access to the world to be the next alternative to paper
                       money.
-                    </h1>
-                    {/* <h1
-                      className='best-template animated'
-                      data-animation='fadeInUpShorter'
-                      data-animation-delay='1.5s'
-                    >
-                      DEFItt intends to lead the market for decentralized
-                      finance.
-                      <br />A decentralized BEP-20 token which gives it access
-                      to the world <br className='d-none d-xl-block' />
-                      to be the next alternative
-                      <br className='d-none d-xl-block' />
-                      to paper money.
-                    </h1>
-                    <h3
-                      className='d-block white animated'
-                      data-animation='fadeInUpShorter'
-                      data-animation-delay='1.6s'
-                    >
-                      The future of decentralization{' '}
-                      <br className='d-none d-xl-block' />
-                    </h3> */}
+                    </h3>
                     <div className='mt-5'>
                       <a
                         href={process.env.REACT_APP_ADMIN_URL}

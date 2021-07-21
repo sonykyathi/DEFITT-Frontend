@@ -53,7 +53,9 @@ const Header = (props) => {
                     data-animation='fadeInDown'
                     data-animation-delay='1.1s'
                   >
-                    <a className='nav-link' href='/aboutus'>About</a>
+                    <a className='nav-link' href='/aboutus' target='_blank'>
+                      About
+                    </a>
                   </li>
                   <li
                     className='nav-item animated'

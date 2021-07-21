@@ -22,7 +22,7 @@ const Contact = (props) => {
                     data-animation-delay='0.3s'
                   >
                     <h6 className='sub-title'>JOIN US</h6>
-                    <h2 className='title'>Contact</h2>
+                    <h2 className='title'>Contact US</h2>
                   </div>
                   <p
                     className='content-desc animated'

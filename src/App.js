@@ -34,11 +34,11 @@ function App() {
               <Route exact path='/register'>
                 <Register />
               </Route>
-              <Route exact path='*'>
-                <TemplateNotFound />
-              </Route>
               <Route exact path='/aboutus'>
                 <AboutPage />
+              </Route>
+              <Route exact path='*'>
+                <TemplateNotFound />
               </Route>
             </Switch>
           </div>

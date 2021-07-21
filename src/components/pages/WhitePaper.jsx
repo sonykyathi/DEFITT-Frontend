@@ -31,16 +31,10 @@ const Wallets = () => {
                   data-animation='fadeInUpShorter'
                   data-animation-delay='0.7s'
                 >
-                  A cryptocurrency is a type of digital or virtual currency that
-                  is encrypted to track transactions and prevent counterfeiting.
-                </p>
-                <p
-                  className='animated text-white'
-                  data-animation='fadeInUpShorter'
-                  data-animation-delay='0.7s'
-                >
-                  Transfers are encrypted using either public or private keys
-                  and are directly linked to the user's digital wallet.
+                  DEFItt can be stored in any wallet of your choice mainly
+                  TRUST, METAMASK or any other Transfers are encrypted using
+                  either public or private keys and are directly linked to the
+                  user's digital wallet.
                 </p>
                 <p
                   className='animated text-white'
@@ -52,6 +46,14 @@ const Wallets = () => {
                   intervention or manipulation. It also offers several
                   advantages, such as increased mobility, transferability,
                   inflation resilience, and visibility.
+                </p>
+                <p
+                  className='animated text-white'
+                  data-animation='fadeInUpShorter'
+                  data-animation-delay='0.7s'
+                >
+                  DEFItt is currently available on PANCAKE SWAP which is one of
+                  the top growing exchanges in the world.
                 </p>
 
                 <div className='whitepaper-languages'>

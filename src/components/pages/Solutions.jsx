@@ -11,6 +11,28 @@ const Solutions = () => {
               data-animation='fadeInUpShorter'
               data-animation-delay='0.3s'
             >
+              <h6 className='sub-title'>VISION</h6>
+              <h2 className='title'>VISION</h2>
+            </div>
+            <p
+              className='content-desc animated'
+              data-animation='fadeInUpShorter'
+              data-animation-delay='0.4s'
+            >
+              DEFItt intends to lead the market for decentralised finance. A
+              decentralised BEP-20 token standard on Binance Smart Chain.
+              <br className='d-none d-xl-block' />
+              Defitt intends to have a greater inclusion by educating people on
+              the values of digital currency and to gain enough usability so it
+              can be termed as the NEXT ALTERNATIVE TO PAPER MONEY.
+            </p>
+          </div>
+          <div className='heading text-center'>
+            <div
+              className='animated'
+              data-animation='fadeInUpShorter'
+              data-animation-delay='0.3s'
+            >
               <h6 className='sub-title'>Our Projects</h6>
               <h2 className='title'>Our Projects</h2>
             </div>
@@ -24,28 +46,7 @@ const Solutions = () => {
               standard on Binance Smart Chain that gives it access to the world.
             </p>
           </div>
-          <div className='heading text-center'>
-            <div
-              className='animated'
-              data-animation='fadeInUpShorter'
-              data-animation-delay='0.3s'
-            >
-              <h6 className='sub-title'>VISION</h6>
-              <h2 className='title'>VISION</h2>
-            </div>
-            <p
-              className='content-desc animated'
-              data-animation='fadeInUpShorter'
-              data-animation-delay='0.4s'
-            >
-              DEFItt intends to lead the market for decentralised finance. A
-              decentralised BEP-20 token standard on Binance Smart Chain.
-              <br className='d-none d-xl-block' />
-              This gives it access to the world to be the next alternative to
-              paper money. Defitt intends to have a greater inclusion by
-              educating people on the values of digital currency.
-            </p>
-          </div>
+
           <div id='defiplay' className='problems'>
             <div className='row'>
               <div className='col-md-12 col-lg-6'>
@@ -65,7 +66,7 @@ const Solutions = () => {
                 >
                   A GAMING EXPERIENCE THAT WILL BLOW THE MINDS OF THE GAMING
                   FANS. AN EASY INTERFACE WITH 500 PLUS WIDE RANGE OF GAMES TO
-                  CHOOSE FROM, INCLUDING CASINO, BETTING AND LIVE GAMES{' '}
+                  CHOOSE FROM, INCLUDING CASINO, BETTING AND LIVE GAMES.
                 </p>
               </div>
               <div
@@ -143,16 +144,15 @@ const Solutions = () => {
                   data-animation-delay='0.4s'
                 >
                   A one of a kind exchange where you can interchange crypto with
-                  other trading materials Buy sell on our exchange, the market
-                  will determine the worth of it.
+                  forex, commodity and shares.
                 </p>
                 <p
                   className='animated'
                   data-animation='fadeInUpShorter'
                   data-animation-delay='0.4s'
                 >
-                  You can convert to any other other crypto currency you want to
-                  - BTC / ETH / BNB and so on Easy interface for user experience
+                  Buy, sell and trade on our exchange with customized interface
+                  with no fuss.
                 </p>
               </div>
               <div
@@ -204,7 +204,7 @@ const Solutions = () => {
                 >
                   Learn, Vocational Courses, Earn a Diploma and Degree with Defi
                   Kampus. Get access to our online classes world wide. Learn
-                  whenever and whatever you always wanted to learn in your life.
+                  whenever and whatever you always wanted to learn in your life
                 </p>
                 <p
                   className='animated'
@@ -243,8 +243,7 @@ const Solutions = () => {
                   data-animation-delay='0.6s'
                 >
                   Worldwide access to the best Doctors, Hospitals and
-                  nutritional's. Cause health is all about eating good food and
-                  being active.
+                  nutritional's. Cause health comes first
                 </p>
                 <p
                   className='animated'
@@ -260,7 +259,7 @@ const Solutions = () => {
                   data-animation-delay='0.6s'
                 >
                   Search for the right treatment and get it done. With our
-                  community world wide we can provide the right place to be.
+                  community worldwide we can provide the right place to be.
                 </p>
                 <p
                   className='animated'
@@ -335,9 +334,9 @@ const Solutions = () => {
                   data-animation='fadeInUpShorter'
                   data-animation-delay='0.7s'
                 >
-                  Some financial institute don’t allow to transfer money abroad.
-                  There are restrictions on it. With FTT you have no boarders to
-                  overcome or explanations to anyone.
+                  Some financial institutes don’t allow to transfer money
+                  abroad. There are restrictions on it. With FTT you have no
+                  boarders to overcome or explanations to anyone
                 </p>
               </div>
             </div>

@@ -87,15 +87,17 @@ const TokenSale = () => {
               >
                 <div className='row'>
                   <p>
-                    Token Sale DEFItt is a decentralised digital currency that
-                    is free of complete censorship and accessible to anyone. It
-                    is built on the BEP-20 token standard, powered by the
-                    Binance Smart Contract Blockchain.
+                    DEFItt makes it possible for holders to stake their DEFItt
+                    and make their assets work for them by generating rewards,
+                    rather than collecting dust in their crypto wallets. DEFItt
+                    offers a no-risk investment, whereby for a one-year lock
+                    period, FIT TECHNOLOGIES LIMITED UK will offer 40% assured
+                    growth and locking for 2 years will yield a 100% assured
+                    return on investment. A 3-year locking period will yield the
+                    holder 200% assured growth.
                     <br />
-                    DEFItt leverages the properties of the blockchain
-                    technology, decentralised unalterable and indestructible
-                    technology to create a trusty, reduced risk, fraud-free and
-                    transparent platform in a scalable way.
+                    DEFItt is paired by FTT which can give access to user to our
+                    different verticals.
                   </p>
                   <div className='col-md-5'>
                     <ul className='token-sale-info'>

@@ -59,7 +59,7 @@ const About = (props) => {
                         <a
                           className='mt-2 btn btn-lg btn-gradient-purple btn-glow mb-2 animated'
                           data-animation='fadeInUpShorter'
-                          href='assets/about.pdf'
+                          href='/aboutus'
                           target='_blank'
                         >
                           explore defitt
@@ -83,12 +83,15 @@ const About = (props) => {
                   <div className='play-video text-center'>
                     <a
                       href='#'
-                      className='play rounded-circle btn-gradient-purple btn-glow video-btn'
+                      className=''
                       data-toggle='modal'
-                      data-src='https://www.youtube.com/embed/UXAJu3zS4bU'
+                      data-src='https://www.youtube.com/'
                       data-target='#ico-modal'
                     >
-                      <i className='ti-control-play'></i>
+                      <img
+                        src='theme-assets/images/hero-coin.png'
+                        width='100'
+                      />
                     </a>
                     <span className='mt-2 d-none d-md-block'>FTT Coin</span>
                   </div>

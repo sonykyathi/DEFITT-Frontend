@@ -479,6 +479,20 @@ svg#loader g:last-child circle {
   box-shadow: 0 0 12px 0 #ff5f2b;
 }
 
+/* added by abdul for ftt coin in video */
+
+.fttCoinPlayVido {
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  -moz-transition: 0.5s;
+  transition: 0.5s;
+  background-position: left center;
+  -webkit-background-size: 200% auto;
+  background-size: 200% auto;
+  border: 0;
+  color: #ffffff;
+}
+
 .btn-gradient-purple {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
