@@ -10,18 +10,20 @@ import {
 export class DefittMap extends Component {
   render() {
     return (
-      <Map google={this.props.google}>
-        <Marker
-          name={'Sahiwal Water Park'}
-          position={{ lat: 30.66502, lng: 73.118766 }}
-        />
+      <Map
+        google={this.props.google}
+        style={{ width: '100%', height: '100%', position: 'relative' }}
+        className={'map'}
+        zoom={14}
+      >
+        <Marker position={{ lat: 51.57947, lng: -0.56568 }} />
       </Map>
     );
   }
 }
 // apiKey: 'AIzaSyAFqYcOAXvHbAkqX_bsSSqBTgWJeR1auYU',  {Abdul's testing Key.!}
 export default GoogleApiWrapper({
-  apiKey: 'AIzaSyBx3z5m5IkSTc648y-DMXqkHrJdNpzPqtQ',
+  apiKey: 'AIzaSyCw4ulDXd_VTfzA7N26fxMroilme01sDYg',
 })(DefittMap);
 
 // AIzaSyBx3z5m5IkSTc648y-DMXqkHrJdNpzPqtQ

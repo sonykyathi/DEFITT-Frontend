@@ -55,9 +55,9 @@ const Solutions = () => {
                   data-animation='fadeInUpShorter'
                   data-animation-delay='0.4s'
                 >
-                  A GAMING EXPERIENCE THAT WILL BLOW THE MINDS OF THE GAMING
-                  FANS. AN EASY INTERFACE WITH 500 PLUS WIDE RANGE OF GAMES TO
-                  CHOOSE FROM, INCLUDING CASINO, BETTING AND LIVE GAMES.
+                  A gaming experience that will blow the minds of the gaming
+                  fans. An easy interface with 500 plus wide range of games to
+                  choose from, including Casino, Betting and Live games.
                 </p>
               </div>
               <div

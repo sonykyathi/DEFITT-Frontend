@@ -24,26 +24,59 @@ const HeadArea = (props) => {
             <div className='banner-wrapper'>
               <div className='row align-items-center'>
                 <div className='col-lg-12 col-md-6'>
-                  <marquee className='text-white' scrollamount='8'>
+                  <marquee className='text-white' scrollamount='10'>
                     <span style={{ fontSize: 18 }}>
-                      1 Defitt = $10.00, &nbsp;&nbsp;&nbsp;
+                      <span>
+                        <img src='theme-assets/images/logo.png' width='50px' />
+                      </span>
+                      &nbsp; 1 Defitt = $10.00, &nbsp;&nbsp;&nbsp;
                     </span>
                     <span style={{ fontSize: 18 }}>
+                      <span>
+                        <img
+                          src='theme-assets/images/hero-coin.png'
+                          width='50px'
+                        />
+                      </span>
                       1 Ftt = $1.00, &nbsp;&nbsp;&nbsp;
                     </span>
                     <span style={{ fontSize: 18 }}>
+                      <span>
+                        <img src='theme-assets/images/btc.png' width='50px' />
+                      </span>
                       1 BTC = $32,159.46, &nbsp;&nbsp;&nbsp;
                     </span>
                     <span style={{ fontSize: 18 }}>
+                      <span>
+                        <img
+                          src='theme-assets/images/ethereum.png'
+                          width='50px'
+                        />
+                      </span>
                       1 ETH = $1,990.30, &nbsp;&nbsp;&nbsp;
                     </span>
                     <span style={{ fontSize: 18 }}>
+                      <span>
+                        <img
+                          src='theme-assets/images/tether.png'
+                          width='50px'
+                        />
+                      </span>
                       1 USDT = $1.00, &nbsp;&nbsp;&nbsp;
                     </span>
                     <span style={{ fontSize: 18 }}>
+                      <span>
+                        <img src='theme-assets/images/bnb.png' width='50px' />
+                      </span>
                       1 BNB = $293.08, &nbsp;&nbsp;&nbsp;
                     </span>
                     <span style={{ fontSize: 18 }}>
+                      <span>
+                        <img
+                          src='theme-assets/images/cardano.png'
+                          width='50px'
+                        />
+                      </span>
                       1 ADA = $1.17 &nbsp;&nbsp;&nbsp;
                     </span>
                   </marquee>
