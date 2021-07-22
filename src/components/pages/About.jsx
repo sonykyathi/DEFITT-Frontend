@@ -75,18 +75,7 @@ const About = (props) => {
                     alt='What is Crypto?'
                   />
                   <div className='play-video text-center'>
-                    <a
-                      href='#'
-                      className=''
-                      data-toggle='modal'
-                      data-src='https://www.youtube.com/'
-                      data-target='#ico-modal'
-                    >
-                      <img
-                        src='theme-assets/images/hero-coin.png'
-                        width='100'
-                      />
-                    </a>
+                    <img src='theme-assets/images/hero-coin.png' width='100' />
                   </div>
                 </div>
               </div>
