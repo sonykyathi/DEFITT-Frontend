@@ -12,19 +12,9 @@ const About = (props) => {
               data-animation='fadeInUpShorter'
               data-animation-delay='0.3s'
             >
-              <h6 className='sub-title'>About</h6>
-              <a target='_blank' href='https://ftttoken.com'>
-                <h2 className='title'>About</h2>
-              </a>
+              <h6 className='sub-title'>About Us</h6>
+              <h2 className='title'>About Us</h2>
             </div>
-            {/* <p
-              className='content-desc animated'
-              data-animation='fadeInUpShorter'
-              data-animation-delay='0.4s'
-            >
-              DEFItt a part of the future of money.
-              <br className='d-none d-xl-block' />
-            </p> */}
           </div>
           <div className='content-area'>
             <div className='row'>

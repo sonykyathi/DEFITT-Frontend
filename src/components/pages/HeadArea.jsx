@@ -18,17 +18,34 @@ const HeadArea = (props) => {
   return (
     <Fragment>
       <section className='head-area' id='head-area'>
-        <div id='particles-js'></div>
+        {/* <div id='particles-js'></div> */}
         <div className='head-content d-flex align-items-center'>
           <div className='container'>
             <div className='banner-wrapper'>
               <div className='row align-items-center'>
-                <div className='col-lg-12 col-md-6' style={{}}>
+                <div className='col-lg-12 col-md-6'>
                   <marquee className='text-white' scrollamount='8'>
                     <span style={{ fontSize: 18 }}>
-                      1 Defitt = 10$ &nbsp;&nbsp;&nbsp; AND &nbsp;&nbsp;&nbsp;{' '}
-                    </span>{' '}
-                    <span style={{ fontSize: 18 }}>1 Ftt = 1$</span>
+                      1 Defitt = $10.00, &nbsp;&nbsp;&nbsp;
+                    </span>
+                    <span style={{ fontSize: 18 }}>
+                      1 Ftt = $1.00, &nbsp;&nbsp;&nbsp;
+                    </span>
+                    <span style={{ fontSize: 18 }}>
+                      1 BTC = $32,159.46, &nbsp;&nbsp;&nbsp;
+                    </span>
+                    <span style={{ fontSize: 18 }}>
+                      1 ETH = $1,990.30, &nbsp;&nbsp;&nbsp;
+                    </span>
+                    <span style={{ fontSize: 18 }}>
+                      1 USDT = $1.00, &nbsp;&nbsp;&nbsp;
+                    </span>
+                    <span style={{ fontSize: 18 }}>
+                      1 BNB = $293.08, &nbsp;&nbsp;&nbsp;
+                    </span>
+                    <span style={{ fontSize: 18 }}>
+                      1 ADA = $1.17 &nbsp;&nbsp;&nbsp;
+                    </span>
                   </marquee>
                 </div>
               </div>

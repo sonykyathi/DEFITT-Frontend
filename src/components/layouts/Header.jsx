@@ -166,11 +166,18 @@ const Header = (props) => {
                       <span></span> Our Coins
                     </a>
                     <div className='dropdown-menu' aria-labelledby='language'>
-                      <a className='dropdown-item' href='javascript:void(0);'>
-                        <span></span> DFT
+                      <a
+                        className='dropdown-item'
+                        href={`${process.env.REACT_APP_URL}/#head-area`}
+                      >
+                        DFT
                       </a>
-                      <a className='dropdown-item' href='javascript:void(0);'>
-                        <span></span> FTT
+                      <a
+                        href='https://ftttoken.com'
+                        className='dropdown-item'
+                        target='_blank'
+                      >
+                        FTT
                       </a>
                     </div>
                   </li>
