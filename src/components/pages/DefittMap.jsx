@@ -14,9 +14,14 @@ export class DefittMap extends Component {
         google={this.props.google}
         style={{ width: '100%', height: '100%', position: 'relative' }}
         className={'map'}
-        zoom={14}
+        zoom={15}
+        initialCenter={{
+          lat: 51.57947, lng: -0.56568
+        }}
       >
-        <Marker position={{ lat: 51.57947, lng: -0.56568 }} />
+        <Marker
+          title={'DEFITT'}
+          position={{ lat: 51.57947, lng: -0.56568 }} />
       </Map>
     );
   }
