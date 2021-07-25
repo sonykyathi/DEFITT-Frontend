@@ -74,9 +74,9 @@ const About = (props) => {
                     src='theme-assets/images/what-is-crypto.png'
                     alt='What is Crypto?'
                   />
-                  <div className='play-video text-center'>
+                  {/* <div className='play-video text-center'>
                     <img src='theme-assets/images/hero-coin.png' width='100' />
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
