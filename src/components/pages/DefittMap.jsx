@@ -12,8 +12,8 @@ export class DefittMap extends Component {
     return (
       <Map
         google={this.props.google}
-        style={{ width: '100%', height: '100%', position: 'relative' }}
-        className={'map'}
+        // style={{ width: '100%', height: '100%', position: 'relative' }}
+        className={'map-frame'}
         zoom={15}
         initialCenter={{
           lat: 51.57947, lng: -0.56568
