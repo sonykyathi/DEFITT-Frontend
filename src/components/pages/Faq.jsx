@@ -48,8 +48,8 @@ const Faq = (props) => {
                     aria-selected='true'
                     role='tab'
                   >
-                    <div style={{ display: 'flex', flexDirection: 'column', alignItems:'center' }}>
-                      <img  width ='100px' src='theme-assets/images/btc.png'></img>
+                    <div className="faq-icon">
+                      <img src='theme-assets/images/btc.png'></img>
                       <span>BTC</span>
                     </div>
                   </a>
@@ -62,8 +62,8 @@ const Faq = (props) => {
                     aria-selected='false'
                     role='tab'
                   >
-                  <div style={{ display: 'flex', flexDirection: 'column' , alignItems:'center'}}>
-                      <img  width ='100px' src='theme-assets/images/ethereum.png'></img>
+                  <div className="faq-icon">
+                      <img src='theme-assets/images/ethereum.png'></img>
                       <span>Ethereum</span>
                     </div>
                    
@@ -77,8 +77,8 @@ const Faq = (props) => {
                     aria-selected='false'
                     role='tab'
                   >
-                <div style={{ display: 'flex', flexDirection: 'column' , alignItems:'center'}}>
-                      <img  width ='100px' src='theme-assets/images/bnb.png'></img>
+                <div className="faq-icon">
+                      <img src='theme-assets/images/bnb.png'></img>
                       <span>BNB</span>
                     </div>
                   </a>
@@ -91,8 +91,8 @@ const Faq = (props) => {
                     aria-selected='false'
                     role='tab'
                   >
-                    <div style={{ display: 'flex', flexDirection: 'column' , alignItems:'center'}}>
-                      <img width ='100px'  src='theme-assets/images/cardano.png'></img>
+                    <div className="faq-icon">
+                      <img src='theme-assets/images/cardano.png'></img>
                       <span>Cardano</span>
                     </div>
                   </a>
@@ -105,8 +105,8 @@ const Faq = (props) => {
                     aria-selected='false'
                     role='tab'
                   >
-                   <div style={{ display: 'flex', flexDirection: 'column' , alignItems:'center'}}>
-                      <img width ='100px'  src='theme-assets/images/tether.png'></img>
+                   <div className="faq-icon">
+                      <img src='theme-assets/images/tether.png'></img>
                       <span>Tether</span>
                     </div>
                   </a>
