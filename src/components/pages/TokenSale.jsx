@@ -99,7 +99,7 @@ const TokenSale = () => {
                     DEFItt is paired by FTT which can give access to user to our
                     different verticals.
                   </p>
-                  <div className='col-lg-5 col-md-6 col-sm-12 col-12'>
+                  <div className='col-lg-5 col-md-6 col-sm-6 col-12'>
                     <ul className='token-sale-info'>
                       <li>
                         Dfitt Play{' '}
@@ -115,7 +115,7 @@ const TokenSale = () => {
                       </li>
                     </ul>
                   </div>
-                  <div className='col-lg-5 col-md-6 col-sm-12 col-12'>
+                  <div className='col-lg-5 col-md-6 col-sm-6 col-12'>
                     <ul className='token-sale-info'>
                       <li>
                         Defi Kampus{' '}

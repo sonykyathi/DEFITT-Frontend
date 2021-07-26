@@ -2846,7 +2846,10 @@ header .navbar.navbar-shadow {
   height: 80vh;
   z-index: 6;
 }
-.hero-marquee > marquee{white-space: nowrap;}
+.hero-marquee > marquee{
+  white-space: nowrap;
+  margin-bottom: 20px;
+}
 .marquee-states{
   display: inline-block;
   vertical-align: middle;
@@ -2875,7 +2878,10 @@ header .navbar.navbar-shadow {
   line-height: 18px;
   margin: 0;
 }
-.banner-content{padding-left: 3rem;}
+.banner-content{
+  padding-top: 3rem;
+  padding-left: 3rem;
+}
 .banner-logo {
   max-width: 200px;
   margin-bottom: 20px;
@@ -3584,6 +3590,7 @@ header .navbar.navbar-shadow {
 /* FAQ section : FAQ navs with questions/answers accordion */
 .faq .nav.nav-underline {
   border-bottom: 1px solid #eeecf4;
+  margin-bottom: 20px;
 }
 .faq .nav.nav-underline a {
   color: #c7b8ff;
@@ -5165,7 +5172,6 @@ p {
   .head-area .head-content .banner-content {
     padding-top: 0.5rem !important;
   }
-  .main-menu.static-top.fixed-top{background: #141746;}
   .head-area .head-content h1 {
     font-size: 1.5rem;
     line-height: 2rem;
@@ -5179,6 +5185,7 @@ p {
   .heading .sub-title {
     font-size: 4.625rem !important;
   }
+  .hero-coin {max-width: 350px;}
   .about .content-area .what-is-crypto-img img {
     width: 450px;
   }
@@ -5214,26 +5221,6 @@ p {
     left: 14px;
   }
   .footer .about{padding-left: 2rem;}
-  
-  /* .vertical-social {
-    top: auto !important;
-    bottom: 3%;
-    left: 50% !important;
-    transform: translateX(-50%);
-    width: 316px;
-    height: 44px !important;
-  }
-  .vertical-social .midnightHeader .midnightInner ul {
-    margin-bottom: 0;
-    padding: 0 14px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-  .vertical-social .midnightHeader .midnightInner ul li {
-    padding: 10px 12px;
-    line-height: 14px;
-  } */
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -5241,7 +5228,8 @@ p {
     width: 475px;
   }
   .head-area .head-content .banner-content {
-    padding-top: 1rem !important;
+    padding-top: 1rem;
+    padding-left: 0;
     text-align: center;
   }
   .head-area .head-content h1 {
@@ -5259,7 +5247,9 @@ p {
   }
   .head-area .head-content {
     height: 100%;
+    padding-top: 30px;
   }
+  .hero-coin {max-width: 350px;}
   .banner-logo {
     margin: 20px auto;
   }
@@ -5333,7 +5323,8 @@ p {
     margin-top: 1.5rem;
   }
   .head-area .head-content .banner-content {
-    padding-top: 1rem !important;
+    padding-top: 1.6rem;
+    padding-left: 0;
     text-align: center;
   }
   .head-area .head-content h1 {
@@ -5415,14 +5406,46 @@ p {
   .coin-img {
     text-align: center;
   }
+  .heading .content-desc {
+    margin-top: 0;
+    padding: 0 0rem;
+  }
+  .faq .nav.nav-underline a {
+    font-size: 0.925rem;
+  }
+  .faq .nav.nav-underline a .faq-icon {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+  .faq .nav.nav-underline a .faq-icon > img {
+    margin-bottom: 10px;
+    width: 36px;
+  }
+  .contact .row {
+    flex-direction: column-reverse;
+  }
+  .map-holder {
+    min-height: 360px;
+    margin-top: 2rem;
+  }
+
 }
 
 @media (max-width: 575.98px) {
   .svg-img {
     width: 350px !important;
   }
+  .hero-coin {
+    width: 90%;
+  }
+  .banner-logo {
+    margin: auto;
+    margin-bottom: 20px;
+  }
   .head-area .head-content .banner-content {
-    padding-top: 1.5rem !important;
+    padding-top: 2rem;
+    padding-left: 0;
     text-align: center;
   }
   .head-area .head-content h1 {
@@ -5452,6 +5475,13 @@ p {
   .heading .title {
     font-size: 1.4rem !important;
   }
+  .app-features{
+    padding: 0;
+    text-align: center;
+  }
+  .heading .content-desc {
+    padding: 0;
+  }
   .move-first {
     -webkit-box-ordinal-group: 0;
     -webkit-order: -1;
@@ -5463,7 +5493,8 @@ p {
     text-align: center;
   }
   .what-is-crypto-img img {
-    max-width: 380px;
+    max-width: 300px;
+    margin: auto;
   }
   .about .content-area .play-video {
     top: 49%;
@@ -5492,6 +5523,7 @@ p {
   .token-sale:before {
     content: none;
   }
+  .token-sale ul.token-sale-info li:last-child{padding-bottom: 0;}
   .roadmap .timestamp.active span:after {
     left: 44.1%;
   }
@@ -5592,15 +5624,47 @@ p {
   .token-details .clock-counter .flip-clock-divider.seconds .flip-clock-label {
     left: 0;
   }
-}
-
-@media (max-width: 425px) {
-  .what-is-crypto-img img {
-    max-width: 300px;
+  .head-area .head-content {
+    height: 100%;
+    margin-top: 20px;
+  }
+  .faq .nav.nav-underline {
+    flex-direction: column;
+  }
+  .faq .nav.nav-underline a {
+    padding: 0.5rem 0;
+  }
+  .faq .nav.nav-underline a .faq-icon {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+    width: 100%;
+    height: 100%;
     margin: auto;
   }
-  .about .content-area .play-video {
-    top: 49%;
-    left: 34%;
+  .faq .nav.nav-underline a .faq-icon > img {
+    margin: 0;
+    margin-right: 15px;
   }
+  .faq .nav.nav-underline a .faq-icon > span{
+    line-height: normal;
+    height: 100%;
+    margin: auto 0;
+  }
+  .contact .row {
+    flex-direction: column-reverse;
+  }
+  .map-holder {
+    min-height: 360px;
+    margin-top: 2rem;
+  }
+  .footer .footer-wrapper .title {
+    margin-bottom: 15px;
+  }
+
 }
+
+
+
+
+

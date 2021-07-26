@@ -33,7 +33,7 @@ const Faq = (props) => {
             <div className='col'>
               <nav>
                 <div
-                  className='nav nav-pills nav-underline mb-5 animated'
+                  className='nav nav-pills nav-underline animated'
                   data-animation='fadeInUpShorter'
                   data-animation-delay='0.5s'
                   id='myTab'
