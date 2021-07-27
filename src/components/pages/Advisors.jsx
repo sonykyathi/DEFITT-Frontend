@@ -28,7 +28,7 @@ const Advisors = (props) => {
           <div className='team-profile mt-5'>
             <div className='row mb-5 justify-content-center'>
               <div
-                className='col-sm-12 col-md-6 col-lg-4 mb-5 animated'
+                className='col-12 col-sm-6 col-md-6 col-lg-4 mb-5 animated'
                 data-animation='jello'
                 data-animation-delay='0.5s'
               >
@@ -67,7 +67,7 @@ const Advisors = (props) => {
                 </div>
               </div>
               <div
-                className='col-sm-12 col-md-6 col-lg-4 mb-5 animated'
+                className='col-12 col-sm-6 col-md-6 col-lg-4 mb-5 animated'
                 data-animation='jello'
                 data-animation-delay='0.7s'
                 // data-toggle='modal'

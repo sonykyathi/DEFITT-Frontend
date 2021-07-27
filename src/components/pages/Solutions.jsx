@@ -38,9 +38,9 @@ const Solutions = () => {
             </div>
           </div>
 
-          <div id='defiplay' className='problems'>
+          <div id='defiplay' className='problems project-row'>
             <div className='row'>
-              <div className='col-md-12 col-lg-6'>
+              <div className='col-lg-6 col-md-7 col-sm-12 col-12'>
                 <div className='heading mb-4'>
                   <h4
                     className='title animated'
@@ -60,10 +60,7 @@ const Solutions = () => {
                   choose from, including Casino, Betting and Live games.
                 </p>
               </div>
-              <div
-                className='col-md-12 col-lg-6 text-center'
-                style={{ margin: 'auto 0' }}
-              >
+              <div className='col-lg-6 col-md-5 col-sm-12 col-12'>
                 <div className='problem-img-holder'>
                   <img
                     src='theme-assets/images/timeline/defi-play-without-bg.png'
@@ -76,12 +73,9 @@ const Solutions = () => {
               </div>
             </div>
           </div>
-          <div id='defistartup' className='solutions mt-5'>
+          <div id='defistartup' className='solutions project-row'>
             <div className='row'>
-              <div
-                className='col-md-12 col-lg-6 text-center'
-                style={{ margin: 'auto 0' }}
-              >
+              <div className='col-lg-6 col-md-5 col-sm-12 col-12'>
                 <div className='problem-img-holder'>
                   <img
                     src='theme-assets/images/timeline/defi-startup.png'
@@ -92,7 +86,7 @@ const Solutions = () => {
                   />
                 </div>
               </div>
-              <div className='col-md-12 col-lg-6 move-first'>
+              <div className='col-lg-6 col-md-7 col-sm-12 col-12'>
                 <div className='heading mb-4'>
                   <h4
                     className='title animated'
@@ -117,9 +111,9 @@ const Solutions = () => {
               </div>
             </div>
           </div>
-          <div id='defitradx' className='problems'>
+          <div id='defitradx' className='problems project-row'>
             <div className='row'>
-              <div className='col-md-12 col-lg-6'>
+              <div className='col-lg-6 col-md-7 col-sm-12 col-12'>
                 <div className='heading mb-4'>
                   <h4
                     className='title animated'
@@ -146,10 +140,7 @@ const Solutions = () => {
                   with no fuss.
                 </p>
               </div>
-              <div
-                className='col-md-12 col-lg-6 text-center'
-                style={{ margin: 'auto 0' }}
-              >
+              <div className='col-lg-6 col-md-5 col-sm-12 col-12'>
                 <div className='problem-img-holder'>
                   <img
                     src='theme-assets/images/timeline/defi-tradx.png'
@@ -162,12 +153,9 @@ const Solutions = () => {
               </div>
             </div>
           </div>
-          <div id='defikampus' className='solutions mt-5'>
+          <div id='defikampus' className='solutions project-row'>
             <div className='row'>
-              <div
-                className='col-md-12 col-lg-6 text-center'
-                style={{ margin: 'auto 0' }}
-              >
+              <div className='col-lg-6 col-md-5 col-sm-12 col-12'>
                 <div className='problem-img-holder'>
                   <img
                     src='theme-assets/images/timeline/defi-kampus.png'
@@ -178,7 +166,7 @@ const Solutions = () => {
                   />
                 </div>
               </div>
-              <div className='col-md-12 col-lg-6 move-first'>
+              <div className='col-lg-6 col-md-7 col-sm-12 col-12'>
                 <div className='heading mb-4'>
                   <h4
                     className='title animated'
@@ -209,9 +197,9 @@ const Solutions = () => {
               </div>
             </div>
           </div>
-          <div id='definirvaana' className='problems'>
+          <div id='definirvaana' className='problems project-row'>
             <div className='row'>
-              <div className='col-md-12 col-lg-6'>
+              <div className='col-lg-6 col-md-7 col-sm-12 col-12'>
                 <div className='heading mb-4'>
                   <h4
                     className='title animated'
@@ -261,10 +249,7 @@ const Solutions = () => {
                   spend on healthcare. Unlimited access and no more
                 </p>
               </div>
-              <div
-                className='col-md-12 col-lg-6 text-center'
-                style={{ margin: 'auto 0' }}
-              >
+              <div className='col-lg-6 col-md-5 col-sm-12 col-12'>
                 <div className='problem-img-holder'>
                   <img
                     src='theme-assets/images/timeline/defi-nirvaana.png'
@@ -277,12 +262,9 @@ const Solutions = () => {
               </div>
             </div>
           </div>
-          <div id='defilandscape' className='solutions mt-5'>
+          <div id='defilandscape' className='solutions project-row'>
             <div className='row'>
-              <div
-                className='col-md-12 col-lg-6 text-center'
-                style={{ margin: 'auto 0' }}
-              >
+              <div className='col-lg-6 col-md-5 col-sm-12 col-12'>
                 <div className='problem-img-holder'>
                   <img
                     src='theme-assets/images/timeline/defi-landscape.png'
@@ -293,7 +275,7 @@ const Solutions = () => {
                   />
                 </div>
               </div>
-              <div className='col-md-12 col-lg-6 move-first'>
+              <div className='col-lg-6 col-md-7 col-sm-12 col-12'>
                 <div className='heading mb-4'>
                   <h4
                     className='title animated'
@@ -332,9 +314,9 @@ const Solutions = () => {
               </div>
             </div>
           </div>
-          <div id='defibuzaar' className='problems'>
+          <div id='defibuzaar' className='problems project-row'>
             <div className='row'>
-              <div className='col-md-12 col-lg-6'>
+              <div className='col-lg-6 col-md-7 col-sm-12 col-12'>
                 <div className='heading mb-4'>
                   <h4
                     className='title animated'
@@ -356,10 +338,7 @@ const Solutions = () => {
                   market
                 </p>
               </div>
-              <div
-                className='col-md-12 col-lg-6 text-center'
-                style={{ margin: 'auto 0' }}
-              >
+              <div className='col-lg-6 col-md-5 col-sm-12 col-12'>
                 <div className='problem-img-holder'>
                   <img
                     src='theme-assets/images/timeline/defi-buzaar.png'
@@ -372,12 +351,9 @@ const Solutions = () => {
               </div>
             </div>
           </div>
-          <div id='defiswipecard' className='solutions mt-5'>
+          <div id='defiswipecard' className='solutions project-row'>
             <div className='row'>
-              <div
-                className='col-md-12 col-lg-6 text-center'
-                style={{ margin: 'auto 0' }}
-              >
+              <div className='col-lg-6 col-md-5 col-sm-12 col-12'>
                 <div className='problem-img-holder'>
                   <img
                     src='theme-assets/images/timeline/defi-swipecard.png'
@@ -388,7 +364,7 @@ const Solutions = () => {
                   />
                 </div>
               </div>
-              <div className='col-md-12 col-lg-6 move-first'>
+              <div className='col-lg-6 col-md-7 col-sm-12 col-12'>
                 <div className='heading mb-4'>
                   <h4
                     className='title animated'

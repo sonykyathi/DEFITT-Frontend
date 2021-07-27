@@ -23,68 +23,60 @@ const HeadArea = (props) => {
           <div className='container'>
             <div className='banner-wrapper'>
               <div className='row align-items-center'>
-                <div className='col-lg-12 col-md-6'>
-                  <marquee className='text-white' scrollamount='10'>
-                    <span style={{ fontSize: 18 }}>
-                      <span>
-                        <img src='theme-assets/images/logo.png' width='50px' />
-                      </span>
-                      &nbsp; 1 Defitt = $10.00, &nbsp;&nbsp;&nbsp;
-                    </span>
-                    <span style={{ fontSize: 18 }}>
-                      <span>
-                        <img
-                          src='theme-assets/images/hero-coin.png'
-                          width='50px'
-                        />
-                      </span>
-                      1 Ftt = $1.00, &nbsp;&nbsp;&nbsp;
-                    </span>
-                    <span style={{ fontSize: 18 }}>
-                      <span>
-                        <img src='theme-assets/images/btc.png' width='50px' />
-                      </span>
-                      1 BTC = $32,159.46, &nbsp;&nbsp;&nbsp;
-                    </span>
-                    <span style={{ fontSize: 18 }}>
-                      <span>
-                        <img
-                          src='theme-assets/images/ethereum.png'
-                          width='50px'
-                        />
-                      </span>
-                      1 ETH = $1,990.30, &nbsp;&nbsp;&nbsp;
-                    </span>
-                    <span style={{ fontSize: 18 }}>
-                      <span>
-                        <img
-                          src='theme-assets/images/tether.png'
-                          width='50px'
-                        />
-                      </span>
-                      1 USDT = $1.00, &nbsp;&nbsp;&nbsp;
-                    </span>
-                    <span style={{ fontSize: 18 }}>
-                      <span>
-                        <img src='theme-assets/images/bnb.png' width='50px' />
-                      </span>
-                      1 BNB = $293.08, &nbsp;&nbsp;&nbsp;
-                    </span>
-                    <span style={{ fontSize: 18 }}>
-                      <span>
-                        <img
-                          src='theme-assets/images/cardano.png'
-                          width='50px'
-                        />
-                      </span>
-                      1 ADA = $1.17 &nbsp;&nbsp;&nbsp;
-                    </span>
-                  </marquee>
+                <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                  <div className="hero-marquee">
+                    <marquee className="text-white" scrollamount='10'>
+                      <div className="marquee-states">
+                        <div className="marquee-icon">
+                          <img src='theme-assets/images/logo.png' className="img-fluid" alt=""/>
+                        </div>
+                         <p>1 Defitt = $10.00,</p>
+                      </div>
+                      <div className="marquee-states">
+                        <div className="marquee-icon">
+                          <img src='theme-assets/images/hero-coin.png' className="img-fluid" alt=""/>
+                        </div>
+                        <p>1 Ftt = $1.00,</p>
+                      </div>
+                      <div className="marquee-states">
+                        <div className="marquee-icon">
+                          <img src='theme-assets/images/btc.png' className="img-fluid" alt=""/>
+                        </div>
+                        <p>1 BTC = $32,159.46,</p>
+                      </div>
+                      <div className="marquee-states">
+                        <div className="marquee-icon">
+                          <img
+                            src='theme-assets/images/ethereum.png' className="img-fluid" alt=""/>
+                        </div>
+                        <p>1 ETH = $1,990.30,</p>
+                      </div>
+                      <div className="marquee-states">
+                        <div className="marquee-icon">
+                          <img
+                            src='theme-assets/images/tether.png' className="img-fluid" alt=""/>
+                        </div>
+                        <p>1 USDT = $1.00,</p>
+                      </div>
+                      <div className="marquee-states">
+                        <div className="marquee-icon">
+                          <img src='theme-assets/images/bnb.png' className="img-fluid" alt=""/>
+                        </div>
+                        <p>1 BNB = $293.08,</p>
+                      </div>
+                      <div className="marquee-states">
+                        <div className="marquee-icon">
+                          <img src='theme-assets/images/cardano.png' className="img-fluid" alt=""/>
+                        </div>
+                        <p>1 ADA = $1.17</p>
+                      </div>
+                    </marquee>
+                  </div>
                 </div>
               </div>
               <div className='row align-items-center'>
                 <div className='col-lg-6 col-md-12'>
-                  <div className='banner-content pt-5'>
+                  <div className='banner-content'>
                     <div className='banner-logo'>
                       <img
                         src='theme-assets/images/logo.png'
@@ -124,10 +116,7 @@ const HeadArea = (props) => {
                   </div>
                 </div>
                 <div className='col-lg-6 col-md-12 move-first'>
-                  <div
-                    id='svg-animation'
-                    style={{ width: '300px', margin: '0 auto' }}
-                  >
+                  <div id='svg-animation' className="banner-coin text-center">
                     <a href='theme-assets/images/logo-200.jpg' target='_blank'>
                       <img
                         src='theme-assets/images/defi-coin-logo.png'

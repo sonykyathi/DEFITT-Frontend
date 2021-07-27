@@ -67,6 +67,15 @@
 }
 
 /* Home page Solutions Style */
+.project-row > .row{
+  align-items: center;
+}
+.project-row {
+  margin-bottom: 6rem;
+}
+.project-row:last-child {
+  margin-bottom: 0;
+}
 .problem-img-holder {
   background: linear-gradient(
     45deg,
@@ -231,16 +240,18 @@
   padding: 120px 0;
 }
 
-/* .about-content-row{
-  margin-bottom: 7rem;
-} */
-
+.about-content-row{
+  margin-bottom: 4rem;
+}
+.about-content-row:last-child{
+  margin-bottom: 0;
+}
 .about-img {
   display: inline-block;
   vertical-align: top;
-  height: 300px;
+  height: 310px;
   width: 100%;
-  max-width: 520px;
+  max-width: 500px;
   overflow: hidden;
   background: #ab58d7;
   border: 8px solid #ab58d7;
@@ -316,6 +327,15 @@
     float: none;
     margin-left: 0;
   }
+  .problem-img-holder {
+    margin: 0;
+    height: 150px;
+  }
+  .problem-img-holder img {
+    max-width: 200px;
+    max-height: 80px;
+  }
+
 }
 @media only screen and (max-width: 767px) {
   .main-timeline .timeline {
@@ -351,6 +371,16 @@
     z-index: -1;
     transform: translate(-50%, 0);
   }
+  .project-row.problems > .row{
+    flex-direction: column-reverse;
+  }
+  .problem-img-holder {
+    margin: auto;
+  }
+  .project-row .heading, .project-row p{text-align: center;}
+  .main-timeline {padding: 0px 0;}
+  .cms-wrapper {padding: 50px 0;}
+
 }
 
 /* Roadmap Style CSS End */

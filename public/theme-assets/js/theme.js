@@ -73,11 +73,11 @@ $(window).on('load', function() {
     $(window).scroll(function() {
         var scroll = $(window).scrollTop();
         if (scroll >= 50) {
-            if ($(window).width() > 992) {
+            // if ($(window).width() > 992) {
                 $(".navbar").addClass("navbar-fixed navbar-shadow");
                 $(".navbar #slide-line").removeClass("d-none");                
                 inverseNavbar(true); // For inverse navbar            
-            }
+            // }
         } else {
             $(".navbar").removeClass("navbar-fixed navbar-shadow");
             $(".navbar #slide-line").addClass("d-none");            
