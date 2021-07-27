@@ -1,8 +1,13 @@
 import React, { Fragment } from 'react';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
+import axios from 'axios';
 
 const Header = (props) => {
+  const downloadWhitePaper =async()=>{
+    let res =await axios.get(`${process.env.REACT_APP_API}/api/v1/whitepaper`).then(res=>res.data);
+    window.open(res.data, "_blank")
+  }
   return (
     <Fragment>
       <header className='page-header'>
@@ -64,8 +69,9 @@ const Header = (props) => {
                   >
                     <a
                       className='nav-link'
-                      href='assets/whitepaper.pdf'
-                      target='_blank'
+                      onClick={downloadWhitePaper}
+                      style={{cursor:"pointer"}}
+
                     >
                       Whitepaper
                     </a>
