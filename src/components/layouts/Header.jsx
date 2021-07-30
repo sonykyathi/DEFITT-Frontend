@@ -1,13 +1,10 @@
 import React, { Fragment } from 'react';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
-import axios from 'axios';
+import {downloadWhitePaper} from '../../utils/utils'
 
 const Header = (props) => {
-  const downloadWhitePaper =async()=>{
-    let res =await axios.get(`${process.env.REACT_APP_API}/api/v1/whitepaper`).then(res=>res.data);
-    window.open(res.data, "_blank")
-  }
+  
   return (
     <Fragment>
       <header className='page-header'>

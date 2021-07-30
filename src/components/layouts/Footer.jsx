@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
+import {downloadWhitePaper} from '../../utils/utils'
 
 const Footer = (props) => {
   return (
@@ -148,7 +149,9 @@ const Footer = (props) => {
                       data-animation='fadeInUpShorter'
                       data-animation-delay='0.7s'
                     >
-                      <a href="assets/whitepaper.pdf" target='_blank'>
+                      <a onClick={downloadWhitePaper} 
+                      style={{cursor:"pointer"}}
+                      >
                         Whitepaper
                       </a>
                     </li>
