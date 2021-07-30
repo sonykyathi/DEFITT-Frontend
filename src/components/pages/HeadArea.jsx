@@ -106,7 +106,7 @@ const HeadArea = (props) => {
                       </a>
                       <a
                         onClick={downloadWhitePaper} 
-                        style={{cursor:"pointer"}}
+                        style={{cursor:"pointer", color:"white"}}
                         className='btn btn-lg btn-gradient-purple btn-glow mb-2 animated'
                         data-animation='fadeInUpShorter'
                         data-animation-delay='1.8s'
