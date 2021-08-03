@@ -6,7 +6,7 @@ const Advisors = (props) => {
     <Fragment>
       <section id='advisor' className='advisor team section-padding'>
         <div className='container'>
-          <div className='heading text-center'>
+          <div className='heading text-center mb-0'>
             <div
               className='animated'
               data-animation='fadeInUpShorter'
@@ -25,10 +25,24 @@ const Advisors = (props) => {
               device. Another form of electronic money is network money.
             </p>
           </div>
-          <div className='team-profile mt-5'>
-            <div className='row mb-5 justify-content-center'>
+          <div className='team-profile'>
+            <div className='row justify-content-center'>
+              
+              <div className='col-12 col-sm-6 col-md-6 col-lg-4  mt-5 animated' data-animation='jello' data-animation-delay='0.7s'>
+                <div className='d-flex flex-column'>
+                  <a href='http://Skynetgroup.ae' target='_blank' className='text-white'>
+                    <div className='team-img'>
+                      <img src='theme-assets/images/cropped-Skynet-Logo-1.png' alt='team-profile-1' className='rounded-circle' width='128'/>
+                    </div>
+                    <div className='profile partner-name text-center mt-3'>
+                      <div className='name'>SkyNet Group</div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+
               <div
-                className='col-12 col-sm-6 col-md-6 col-lg-4 mb-5 animated'
+                className='col-12 col-sm-6 col-md-6 col-lg-4  mt-5 animated'
                 data-animation='jello'
                 data-animation-delay='0.5s'
               >
@@ -68,7 +82,7 @@ const Advisors = (props) => {
               </div>
               
               <div
-                className='col-12 col-sm-6 col-md-6 col-lg-4 mb-5 animated'
+                className='col-12 col-sm-6 col-md-6 col-lg-4  mt-5 animated'
                 data-animation='jello'
                 data-animation-delay='0.7s'
                 // data-toggle='modal'
@@ -100,19 +114,6 @@ const Advisors = (props) => {
                         alt='Team User'
                       />
                     </div> */}
-                    </div>
-                  </a>
-                </div>
-              </div>
-
-              <div className='col-12 col-sm-6 col-md-6 col-lg-4 mb-5 animated' data-animation='jello' data-animation-delay='0.7s'>
-                <div className='d-flex flex-column'>
-                  <a href='http://Skynetgroup.ae' target='_blank' className='text-white'>
-                    <div className='team-img'>
-                      <img src='theme-assets/images/cropped-Skynet-Logo-1.png' alt='team-profile-1' className='rounded-circle' width='128'/>
-                    </div>
-                    <div className='profile partner-name text-center mt-3'>
-                      <div className='name'>SkyNet Group</div>
                     </div>
                   </a>
                 </div>

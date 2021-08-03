@@ -3866,9 +3866,18 @@ header .navbar.navbar-shadow {
   margin-bottom: 25px;
   font-size: 0.875rem;
 }
+.copy-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 .footer .footer-wrapper .copyright {
   font-size: 0.75rem;
 }
+.disclaimer-text{
+  font-size: 0.75rem;
+}
+
 
 .blog-area {
   position: relative;
@@ -5659,6 +5668,12 @@ p {
   }
   .footer .footer-wrapper .title {
     margin-bottom: 15px;
+  }
+  .copy-right {
+    flex-direction: column;
+  }
+  .copy-right .copyright{
+    margin-bottom: 8px;
   }
 
 }

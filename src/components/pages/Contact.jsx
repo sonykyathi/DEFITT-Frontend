@@ -41,7 +41,7 @@ const Contact = (props) => {
                         data-animation-delay='0.5s'
                       >
                         <i className='ti-headphone'></i>
-                        <span className='ml-1'>+44 0000 0000 00</span>
+                        <span className='ml-1'>+44 08000418812</span>
                       </li>
                       <li
                         className='animated'
