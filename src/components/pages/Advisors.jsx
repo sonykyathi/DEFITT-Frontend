@@ -66,6 +66,7 @@ const Advisors = (props) => {
                   </a>
                 </div>
               </div>
+              
               <div
                 className='col-12 col-sm-6 col-md-6 col-lg-4 mb-5 animated'
                 data-animation='jello'
@@ -103,6 +104,20 @@ const Advisors = (props) => {
                   </a>
                 </div>
               </div>
+
+              <div className='col-12 col-sm-6 col-md-6 col-lg-4 mb-5 animated' data-animation='jello' data-animation-delay='0.7s'>
+                <div className='d-flex flex-column'>
+                  <a href='http://Skynetgroup.ae' target='_blank' className='text-white'>
+                    <div className='team-img'>
+                      <img src='theme-assets/images/cropped-Skynet-Logo-1.png' alt='team-profile-1' className='rounded-circle' width='128'/>
+                    </div>
+                    <div className='profile partner-name text-center mt-3'>
+                      <div className='name'>SkyNet Group</div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+
             </div>
           </div>
         </div>
