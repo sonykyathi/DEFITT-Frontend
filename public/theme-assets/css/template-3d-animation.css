@@ -3877,6 +3877,9 @@ header .navbar.navbar-shadow {
 .disclaimer-text{
   font-size: 0.75rem;
 }
+.disclaimer-text>b{
+  font-size: 0.85rem;
+}
 
 
 .blog-area {
@@ -5673,7 +5676,7 @@ p {
     flex-direction: column;
   }
   .copy-right .copyright{
-    margin-bottom: 8px;
+    margin-top: 8px;
   }
 
 }

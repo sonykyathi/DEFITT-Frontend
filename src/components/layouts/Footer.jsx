@@ -189,6 +189,7 @@ const Footer = (props) => {
               </div>
             </div>
             <div className='copy-right mx-auto'>
+              <span className="disclaimer-text">A unit of <b>Sky Net Group</b> of Companies</span>
               <span className='copyright'>
                 Copyright © 2021,{' '}
                 <a href='#' title='pixinvent' className='white'>
@@ -196,7 +197,6 @@ const Footer = (props) => {
                   DEFItt
                 </a>.
               </span>
-              <span className="disclaimer-text">A unit of Sky Net Group of Companies</span>
             </div>
           </div>
         </div>
