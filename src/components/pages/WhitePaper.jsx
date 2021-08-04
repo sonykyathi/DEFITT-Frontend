@@ -63,7 +63,7 @@ const Wallets = () => {
                       data-animation='fadeInUpShorter'
                       data-animation-delay='0.6s'
                     >
-                      <a href='javascript:void(0);' title='METAMASK'>
+                      <a href='https://metamask.io/' target="_blank" title='METAMASK'>
                         <img
                           width='60px'
                           src='theme-assets/images/metamask.png'
@@ -80,7 +80,7 @@ const Wallets = () => {
                       data-animation='fadeInUpShorter'
                       data-animation-delay='0.7s'
                     >
-                      <a href='javascript:void(0);' title='Trust wallet'>
+                      <a href='https://trustwallet.com/' target="_blank" title='Trust wallet'>
                         <img
                           width='60px'
                           src='theme-assets/images/trust.png'
@@ -97,7 +97,7 @@ const Wallets = () => {
                       data-animation='fadeInUpShorter'
                       data-animation-delay='0.8s'
                     >
-                      <a href='javascript:void(0);' title='Binance Wallet'>
+                      <a href='https://www.binance.com/en/wallet-direct' target="_blank" title='Binance Wallet'>
                         <img
                           width='60px'
                           src='theme-assets/images/binance-wallet.png'
@@ -114,7 +114,7 @@ const Wallets = () => {
                       data-animation='fadeInUpShorter'
                       data-animation-delay='0.9s'
                     >
-                      <a href='javascript:void(0);' title='PancakeSwap'>
+                      <a href='https://pancakeswap.finance/' target="_blank" title='PancakeSwap'>
                         <img
                           width='60px'
                           src='theme-assets/images/pancakeswap.png'
