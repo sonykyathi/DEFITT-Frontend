@@ -1,10 +1,10 @@
 import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
 
-const About = (props) => {
+const Gallery = (props) => {
   return (
     <Fragment>
-      <section className='about section-padding' id='about'>
+      <section className='gallery section-padding' id='gallery'>
         <div className='container'>
           <div className='heading text-center'>
             <div
@@ -12,12 +12,12 @@ const About = (props) => {
               data-animation='fadeInUpShorter'
               data-animation-delay='0.3s'
             >
-              <h6 className='sub-title'>About Us</h6>
-              <h2 className='title'>About Us</h2>
+              <h6 className='sub-title'>Gallery</h6>
+              <h2 className='title'>Gallery</h2>
             </div>
           </div>
           <div className='content-area'>
-            <div className='row'>
+            {/* <div className='row'>
               <div className='col-md-12 col-lg-6' style={{ margin: 'auto 0' }}>
                 <ul className='app-features'>
                   <li className='about-text dark-bg-text-color'>
@@ -64,11 +64,11 @@ const About = (props) => {
                     alt='What is Crypto?'
                   />
                   <div className='play-video text-center'>
-                    <a href="theme-assets/images/FTTcoin.png" target='_blank'><img src='theme-assets/images/hero-coin.png' className="img-fluid" alt=""/></a>
+                    <a href="https://ftttoken.com" target='_blank'><img src='theme-assets/images/hero-coin.png' className="img-fluid" alt=""/></a>
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
@@ -76,6 +76,6 @@ const About = (props) => {
   );
 };
 
-About.propTypes = {};
+Gallery.propTypes = {};
 
-export default About;
+export default Gallery;

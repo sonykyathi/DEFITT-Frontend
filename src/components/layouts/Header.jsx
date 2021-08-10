@@ -59,6 +59,9 @@ const Header = (props) => {
                       About Us
                     </a>
                   </li>
+                  <li className='nav-item animated' data-animation='fadeInDown' data-animation-delay='1.1s'>
+                    <a className='nav-link' href='/gallery' target='_blank'>Gallery</a>
+                  </li>
                   <li
                     className='nav-item animated'
                     data-animation='fadeInDown'
