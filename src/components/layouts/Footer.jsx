@@ -24,24 +24,12 @@ const Footer = (props) => {
                       <img src='theme-assets/images/logo.png' alt='Logo' />
                     </a>
                   </div>
-                  <div
-                    className='about-text animated'
-                    data-animation='fadeInUpShorter'
-                    data-animation-delay='0.3s'
-                  >
-                    <p className='grey-accent2'>
-                      DEFItt is a decentralised digital currency that is free of
-                      complete censorship and accessible to anyone. It is built
-                      on the BEP-20 token standard, powered by the Binance Smart
-                      Contract Blockchain.
+                  <div className='about-text animated' data-animation='fadeInUpShorter' data-animation-delay='0.3s'>
+                    <p className='grey-accent2'>DEFItt is a decentralised digital currency that is free of complete censorship and accessible to anyone. It is built on the BEP-20 token standard, powered by the Binance Smart Contract Blockchain.
                     </p>
                   </div>
                   <ul className='social-buttons list-unstyled mb-5'>
-                    <li
-                      className='animated'
-                      data-animation='fadeInUpShorter'
-                      data-animation-delay='0.5s'
-                    >
+                    <li className='animated' data-animation='fadeInUpShorter' data-animation-delay='0.5s'>
                       <a
                         target='_blank'
                         href='https://twitter.com/Defitt_ftt'
@@ -188,15 +176,9 @@ const Footer = (props) => {
                 </div>
               </div>
             </div>
-            <div className='copy-right mx-auto'>
-              <span className='copyright'>
-                Copyright © 2021,{' '}
-                <a href='#' title='pixinvent' className='white'>
-                  {' '}
-                  DEFItt
-                </a>.
-              </span>
-              <span className="disclaimer-text">A unit of Sky Net Group of Companies</span>
+            <div className='copy-right text-center'>
+              <span className='copyright'>Copyright © 2021,{' '}<a href='#' title='pixinvent' className='white'>{' '}DEFItt</a>.</span>
+              {/* <span className="disclaimer-text">A unit of Sky Net Group of Companies</span> */}
             </div>
           </div>
         </div>

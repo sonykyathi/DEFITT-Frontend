@@ -72,9 +72,6 @@ const About = (props) => {
                       alt="What is Crypto?"
                     />
                   </a>
-                  {/* <div className='play-video text-center'>
-                    <img src='theme-assets/images/hero-coin.png' width='100' />
-                  </div> */}
                 </div>
               </div>
             </div>

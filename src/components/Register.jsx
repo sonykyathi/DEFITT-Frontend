@@ -1189,7 +1189,7 @@ const Register = (props) => {
               </div>
               <div className="login-option text-center">
                 <label>
-                  Already have an account!? - <Link to='/login'>Login here{' '}</Link>
+                  Already have an account!? <Link to='/login'>Login here{' '}</Link>
                 </label>
               </div>
             </div>

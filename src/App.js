@@ -10,7 +10,8 @@ import Register from './components/Register';
 import TemplateInner from './components/TemplateInner';
 import TemplateNotFound from './components/TemplateNotFound';
 import useScript from './hooks/useScript';
-import AboutPage from './components/AboutPage';
+import AboutPage from './components/pages/AboutPage';
+import GalleryPage from './components/pages/GalleryPage';
 import './App.css';
 function App() {
   return (
@@ -36,6 +37,9 @@ function App() {
               </Route>
               <Route exact path='/aboutus'>
                 <AboutPage />
+              </Route>
+              <Route exact path='/gallery'>
+                <GalleryPage />
               </Route>
               <Route exact path='*'>
                 <TemplateNotFound />
