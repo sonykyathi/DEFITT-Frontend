@@ -493,7 +493,8 @@ svg#loader g:last-child circle {
   color: #ffffff;
 }
 
-.btn-gradient-purple {
+.btn-gradient-purple,
+a.btn-gradient-purple {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   -moz-transition: 0.5s;
@@ -563,6 +564,10 @@ svg#loader g:last-child circle {
 .btn-gradient-purple.btn-glow {
   -webkit-box-shadow: 0 0 12px 0 #9e48cd;
   box-shadow: 0 0 12px 0 #9e48cd;
+}
+
+a.btn:not([href]):not([tabindex]), a.btn:not([href]):not([tabindex]):focus, a.btn:not([href]):not([tabindex]):hover {
+  color: #FFFFFF;
 }
 
 .btn-light {
