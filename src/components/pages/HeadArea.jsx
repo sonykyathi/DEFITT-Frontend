@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import axios from 'axios';
 import {downloadWhitePaper} from '../../utils/utils'
@@ -6,16 +6,58 @@ import {downloadWhitePaper} from '../../utils/utils'
 import StripeCheckout from 'react-stripe-checkout';
 
 const HeadArea = (props) => {
+  const [state, setstate] = useState({BTC:0,USDT:1, ETH:0, DEFITT:10, FTT:1, ADA:0, BNB:0})
+
+  useEffect(() => {
+    cryptoCompareAPI()
+   }, [])
+
+   
   const makePayment = (token) => {
     axios
       .post(`${process.env.REACT_APP_API}/api/v1/payment`, token)
       .then((response) => {
-        console.log(response.data);
+      
+        
       })
       .catch((err) => {
         console.log(err.response.data);
       });
   };
+
+
+  const cryptoCompareAPI = ()=>{
+    axios
+    .get(`${process.env.REACT_APP_API}/api/v1/whitepaper/coin-listing`)
+    .then((response) => {
+      let OBJ =state;
+      if(response?.data?.status ===200){
+        response?.data?.data?.map((val)=>{
+          console.log(val.FROMSYMBOL, '=====')
+          if(val.FROMSYMBOL==="BTC"){
+            OBJ.BTC = val.PRICE
+          }
+          if(val.FROMSYMBOL==="ETH"){
+            OBJ.ETH = val.PRICE
+          }
+          if(val.FROMSYMBOL==="BNB"){
+            OBJ.BNB = val.PRICE
+          }
+          if(val.FROMSYMBOL==="ADA"){
+            OBJ.ADA = val.PRICE
+          }
+          if(val.FROMSYMBOL==="USDT"){
+            OBJ.USDT = val.PRICE
+          }
+        })
+
+        setstate({...OBJ})
+      };
+    })
+    .catch((err) => {
+      console.log(err);
+    });
+  }
   return (
     <Fragment>
       <section className='head-area' id='head-area'>
@@ -31,7 +73,7 @@ const HeadArea = (props) => {
                         <div className="marquee-icon">
                           <img src='theme-assets/images/logo.png' className="img-fluid" alt=""/>
                         </div>
-                         <p>1 Defitt = $10.00,</p>
+                         <p>1 Defitt = ${state.DEFITT.toFixed(2)},</p>
                       </div>
                       <div className="marquee-states">
                         <div className="marquee-icon">
@@ -43,33 +85,33 @@ const HeadArea = (props) => {
                         <div className="marquee-icon">
                           <img src='theme-assets/images/btc.png' className="img-fluid" alt=""/>
                         </div>
-                        <p>1 BTC = $32,159.46,</p>
+                        <p>1 BTC = ${state.BTC.toFixed(2)},</p>
                       </div>
                       <div className="marquee-states">
                         <div className="marquee-icon">
                           <img
                             src='theme-assets/images/ethereum.png' className="img-fluid" alt=""/>
                         </div>
-                        <p>1 ETH = $1,990.30,</p>
+                        <p>1 ETH = ${state.ETH.toFixed(2)},</p>
                       </div>
                       <div className="marquee-states">
                         <div className="marquee-icon">
                           <img
                             src='theme-assets/images/tether.png' className="img-fluid" alt=""/>
                         </div>
-                        <p>1 USDT = $1.00,</p>
+                        <p>1 USDT = ${state.USDT.toFixed(2)},</p>
                       </div>
                       <div className="marquee-states">
                         <div className="marquee-icon">
                           <img src='theme-assets/images/bnb.png' className="img-fluid" alt=""/>
                         </div>
-                        <p>1 BNB = $293.08,</p>
+                        <p>1 BNB = ${state.BNB.toFixed(2)},</p>
                       </div>
                       <div className="marquee-states">
                         <div className="marquee-icon">
                           <img src='theme-assets/images/cardano.png' className="img-fluid" alt=""/>
                         </div>
-                        <p>1 ADA = $1.17</p>
+                        <p>1 ADA = ${state.ADA.toFixed(2)}</p>
                       </div>
                     </marquee>
                   </div>
