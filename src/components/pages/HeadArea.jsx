@@ -6,7 +6,7 @@ import {downloadWhitePaper} from '../../utils/utils'
 import StripeCheckout from 'react-stripe-checkout';
 
 const HeadArea = (props) => {
-  const [state, setstate] = useState({BTC:0,USDT:1, ETH:0, DEFITT:10, FTT:1, ADA:0, BNB:0})
+  const [state, setstate] = useState({BTC:32159.46,USDT:1, ETH:1990.30, DEFITT:10, FTT:1, ADA:1.17, BNB:293.08})
 
   useEffect(() => {
     cryptoCompareAPI()
