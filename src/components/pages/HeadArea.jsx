@@ -10,6 +10,7 @@ const HeadArea = (props) => {
 
   useEffect(() => {
     cryptoCompareAPI()
+    
    }, [])
 
    
