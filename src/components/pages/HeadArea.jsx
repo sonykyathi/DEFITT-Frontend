@@ -159,7 +159,7 @@ const HeadArea = (props) => {
                 </div>
                 <div className='col-lg-6 col-md-12 move-first'>
                   <div id='svg-animation' className="banner-coin text-center">
-                    <a href='theme-assets/images/logo-200.jpg' target='_blank'>
+                    <a href='/' target='_blank'>
                       <img
                         src='theme-assets/images/defi-coin-logo.png'
                         className='img-fluid cic-logo-animation hero-coin'
