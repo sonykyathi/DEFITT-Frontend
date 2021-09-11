@@ -10,7 +10,7 @@ const HeadArea = (props) => {
 
   useInterval(() => {
     cryptoCompareAPI()
-  }, 3000)
+  }, 2000)
 
 
   const makePayment = (token) => {
