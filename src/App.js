@@ -14,10 +14,12 @@ import AboutPage from './components/pages/AboutPage';
 import GalleryPage from './components/pages/GalleryPage';
 import './App.css';
 function App() {
+  
+  let data = window?.location?.pathname?.includes('/gallery')
   return (
     <Router>
       <Fragment>
-        <Loader></Loader>
+        {data ? null :<Loader></Loader>}
         <Navbar></Navbar>
         <Header></Header>
         <div className='content-wrapper'>
