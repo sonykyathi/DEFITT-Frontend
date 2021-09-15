@@ -133,7 +133,7 @@ const RoadMap = () => {
                 <div className='timeline'>
                   <div className='timeline-icon'>
                     <span className='year'>
-                      5 June
+                      5th June
                       <br />
                       2021
                     </span>
@@ -155,7 +155,7 @@ const RoadMap = () => {
                 <div className='timeline'>
                   <div className='timeline-icon'>
                     <span className='year'>
-                      5th Aug
+                      13th Oct
                       <br />
                       2021
                     </span>
@@ -175,7 +175,7 @@ const RoadMap = () => {
                 <div className='timeline'>
                   <div className='timeline-icon'>
                     <span className='year'>
-                      5th Sep
+                      3rd Dec
                       <br />
                       2021
                     </span>
@@ -196,7 +196,7 @@ const RoadMap = () => {
                 <div className='timeline'>
                   <div className='timeline-icon'>
                     <span className='year'>
-                      20th Sep
+                      28th Dec
                       <br />
                       2021
                     </span>
@@ -217,9 +217,9 @@ const RoadMap = () => {
                 <div className='timeline'>
                   <div className='timeline-icon'>
                     <span className='year'>
-                      13th Oct
+                      22nd Jan
                       <br />
-                      2021
+                      2022
                     </span>
                   </div>
                   <div className='timeline-content'>
@@ -238,9 +238,9 @@ const RoadMap = () => {
                 <div className='timeline'>
                   <div className='timeline-icon'>
                     <span className='year'>
-                      28th Oct
+                      16th Feb
                       <br />
-                      2021
+                      2022
                     </span>
                   </div>
                   <div className='timeline-content'>
@@ -259,9 +259,9 @@ const RoadMap = () => {
                 <div className='timeline'>
                   <div className='timeline-icon'>
                     <span className='year'>
-                      13th Nov
+                      13th Mar
                       <br />
-                      2021
+                      2022
                     </span>
                   </div>
                   <div className='timeline-content'>
@@ -280,9 +280,9 @@ const RoadMap = () => {
                 <div className='timeline'>
                   <div className='timeline-icon'>
                     <span className='year'>
-                      13th Dec
+                      7th April
                       <br />
-                      2021
+                      2022
                     </span>
                   </div>
                   <div className='timeline-content'>
