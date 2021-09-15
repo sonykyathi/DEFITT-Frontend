@@ -493,7 +493,8 @@ svg#loader g:last-child circle {
   color: #ffffff;
 }
 
-.btn-gradient-purple {
+.btn-gradient-purple,
+a.btn-gradient-purple {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   -moz-transition: 0.5s;
@@ -563,6 +564,10 @@ svg#loader g:last-child circle {
 .btn-gradient-purple.btn-glow {
   -webkit-box-shadow: 0 0 12px 0 #9e48cd;
   box-shadow: 0 0 12px 0 #9e48cd;
+}
+
+a.btn:not([href]):not([tabindex]), a.btn:not([href]):not([tabindex]):focus, a.btn:not([href]):not([tabindex]):hover {
+  color: #FFFFFF;
 }
 
 .btn-light {
@@ -2931,13 +2936,27 @@ header .navbar.navbar-shadow {
 
 .about .content-area .play-video {
   position: absolute;
-  top: 50%;
+  top: 49.5%;
   left: 31%;
+  width: 28%;
+  height: 22%;
   -webkit-transform: translate(-70%, -50%);
   -moz-transform: translate(-70%, -50%);
   -ms-transform: translate(-70%, -50%);
   -o-transform: translate(-70%, -50%);
   transform: translate(-70%, -50%);
+}
+.about .content-area .play-video > a{
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 100px;
+}
+.about .content-area .play-video > a > img{
+  visibility: hidden;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
 }
 .about .content-area .play-video .play {
   padding: 1.125rem 1.1rem;
@@ -3866,11 +3885,11 @@ header .navbar.navbar-shadow {
   margin-bottom: 25px;
   font-size: 0.875rem;
 }
-.copy-right {
+/* .copy-right {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-}
+} */
 .footer .footer-wrapper .copyright {
   font-size: 0.75rem;
 }
@@ -5273,8 +5292,9 @@ p {
     text-align: center;
   }
   .about .content-area .play-video {
-    left: 37%;
+    left: 40%;
     top: 49%;
+    width: 24%;
   }
   .move-first {
     -webkit-box-ordinal-group: 0;
@@ -5509,7 +5529,8 @@ p {
   }
   .about .content-area .play-video {
     top: 49%;
-    left: 33%;
+    left: 40%;
+    width: 100px;
   }
   .about .content-area .play-video .play {
     padding: 1.15rem !important;
@@ -5672,12 +5693,12 @@ p {
   .footer .footer-wrapper .title {
     margin-bottom: 15px;
   }
-  .copy-right {
+  /* .copy-right {
     flex-direction: column;
   }
   .copy-right .copyright{
-    margin-top: 8px;
-  }
+    margin-bottom: 8px;
+  } */
 
 }
 
