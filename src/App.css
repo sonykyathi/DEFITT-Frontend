@@ -294,6 +294,27 @@
   float: right;
   margin-left: 20px;
 }
+.about-bullet-3{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.about-bullet-3 > strong{
+  font-weight: 600;
+  flex: 0 0 100%;
+  margin-bottom: 0.5rem;
+}
+.about-bullet-3 li{
+  background: linear-gradient( 
+    45deg, rgb(41 190 255 / 50%), rgb(28 118 254 / 50%) );
+  border-radius: 8px;
+  flex: 1 1 30%;
+  margin-right: 15px;
+  padding: 12px 15px;
+}
 .cms-about-content h4 {
   font-size: 18px;
   color: #ffffff;
@@ -308,6 +329,9 @@
   list-style: none;
   padding: 0;
   margin: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 .about-points span{
   display: block;
@@ -319,10 +343,22 @@
 }
 .about-points ul li{
   font-size: 0.938rem;
-  color: #ffffff;
-  line-height: 22px;
-  margin: 0.8rem 0;
+    color: #ffffff;
+    line-height: 24px;
+    margin: 0.5rem 0;
+    margin-right: 0.8rem;
+    flex: 1 0 48%;
+    padding: 20px 20px;
+    background: linear-gradient( 45deg, rgb(41 190 255 / 50%), rgb(28 118 254 / 50%) );
+    border-radius: 8px;
 }
+.about-points ul li:nth-child(2n + 2){margin-right: 0;}
+.about-points ul li:last-child{margin-right: 0;}
+.about-points ul li>b{
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
 
 /* Gallery Page Style */
 .gallery-thumbnail-card{
