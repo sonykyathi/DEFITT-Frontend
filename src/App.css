@@ -304,6 +304,7 @@
 }
 .about-bullet-3 > strong{
   font-weight: 600;
+  line-height: 16px;
   flex: 0 0 100%;
   margin-bottom: 0.5rem;
 }
@@ -339,7 +340,7 @@
   color: #ffffff;
   font-weight: 700;
   line-height: normal;
-  margin-bottom: 12px;
+  margin-bottom: 4px;
 }
 .about-points ul li{
   font-size: 0.938rem;
@@ -440,6 +441,10 @@
     max-width: 200px;
     max-height: 80px;
   }
+  .about-points ul li {
+    margin-right: 0;
+    flex: 1 0 100%;
+  }
 
 }
 @media only screen and (max-width: 767px) {
@@ -486,6 +491,11 @@
   .main-timeline {padding: 0px 0;}
   .cms-wrapper {padding: 50px 0;}
   .gallery-thumbnail-card {height: auto;max-height: 300px;}
+  .about-bullet-3 li {
+    flex: 1 0 100%;
+    margin-right: 0;
+    margin-bottom: 12px;
+  }
 
 }
 
