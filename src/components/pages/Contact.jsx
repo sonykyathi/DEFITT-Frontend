@@ -1,8 +1,40 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useState } from 'react';
 import DefittMap from './DefittMap';
 import PropTypes from 'prop-types';
-
+import { CONTACT_US_VALIDATE } from '../../utils/validate';
+import axios from 'axios';
+const USER_CONTACTUS = {
+  name: "",
+  email: "",
+  message: "",
+  errors: {
+    name: "",
+    email: "",
+    message: ""
+  }
+}
 const Contact = (props) => {
+  const [state, setstate] = useState(USER_CONTACTUS);
+
+  const onSubmit = (e) => {
+    e.preventDefault();
+
+    let { success, name, email, message } = CONTACT_US_VALIDATE({ name: state.name, email: state.email, message: state.message })
+    if (!success) {
+      setstate({ ...state, errors: { ...state.errors, name, email, message } })
+    } else {
+      setstate({ ...state, errors: { ...USER_CONTACTUS.errors } })
+      axios
+        .post(`${process.env.REACT_APP_API}/api/v1/user/contact-us`, { name, email, message })
+        .then((response) => {
+          console.log(response.data);
+        });
+    }
+  }
+  const onChange = (e) => {
+    setstate({ ...state, [e.target.name]: e.target.value })
+  }
+
   return (
     <Fragment>
       <section id='contact' className='contact section-padding'>
@@ -63,8 +95,7 @@ const Contact = (props) => {
                       </li>
                     </ul>
                     <form
-                      action='#'
-                      method='post'
+                     onSubmit={onSubmit}
                       acceptCharset='utf-8'
                       className='text-center'
                     >
@@ -75,15 +106,22 @@ const Contact = (props) => {
                         data-animation-delay='0.8s'
                         name='name'
                         placeholder='Your Name'
+                        value={state.name}
+                        onChange={onChange}
                       />
+                      <span style={{color:"red"}}>{state.errors.name}</span>
                       <input
                         type='text'
                         className='form-control animated'
                         data-animation='fadeInUpShorter'
                         data-animation-delay='0.9s'
-                        name='mail'
+                        name='email'
                         placeholder='Your Mail'
+                        value={state.email}
+                        onChange={onChange}
                       />
+                      <span style={{color:"red"}}>{state.errors.email}</span>
+
                       <input
                         type='text'
                         className='form-control animated'
@@ -91,7 +129,11 @@ const Contact = (props) => {
                         data-animation-delay='1.0s'
                         name='message'
                         placeholder='Your Message'
+                        value={state.message}
+                        onChange={onChange}
                       />
+                      <span style={{color:"red"}}>{state.errors.message}</span>
+
                       <button
                         type='submit'
                         className='btn btn-lg btn-gradient-purple btn-glow animated'
