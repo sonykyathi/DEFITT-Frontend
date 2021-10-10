@@ -2853,7 +2853,15 @@ header .navbar.navbar-shadow {
 }
 .hero-marquee > marquee{
   white-space: nowrap;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.marqborder{
+  /* border-style: solid;
+  border-width: 3px;
+  border-color:white */
+  border-bottom: 2px solid #2a174f;
+  border-top: 2px solid #2a174f;
 }
 .marquee-states{
   display: inline-block;
@@ -5698,8 +5706,33 @@ p {
   } */
 
 }
+.seperator{
+  color:white;
+  font-weight: 400;
+}
+.cusscroll{
+  height: 65px;
+  overflow-y: scroll;
+}
+.cusscroll::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
 
+.cusscroll::-webkit-scrollbar-track {
+  background: rgb(20,14,56);        /* color of the tracking area */
+}
 
+.cusscroll::-webkit-scrollbar-thumb {
+  background-color: grey;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid rgb(20,14,56);  /* creates padding around scroll thumb */
+}
+.negative{
+  color:red;
+}
+.positive{
+  color:green;
+}
 
 
 
