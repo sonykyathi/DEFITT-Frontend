@@ -179,8 +179,8 @@ const selectIcon =(val)=>{
                       data-animation='fadeInUpShorter'
                       data-animation-delay='1.5s'
                     >
-                      First of its kind, Investment with Zero Risk. Buy, sell
-                      and spend DEFItt with zero fuss.
+                      Unique cryptocurrency-based investment developed on Binance Smart Chain. Your access to a comprehensive digital ecosystem.
+                      
                       <br />
                     </h1>
                     <div className='mt-5'>

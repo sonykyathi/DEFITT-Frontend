@@ -32,7 +32,7 @@ const TokenSale = () => {
                 data-animation-delay='0.6s'
               >
                 <div className='token-sale-counter'>
-                  <h5>Locking Profit</h5>
+                  <h5>LOCKING PROFIT</h5>
                   <div className='token-details text-center'>
                     <div className='clock-counter mb-4'>
                       <div className='clock ml-0 mt-5 d-flex justify-content-center'></div>
@@ -87,31 +87,23 @@ const TokenSale = () => {
               >
                 <div className='row'>
                   <p>
-                    DEFItt makes it possible for holders to stake their DEFItt
-                    and make their assets work for them by generating rewards,
-                    rather than collecting dust in their crypto wallets. DEFItt
-                    offers a no-risk investment, whereby for a one-year lock
-                    period, FIT TECHNOLOGIES LIMITED UK will offer 40% assured
-                    growth and locking for 2 years will yield a 100% assured
-                    return on investment. A 3-year locking period will yield the
-                    holder 200% assured growth.
+                  DEFItt allows token holders to stake their asset and generate rewards instead of stashing it in their crypto wallet without any profit. For a one-year lock period, Fit Technologies Limited UK will offer a 40% assured asset growth. This return on investment (ROI) can even reach up to 100% and 200% if the user stakes DEFITT for two years and three years, respectively.
                     <br />
-                    DEFItt is paired by FTT which can give access to user to our
-                    different verticals.
+                    DEFItt holders can also access all verticals since DEFITT is paired to FTT. 
                   </p>
                   <div className='col-lg-5 col-md-6 col-sm-6 col-12'>
                     <ul className='token-sale-info'>
                       <li>
                         Dfitt Play{' '}
-                        <strong className='white'>5 June 2021</strong>
+                        <strong className='white'>June 5, 2021</strong>
                       </li>
                       <li>
                         Defi Startup{' '}
-                        <strong className='white'>5th Aug 2021</strong>
+                        <strong className='white'>Aug 5, 2021</strong>
                       </li>
                       <li>
                         Defi TradX{' '}
-                        <strong className='white'>5th Sep 2021</strong>
+                        <strong className='white'>Sep 5, 2021</strong>
                       </li>
                     </ul>
                   </div>
@@ -119,15 +111,15 @@ const TokenSale = () => {
                     <ul className='token-sale-info'>
                       <li>
                         Defi Kampus{' '}
-                        <strong className='white'>20th Sep 2021</strong>
+                        <strong className='white'>Sep 20, 2021</strong>
                       </li>
                       <li>
-                        Defi NIRVAANA{' '}
-                        <strong className='white'>13th Oct 2021</strong>
+                      DeFi Nirvaana{' '}
+                        <strong className='white'>Oct 13, 2021</strong>
                       </li>
                       <li>
                         Defi Landscape{' '}
-                        <strong className='white'>28th Oct 2021</strong>
+                        <strong className='white'>Oct 28, 2021</strong>
                       </li>
                     </ul>
                   </div>

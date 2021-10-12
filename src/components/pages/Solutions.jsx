@@ -15,16 +15,12 @@ const Solutions = () => {
               <h2 className='title'>VISION</h2>
             </div>
             <p
-              className='content-desc animated'
+              className='content-desc animated textjust'
               data-animation='fadeInUpShorter'
               data-animation-delay='0.4s'
             >
-              DEFItt intends to lead the market for decentralised finance. A
-              decentralised BEP-20 token standard on Binance Smart Chain.
-              <br className='d-none d-xl-block' />
-              Defitt intends to have a greater inclusion by educating people on
-              the values of digital currency and to gain enough usability so it
-              can be termed as the NEXT ALTERNATIVE TO PAPER MONEY.
+             We aim to become a leading decentralized finance (DeFi) ecosystem that will foster greater community inclusion. By educating people on digital currency and introducing more use cases, DEFItt can become a viable alternative to fiat money.
+              
             </p>
           </div>
           <div className='heading text-center'>
@@ -47,7 +43,7 @@ const Solutions = () => {
                     data-animation='fadeInUpShorter'
                     data-animation-delay='0.2s'
                   >
-                    Dfitt Play
+                    DFItt Play
                   </h4>
                 </div>
                 <p
@@ -55,9 +51,8 @@ const Solutions = () => {
                   data-animation='fadeInUpShorter'
                   data-animation-delay='0.4s'
                 >
-                  A gaming experience that will blow the minds of the gaming
-                  fans. An easy interface with 500 plus wide range of games to
-                  choose from, including Casino, Betting and Live games.
+                DFItt Play provides a gaming experience that will blow the minds of fans.
+                It has over 500 games that players can choose from, including casino and live games.
                 </p>
               </div>
               <div className='col-lg-6 col-md-5 col-sm-12 col-12'>
@@ -93,7 +88,7 @@ const Solutions = () => {
                     data-animation='fadeInUpShorter'
                     data-animation-delay='0.2s'
                   >
-                    Defi Startup
+                   DeFi Startup
                   </h4>
                 </div>
                 <p
@@ -101,12 +96,7 @@ const Solutions = () => {
                   data-animation='fadeInUpShorter'
                   data-animation-delay='0.5s'
                 >
-                  If you have dreamt of being an entrepreneur and have it what
-                  it takes to be successful then we are there for you. Your
-                  project can yield you the results that you have been looking
-                  for. Submit your project with us and we shall connect you to
-                  the right investors who would help you financially and
-                  strategically.
+                 Aspiring entrepreneurs can submit project proposals to the DEFITT Team and get connected with the right investors and partners to help them fund their project and initialize their strategy.
                 </p>
               </div>
             </div>
@@ -120,7 +110,7 @@ const Solutions = () => {
                     data-animation='fadeInUpShorter'
                     data-animation-delay='0.2s'
                   >
-                    Defi TradX
+                   DeFi TradX
                   </h4>
                 </div>
                 <p
@@ -128,17 +118,9 @@ const Solutions = () => {
                   data-animation='fadeInUpShorter'
                   data-animation-delay='0.4s'
                 >
-                  A one of a kind exchange where you can interchange crypto with
-                  forex, commodity and shares.
+                  An all-in-one exchange that enables users to trade cryptocurrency with other assets such as forex, commodity, and shares.
                 </p>
-                <p
-                  className='animated'
-                  data-animation='fadeInUpShorter'
-                  data-animation-delay='0.4s'
-                >
-                  Buy, sell and trade on our exchange with customized interface
-                  with no fuss.
-                </p>
+               
               </div>
               <div className='col-lg-6 col-md-5 col-sm-12 col-12'>
                 <div className='problem-img-holder'>
@@ -173,7 +155,7 @@ const Solutions = () => {
                     data-animation='fadeInUpShorter'
                     data-animation-delay='0.2s'
                   >
-                    Defi Kampus
+                    DeFi Kampus
                   </h4>
                 </div>
                 <p
@@ -181,19 +163,9 @@ const Solutions = () => {
                   data-animation='fadeInUpShorter'
                   data-animation-delay='0.5s'
                 >
-                  Learn, Vocational Courses, Earn a Diploma and Degree with Defi
-                  Kampus. Get access to our online classes world wide. Learn
-                  whenever and whatever you always wanted to learn in your life
+                  DeFi Kampus is a digital platform that partners with higher education institutions around the world to offer vocational courses and enable learners to earn a degree.
                 </p>
-                <p
-                  className='animated'
-                  data-animation='fadeInUpShorter'
-                  data-animation-delay='0.7s'
-                >
-                  Our Kampus provides access to Universities and Colleges around
-                  the world. Get your Diploma/Degree and show the world that it
-                  is easy to achieve.
-                </p>
+                
               </div>
             </div>
           </div>
@@ -206,7 +178,7 @@ const Solutions = () => {
                     data-animation='fadeInUpShorter'
                     data-animation-delay='0.2s'
                   >
-                    Defi Nirvaana
+                   DeFi Nirvaana
                   </h4>
                 </div>
                 <p
@@ -214,40 +186,9 @@ const Solutions = () => {
                   data-animation='fadeInUpShorter'
                   data-animation-delay='0.4s'
                 >
-                  Healthcare at one go.
+                 DeFi Nirvaana collaborates with hospitals and other healthcare institutions to offer users access to certified doctors and nutritionists without daily or monthly limits
                 </p>
-                <p
-                  className='animated'
-                  data-animation='fadeInUpShorter'
-                  data-animation-delay='0.6s'
-                >
-                  Worldwide access to the best Doctors, Hospitals and
-                  nutritional's. Cause health comes first
-                </p>
-                <p
-                  className='animated'
-                  data-animation='fadeInUpShorter'
-                  data-animation-delay='0.6s'
-                >
-                  Choose your own doctor or hospital and get everything done
-                  what needs to be done. We are taking care of the bills
-                </p>
-                <p
-                  className='animated'
-                  data-animation='fadeInUpShorter'
-                  data-animation-delay='0.6s'
-                >
-                  Search for the right treatment and get it done. With our
-                  community worldwide we can provide the right place to be.
-                </p>
-                <p
-                  className='animated'
-                  data-animation='fadeInUpShorter'
-                  data-animation-delay='0.6s'
-                >
-                  You don’t have a daily or monthly limit on how much you will
-                  spend on healthcare. Unlimited access and no more
-                </p>
+               
               </div>
               <div className='col-lg-6 col-md-5 col-sm-12 col-12'>
                 <div className='problem-img-holder'>
@@ -282,7 +223,7 @@ const Solutions = () => {
                     data-animation='fadeInUpShorter'
                     data-animation-delay='0.2s'
                   >
-                    Defi Landscape
+                    DeFi Landscape
                   </h4>
                 </div>
                 <p
@@ -290,27 +231,9 @@ const Solutions = () => {
                   data-animation='fadeInUpShorter'
                   data-animation-delay='0.5s'
                 >
-                  You want to buy or sell a property in a foreign country? No
-                  problem with us! With FTT you are able to buy or sell any
-                  house or apartment all over the world with just one click.
+                 Through DeFi Landscape, individuals can buy or sell real estate properties that are located in different countries using FTT token.
                 </p>
-                <p
-                  className='animated'
-                  data-animation='fadeInUpShorter'
-                  data-animation-delay='0.7s'
-                >
-                  As from now on with FTT you are free in the decision where to
-                  buy your new home or vacation bungalow.
-                </p>
-                <p
-                  className='animated'
-                  data-animation='fadeInUpShorter'
-                  data-animation-delay='0.7s'
-                >
-                  Some financial institutes don’t allow to transfer money
-                  abroad. There are restrictions on it. With FTT you have no
-                  boarders to overcome or explanations to anyone
-                </p>
+                
               </div>
             </div>
           </div>
@@ -323,7 +246,7 @@ const Solutions = () => {
                     data-animation='fadeInUpShorter'
                     data-animation-delay='0.2s'
                   >
-                    Defi Buzaar
+                   DeFi Buzaar
                   </h4>
                 </div>
                 <p
@@ -331,11 +254,7 @@ const Solutions = () => {
                   data-animation='fadeInUpShorter'
                   data-animation-delay='0.4s'
                 >
-                  One stop e- Commerce solution for all your needs Get high
-                  quality products from the world to your door steps Get
-                  products and services ranging from flight bookings to grocery
-                  shopping We promote small and medium business into the world
-                  market
+                  DeFi Buzaar offers a one-stop e-commerce solution for all products including groceries and flight tickets by offering a product or service listing platform for small-and-medium enterprises (SMEs).
                 </p>
               </div>
               <div className='col-lg-6 col-md-5 col-sm-12 col-12'>
@@ -371,7 +290,7 @@ const Solutions = () => {
                     data-animation='fadeInUpShorter'
                     data-animation-delay='0.2s'
                   >
-                    Defi SwipeCard
+                    DeFi Swipecard
                   </h4>
                 </div>
                 <p
@@ -379,20 +298,9 @@ const Solutions = () => {
                   data-animation='fadeInUpShorter'
                   data-animation-delay='0.5s'
                 >
-                  Wherever Visa is accepted you are just one swipe away from
-                  your purchase The Visa Debit Card will offer you all
-                  possibilities to pay on daily basis! Unlimited all over the
-                  world.
+                 For cashless transactions, DeFi Swipecard offers a Visa debit card, which users can swipe at any time across all stores that are accepting Visa payments.
                 </p>
-                <p
-                  className='animated'
-                  data-animation='fadeInUpShorter'
-                  data-animation-delay='0.7s'
-                >
-                  Take the chance and go for a shopping with your loved once and
-                  bring a smile in the face just by having your swipe card on
-                  our side.
-                </p>
+               
               </div>
             </div>
           </div>
