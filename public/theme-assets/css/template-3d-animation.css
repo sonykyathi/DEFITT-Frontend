@@ -2853,7 +2853,15 @@ header .navbar.navbar-shadow {
 }
 .hero-marquee > marquee{
   white-space: nowrap;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.marqborder{
+  /* border-style: solid;
+  border-width: 3px;
+  border-color:white */
+  border-bottom: 2px solid #2a174f;
+  border-top: 2px solid #2a174f;
 }
 .marquee-states{
   display: inline-block;
@@ -3027,8 +3035,8 @@ header .navbar.navbar-shadow {
 
 /* header section type 2 : Light/Dark page section heading with title, sub-title and desc */
 .section-padding {
-  padding-top: 6.5rem;
-  padding-bottom: 6.5rem;
+  padding-top: 4.5rem;
+  padding-bottom: 4.5rem;
 }
 
 /* Dark section heading */
@@ -3093,7 +3101,7 @@ header .navbar.navbar-shadow {
 .heading .title {
   color: #ffffff;
   padding-top: 2.25rem;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 .heading .sub-title {
   width: 100%;
@@ -3150,9 +3158,7 @@ header .navbar.navbar-shadow {
 }
 
 /* Tokens Sale section : Tokens sale information list */
-.token-sale {
-  /* Tokens sale list */
-}
+
 .token-sale h5 {
   font-weight: 700;
   color: #ffffff;
@@ -5701,8 +5707,35 @@ p {
   } */
 
 }
+.seperator{
+  color:white;
+  font-weight: 400;
+}
+.cusscroll{
+  height: 65px;
+  overflow-y: scroll;
+}
+.cusscroll::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
 
+.cusscroll::-webkit-scrollbar-track {
+  background: rgb(20,14,56);        /* color of the tracking area */
+}
 
-
+.cusscroll::-webkit-scrollbar-thumb {
+  background-color: grey;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid rgb(20,14,56);  /* creates padding around scroll thumb */
+}
+.negative{
+  color:red;
+}
+.positive{
+  color:green;
+}
+.textjust{
+  text-align:justify;
+}
 
 

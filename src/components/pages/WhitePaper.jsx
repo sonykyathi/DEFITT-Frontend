@@ -13,49 +13,22 @@ const Wallets = () => {
                   data-animation='fadeInUpShorter'
                   data-animation-delay='0.5s'
                 >
-                  Exchanges and Wallets
+                  EXCHANGES AND WALLETS
                 </h4>
                 <p
                   className='animated text-white'
                   data-animation='fadeInUpShorter'
                   data-animation-delay='0.6s'
                 >
-                  Cryptocurrency is gaining popularity throughout the world,
-                  with recent innovation in the United States and elsewhere, and
-                  emerging economies leading the trends. According to studies,
-                  blockchain technology is expected to contribute significantly
-                  to global GDP by 2030.
+                  Developed to be fully compatible with all platforms that accept the BEP-20 standard, DEFItt can be stored in major wallets such as Trust Wallet and MetaMask. No single company facilitates the sale and trading of DEFItt, offering advantages like increased scalability, transparency, accessibility, and resistance against inflation.
                 </p>
                 <p
                   className='animated text-white'
                   data-animation='fadeInUpShorter'
                   data-animation-delay='0.7s'
                 >
-                  DEFItt can be stored in any wallet of your choice mainly
-                  TRUST, METAMASK or any other Transfers are encrypted using
-                  either public or private keys and are directly linked to the
-                  user's digital wallet.
+                  Crypto users and investors that are interested in obtaining DEFItt can buy from decentralized excchange PancakeSwap.
                 </p>
-                <p
-                  className='animated text-white'
-                  data-animation='fadeInUpShorter'
-                  data-animation-delay='0.7s'
-                >
-                  Unlike traditional currencies, it is not distributed by a
-                  single company and is not vulnerable to government
-                  intervention or manipulation. It also offers several
-                  advantages, such as increased mobility, transferability,
-                  inflation resilience, and visibility.
-                </p>
-                <p
-                  className='animated text-white'
-                  data-animation='fadeInUpShorter'
-                  data-animation-delay='0.7s'
-                >
-                  DEFItt is currently available on PANCAKE SWAP which is one of
-                  the top growing exchanges in the world.
-                </p>
-
                 <div className='whitepaper-languages'>
                   <div className='row'>
                     <div
@@ -71,7 +44,7 @@ const Wallets = () => {
                         />
                         <div className='lang-text'>
                           <span className='icon ti-download mr-1'></span>
-                          <span className='language'>METAMASK</span>
+                          <span className='language'>MetaMask</span>
                         </div>
                       </a>
                     </div>
@@ -88,7 +61,7 @@ const Wallets = () => {
                         />
                         <div className='lang-text'>
                           <span className='icon ti-download mr-1'></span>
-                          <span className='language'>Trust wallet</span>
+                          <span className='language'>Trust Wallet</span>
                         </div>
                       </a>
                     </div>

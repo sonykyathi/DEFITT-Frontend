@@ -20,9 +20,7 @@ const Advisors = (props) => {
               data-animation='fadeInUpShorter'
               data-animation-delay='0.4s'
             >
-              Digital currency is a money balance recorded electronically on
-              <br className='d-none d-xl-block' />a stored-value card or other
-              device. Another form of electronic money is network money.
+              DEFItt has partnered with like-minded companies and organizations to digitize payments and other platforms and services.
             </p>
           </div>
           <div className='team-profile'>
@@ -106,7 +104,7 @@ const Advisors = (props) => {
                     <i className='ti-linkedin'></i>
                   </div> */}
                     <div className='profile partner-name text-center mt-3'>
-                      <div className='name'>Weflim</div>
+                      <div className='name'>Wefilm</div>
                       {/* <div className='role'>Fin-Tech Entrepreneur</div> */}
                       {/* <div className='crypto-profile'>
                       <img

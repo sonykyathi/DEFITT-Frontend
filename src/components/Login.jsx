@@ -40,7 +40,7 @@ const Login = (props) => {
           <h2> Login Form</h2>
         </div>
 
-        {isLogged == 'passed' && (
+        {isLogged === 'passed' && (
           <div>
             <p style={{ color: 'green', textAlign: 'center' }}>
               Login Successfull

@@ -21,31 +21,13 @@ const About = (props) => {
               <div className="col-md-12 col-lg-6" style={{ margin: "auto 0" }}>
                 <ul className="app-features">
                   <li className="about-text dark-bg-text-color">
-                    <p className=" white">
-                      DEFItt is a solution that allows you to enjoy success and
-                      inspired experiences while also assisting you in becoming
-                      venture financed with greater benefits and fewer risks.
-                      DEFItt serves as your companion token for gaining access
-                      to the fiat world. For an investor, this is a
-                      once-in-a-lifetime opportunity, the one opportunity, and a
-                      well-planned approach. The result will be a modernised
-                      token that flourishes as a consequence of exposure to a
-                      well-thought-out strategy capable of dealing with
-                      difficulties as well as pressures. DEFItt is using the BEP
-                      20 Platform on the Binance Smart Chain which enables the
-                      transactions security, speed and reliability.
+                    <p className=" white textjust">
+                    DEFItt is a modern finance solution that harnesses the power of blockchain technology to provide more rewarding investment yields with minimal risks. Through blockchain's immutable and distributed properties, investors can access a wide array of digital platforms and services that accept DEFItt.
                     </p>{" "}
-                    <p className=" white">
-                      Blockchain is the future and we are all aware of It
-                      however the right usage of blockchain is what makes DEFItt
-                      different from all. An ecosystem that DEFItt has made with
-                      its paired stable token FTT, makes this token touch human
-                      lives.
+                    <p className=" white textjust">
+                    To ensure security, speed, and reliability of transactions, DEFItt uses the Binance Smart Chain as a BEP-20 standard token. DEFItt is also tied to Financial Tech Token (FTT), which is a stablecoin pegged 1:1 to the US dollar to eliminate asset volatility.
                     </p>{" "}
-                    <p className=" white">
-                      DEFItt is paired by FTT which can give access to user to
-                      our different verticals.
-                    </p>
+                    
                     <div className="about-btn">
                       <a
                         className="btn btn-lg btn-gradient-purple btn-glow animated"
@@ -53,7 +35,7 @@ const About = (props) => {
                         href="/aboutus"
                         target="_blank"
                       >
-                        explore defitt
+                        Explore DEFItt
                       </a>
                     </div>
                   </li>

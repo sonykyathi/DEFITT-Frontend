@@ -14,7 +14,7 @@ const Header = (props) => {
               className='navbar-brand nav-logo animated'
               data-animation='fadeInDown'
               data-animation-delay='1s'
-              href={`/theme-assets/images/logo-200.jpg`}
+              href='/'
               target="_blank"
             >
               <img
