@@ -87,23 +87,23 @@ const TokenSale = () => {
               >
                 <div className='row'>
                   <p>
-                  DEFItt allows token holders to stake their asset and generate rewards instead of stashing it in their crypto wallet without any profit. For a one-year lock period, Fit Technologies Limited UK will offer a 40% assured asset growth. This return on investment (ROI) can even reach up to 100% and 200% if the user stakes DEFITT for two years and three years, respectively.
+                  DFT holders can participate in a locked staking option on DEFItt and earn additional DFT. The interest percentage is based on their chosen staking duration. There is no minimum amount of DFT required to participate in the locked staking.
                     <br />
-                    DEFItt holders can also access all verticals since DEFITT is paired to FTT. 
+                    To maintain the monetary value of DFT, DEFItt has developed an effective token economy that involves various financing strategies and full utility of the token on all DEFItt verticals.
                   </p>
                   <div className='col-lg-5 col-md-6 col-sm-6 col-12'>
                     <ul className='token-sale-info'>
                       <li>
                         Dfitt Play{' '}
-                        <strong className='white'>June 5, 2021</strong>
-                      </li>
-                      <li>
-                        Defi Startup{' '}
                         <strong className='white'>Aug 5, 2021</strong>
                       </li>
                       <li>
+                        Defi Startup{' '}
+                        <strong className='white'>Nov 5, 2021</strong>
+                      </li>
+                      <li>
                         Defi TradX{' '}
-                        <strong className='white'>Sep 5, 2021</strong>
+                        <strong className='white'>Jan 5, 2022</strong>
                       </li>
                     </ul>
                   </div>
@@ -111,15 +111,15 @@ const TokenSale = () => {
                     <ul className='token-sale-info'>
                       <li>
                         Defi Kampus{' '}
-                        <strong className='white'>Sep 20, 2021</strong>
+                        <strong className='white'>Feb 3, 2022</strong>
                       </li>
                       <li>
                       DeFi Nirvaana{' '}
-                        <strong className='white'>Oct 13, 2021</strong>
+                        <strong className='white'>Mar 13, 2022</strong>
                       </li>
                       <li>
                         Defi Landscape{' '}
-                        <strong className='white'>Oct 28, 2021</strong>
+                        <strong className='white'>Apr 15, 2022</strong>
                       </li>
                     </ul>
                   </div>

@@ -27,7 +27,7 @@ const Gallery = (props) => {
 
     const options = {
       method: 'GET',
-      url: `https://www.googleapis.com/youtube/v3/search?key=AIzaSyAhPocC0ekFVS3U4KKezvsB_rEWtrg799c&channelId=UCyO9CUPft6N_xpnAl4pZONg&part=snippet,id&order=date&maxResults=${page}`
+      url: `https://www.googleapis.com/youtube/v3/search?key=AIzaSyCacQWll1bsha_0ivuzM8nThhvDK4EH6Mk&channelId=UC16kabwz_ayjbCX-ktl5-dQ&part=snippet,id&order=date&maxResults=${page}`
     };
     const result = await axios(options)
     let data = result?.data?.items.map(map)
