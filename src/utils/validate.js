@@ -13,7 +13,7 @@ export const CONTACT_US_VALIDATE = ({ name, email, message }) => {
     } else if (validator.isEmpty(email)) {
         response.email = "Please fill email";
         return response
-    } else if (!validator.isEmail(name)) {
+    } else if (!validator.isEmail(email)) {
         response.email = "Please fill valid email";
         return response
     } else if (validator.isEmpty(message)) {

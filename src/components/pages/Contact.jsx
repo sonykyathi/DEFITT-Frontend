@@ -2,6 +2,9 @@ import React, { Fragment, useState } from 'react';
 import DefittMap from './DefittMap';
 import PropTypes from 'prop-types';
 import { CONTACT_US_VALIDATE } from '../../utils/validate';
+
+import { store } from 'react-notifications-component';
+
 import axios from 'axios';
 const USER_CONTACTUS = {
   name: "",
@@ -21,14 +24,36 @@ const Contact = (props) => {
 
     let { success, name, email, message } = CONTACT_US_VALIDATE({ name: state.name, email: state.email, message: state.message })
     if (!success) {
+      console.log(state,"======1")
       setstate({ ...state, errors: { ...state.errors, name, email, message } })
     } else {
-      setstate({ ...state, errors: { ...USER_CONTACTUS.errors } })
-      axios
-        .post(`${process.env.REACT_APP_API}/api/v1/user/contact-us`, { name, email, message })
-        .then((response) => {
-          console.log(response.data);
-        });
+      setstate({ ...state, errors: { ...state.errors, ...USER_CONTACTUS.errors } })
+      axios({
+        method: 'post',
+        url: `${process.env.REACT_APP_API}/api/v1/user/contact-us`,
+        headers: {},
+        data: {
+          name:state.name, email:state.email, message:state.message
+        }
+      }).then(response => response.data).then(res=>{
+        if(res.status===200){
+          console.log(res, "======")
+          store.addNotification({
+            title: "Success",
+            message: res.message,
+            type: "success",
+            insert: "top",
+            container: "top-right",
+            animationIn: ["animate__animated", "animate__fadeIn"],
+            animationOut: ["animate__animated", "animate__fadeOut"],
+            dismiss: {
+              duration: 5000,
+              onScreen: true
+            }
+          });
+        }
+      })
+
     }
   }
   const onChange = (e) => {
@@ -95,7 +120,7 @@ const Contact = (props) => {
                       </li>
                     </ul>
                     <form
-                     onSubmit={onSubmit}
+                      onSubmit={onSubmit}
                       acceptCharset='utf-8'
                       className='text-center'
                     >
@@ -109,7 +134,7 @@ const Contact = (props) => {
                         value={state.name}
                         onChange={onChange}
                       />
-                      <span style={{color:"red"}}>{state.errors.name}</span>
+                      <span style={{ color: "red" }}>{state.errors.name}</span>
                       <input
                         type='text'
                         className='form-control animated'
@@ -120,7 +145,7 @@ const Contact = (props) => {
                         value={state.email}
                         onChange={onChange}
                       />
-                      <span style={{color:"red"}}>{state.errors.email}</span>
+                      <span style={{ color: "red" }}>{state.errors.email}</span>
 
                       <input
                         type='text'
@@ -132,7 +157,7 @@ const Contact = (props) => {
                         value={state.message}
                         onChange={onChange}
                       />
-                      <span style={{color:"red"}}>{state.errors.message}</span>
+                      <span style={{ color: "red" }}>{state.errors.message}</span>
 
                       <button
                         type='submit'
